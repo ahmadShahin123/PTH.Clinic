@@ -5,10 +5,10 @@
  */
 class Content extends Admin_Controller
 {
-    protected $permissionCreate = 'Articles.Content.Create';
-    protected $permissionDelete = 'Articles.Content.Delete';
-    protected $permissionEdit   = 'Articles.Content.Edit';
-    protected $permissionView   = 'Articles.Content.View';
+    protected $permissionCreate = 'Regular_user.Content.Create';
+    protected $permissionDelete = 'Regular_user.Content.Delete';
+    protected $permissionEdit   = 'Regular_user.Content.Edit';
+    protected $permissionView   = 'Regular_user.Content.View';
 
     /**
      * Constructor
@@ -20,8 +20,8 @@ class Content extends Admin_Controller
         parent::__construct();
         
         $this->auth->restrict($this->permissionView);
-        $this->load->model('articles/articles_model');
-        $this->lang->load('articles');
+        $this->load->model('regular_user/regular_user_model');
+        $this->lang->load('regular_user');
         
             Assets::add_css('flick/jquery-ui-1.8.13.custom.css');
             Assets::add_js('jquery-ui-1.8.13.min.js');
@@ -31,17 +31,16 @@ class Content extends Admin_Controller
         
         Template::set_block('sub_nav', 'content/_sub_nav');
 
-        Assets::add_module_js('articles', 'articles.js');
+        Assets::add_module_js('regular_user', 'regular_user.js');
     }
 
     /**
-     * Display a list of articles data.
+     * Display a list of regular user data.
      *
      * @return void
      */
-    public function index($offset = 0)
+    public function index()
     {
-      
         // Deleting anything?
         if (isset($_POST['delete'])) {
             $this->auth->restrict($this->permissionDelete);
@@ -54,49 +53,32 @@ class Content extends Admin_Controller
 
                 $result = true;
                 foreach ($checked as $pid) {
-                    $deleted = $this->articles_model->delete($pid);
+                    $deleted = $this->regular_user_model->delete($pid);
                     if ($deleted == false) {
                         $result = false;
                     }
                 }
                 if ($result) {
-                    Template::set_message(count($checked) . ' ' . lang('articles_delete_success'), 'success');
+                    Template::set_message(count($checked) . ' ' . lang('regular_user_delete_success'), 'success');
                 } else {
-                    Template::set_message(lang('articles_delete_failure') . $this->articles_model->error, 'error');
+                    Template::set_message(lang('regular_user_delete_failure') . $this->regular_user_model->error, 'error');
                 }
             }
         }
-        $pagerUriSegment = 5;
-        $pagerBaseUrl = site_url(SITE_AREA . '/content/articles/index') . '/';
         
-        $limit  = $this->settings_lib->item('site.list_limit') ?: 15;
-
-        $this->load->library('pagination');
-        $pager['base_url']    = $pagerBaseUrl;
-        $pager['total_rows']  = $this->articles_model->count_all();
-        $pager['per_page']    = $limit;
-        $pager['uri_segment'] = $pagerUriSegment;
-
-        $this->pagination->initialize($pager);
-        $this->articles_model->limit($limit, $offset);
         
-        $records = $this->articles_model->find_all();
+        
+        $records = $this->regular_user_model->find_all();
 
         Template::set('records', $records);
         
-    Template::set('toolbar_title', lang('articles_manage'));
+    Template::set('toolbar_title', lang('regular_user_manage'));
 
         Template::render();
     }
     
-       
-   
-    
-    
-    
-    
     /**
-     * Create a articles object.
+     * Create a regular user object.
      *
      * @return void
      */
@@ -105,25 +87,25 @@ class Content extends Admin_Controller
         $this->auth->restrict($this->permissionCreate);
         
         if (isset($_POST['save'])) {
-            if ($insert_id = $this->save_articles()) {
-                log_activity($this->auth->user_id(), lang('articles_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'articles');
-                Template::set_message(lang('articles_create_success'), 'success');
+            if ($insert_id = $this->save_regular_user()) {
+                log_activity($this->auth->user_id(), lang('regular_user_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'regular_user');
+                Template::set_message(lang('regular_user_create_success'), 'success');
 
-                redirect(SITE_AREA . '/content/articles');
+                redirect(SITE_AREA . '/content/regular_user');
             }
 
             // Not validation error
-            if ( ! empty($this->articles_model->error)) {
-                Template::set_message(lang('articles_create_failure') . $this->articles_model->error, 'error');
+            if ( ! empty($this->regular_user_model->error)) {
+                Template::set_message(lang('regular_user_create_failure') . $this->regular_user_model->error, 'error');
             }
         }
 
-        Template::set('toolbar_title', lang('articles_action_create'));
+        Template::set('toolbar_title', lang('regular_user_action_create'));
 
         Template::render();
     }
     /**
-     * Allows editing of articles data.
+     * Allows editing of regular user data.
      *
      * @return void
      */
@@ -131,42 +113,42 @@ class Content extends Admin_Controller
     {
         $id = $this->uri->segment(5);
         if (empty($id)) {
-            Template::set_message(lang('articles_invalid_id'), 'error');
+            Template::set_message(lang('regular_user_invalid_id'), 'error');
 
-            redirect(SITE_AREA . '/content/articles');
+            redirect(SITE_AREA . '/content/regular_user');
         }
         
         if (isset($_POST['save'])) {
             $this->auth->restrict($this->permissionEdit);
 
-            if ($this->save_articles('update', $id)) {
-                log_activity($this->auth->user_id(), lang('articles_act_edit_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'articles');
-                Template::set_message(lang('articles_edit_success'), 'success');
-                redirect(SITE_AREA . '/content/articles');
+            if ($this->save_regular_user('update', $id)) {
+                log_activity($this->auth->user_id(), lang('regular_user_act_edit_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'regular_user');
+                Template::set_message(lang('regular_user_edit_success'), 'success');
+                redirect(SITE_AREA . '/content/regular_user');
             }
 
             // Not validation error
-            if ( ! empty($this->articles_model->error)) {
-                Template::set_message(lang('articles_edit_failure') . $this->articles_model->error, 'error');
+            if ( ! empty($this->regular_user_model->error)) {
+                Template::set_message(lang('regular_user_edit_failure') . $this->regular_user_model->error, 'error');
             }
         }
         
         elseif (isset($_POST['delete'])) {
             $this->auth->restrict($this->permissionDelete);
 
-            if ($this->articles_model->delete($id)) {
-                log_activity($this->auth->user_id(), lang('articles_act_delete_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'articles');
-                Template::set_message(lang('articles_delete_success'), 'success');
+            if ($this->regular_user_model->delete($id)) {
+                log_activity($this->auth->user_id(), lang('regular_user_act_delete_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'regular_user');
+                Template::set_message(lang('regular_user_delete_success'), 'success');
 
-                redirect(SITE_AREA . '/content/articles');
+                redirect(SITE_AREA . '/content/regular_user');
             }
 
-            Template::set_message(lang('articles_delete_failure') . $this->articles_model->error, 'error');
+            Template::set_message(lang('regular_user_delete_failure') . $this->regular_user_model->error, 'error');
         }
         
-        Template::set('articles', $this->articles_model->find($id));
+        Template::set('regular_user', $this->regular_user_model->find($id));
 
-        Template::set('toolbar_title', lang('articles_edit_heading'));
+        Template::set('toolbar_title', lang('regular_user_edit_heading'));
         Template::render();
     }
 
@@ -183,21 +165,21 @@ class Content extends Admin_Controller
      * @return boolean|integer An ID for successful inserts, true for successful
      * updates, else false.
      */
-    private function save_articles($type = 'insert', $id = 0)
+    private function save_regular_user($type = 'insert', $id = 0)
     {
         if ($type == 'update') {
-            $_POST['article_id'] = $id;
+            $_POST['reg_user_id'] = $id;
         }
 
         // Validate the data
-        $this->form_validation->set_rules($this->articles_model->get_validation_rules());
+        $this->form_validation->set_rules($this->regular_user_model->get_validation_rules());
         if ($this->form_validation->run() === false) {
             return false;
         }
 
         // Make sure we only pass in the fields we want
         
-        $data = $this->articles_model->prep_data($this->input->post());
+        $data = $this->regular_user_model->prep_data($this->input->post());
 
         // Additional handling for default values should be added below,
         // or in the model's prep_data() method
@@ -207,13 +189,13 @@ class Content extends Admin_Controller
 
         $return = false;
         if ($type == 'insert') {
-            $id = $this->articles_model->insert($data);
+            $id = $this->regular_user_model->insert($data);
 
             if (is_numeric($id)) {
                 $return = $id;
             }
         } elseif ($type == 'update') {
-            $return = $this->articles_model->update($id, $data);
+            $return = $this->regular_user_model->update($id, $data);
         }
 
         return $return;

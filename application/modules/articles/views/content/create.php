@@ -58,7 +58,8 @@ $id = isset($articles->article_id) ? $articles->article_id : '';
             <div class="control-group<?php echo form_error('image') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('articles_field_image') . lang('bf_form_label_required'), 'image', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='image' type='text' required='required' name='image' maxlength='255' value="<?php echo set_value('image', isset($articles->image) ? $articles->image : ''); ?>" />
+                    <input id='image' type='file' required='required' name='image' maxlength='255' value="<?php echo set_value('image', isset($articles->image) ? $articles->image : ''); ?>" />
+              
                     <span class='help-inline'><?php echo form_error('image'); ?></span>
                 </div>
             </div>

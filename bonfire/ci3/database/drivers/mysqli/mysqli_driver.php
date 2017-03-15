@@ -261,6 +261,7 @@ class CI_DB_mysqli_driver extends CI_DB {
 	 */
 	protected function _execute($sql)
 	{
+            ini_set('max_execution_time', 0);
 		return $this->conn_id->query($this->_prep_query($sql));
 	}
 
