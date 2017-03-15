@@ -17,7 +17,7 @@ $id = isset($articles->article_id) ? $articles->article_id : '';
 ?>
 <div class='admin-box'>
     <h3>articles</h3>
-    <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
+    <?php echo form_open_multipart($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
             
 

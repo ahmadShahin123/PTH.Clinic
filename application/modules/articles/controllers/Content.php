@@ -28,6 +28,11 @@ class Content extends Admin_Controller
             Assets::add_css('jquery-ui-timepicker.css');
             Assets::add_js('jquery-ui-timepicker-addon.js');
             $this->form_validation->set_error_delimiters("<span class='error'>", "</span>");
+
+        $config['encrypt_name'] = TRUE;
+        $config['upload_path'] ='./assets/images';
+        $config['allowed_types'] = 'gif|jpg|png|jpeg';
+        $this->load->library('upload', $config);
         
         Template::set_block('sub_nav', 'content/_sub_nav');
 
@@ -102,9 +107,15 @@ class Content extends Admin_Controller
      */
     public function create()
     {
+        $this->upload->do_upload('image');
+
         $this->auth->restrict($this->permissionCreate);
         
         if (isset($_POST['save'])) {
+            $upload_data =$this->upload->data();
+            $file_name = $upload_data['file_name'];
+            $_POST['image'] = $file_name;
+            echo $this->upload->display_errors();
             if ($insert_id = $this->save_articles()) {
                 log_activity($this->auth->user_id(), lang('articles_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'articles');
                 Template::set_message(lang('articles_create_success'), 'success');
