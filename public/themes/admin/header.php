@@ -6,7 +6,7 @@ Assets::add_css(array(
 ));
 
 if (isset($shortcut_data) && is_array($shortcut_data['shortcut_keys'])) {
-   // Assets::add_js($this->load->view('ui/shortcut_keys', $shortcut_data, true), 'inline');
+    Assets::add_js($this->load->view('ui/shortcut_keys', $shortcut_data, true), 'inline');
 }
 
 ?>
