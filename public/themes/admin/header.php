@@ -6,7 +6,7 @@ Assets::add_css(array(
 ));
 
 if (isset($shortcut_data) && is_array($shortcut_data['shortcut_keys'])) {
-    Assets::add_js($this->load->view('ui/shortcut_keys', $shortcut_data, true), 'inline');
+   // Assets::add_js($this->load->view('ui/shortcut_keys', $shortcut_data, true), 'inline');
 }
 
 ?>
@@ -23,7 +23,7 @@ if (isset($shortcut_data) && is_array($shortcut_data['shortcut_keys'])) {
     <?php
     /* Modernizr is loaded before CSS so CSS can utilize its features */
     ?>
-	<script src="<?php echo Template::theme_url('js/modernizr-2.5.3.js'); ?>"></script>
+	<script src="<?php //echo Template::theme_url('js/modernizr-2.5.3.js'); ?>"></script>
 	<?php echo Assets::css(null, true); ?>
 </head>
 <body class="desktop">

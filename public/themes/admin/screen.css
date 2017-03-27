@@ -454,6 +454,9 @@ input[type=radio] {
 .caret.light-caret {
 	border-top: 4px solid #a6a6a6;
 }
+.nav-collapse.collapse {
+	display: block;
+}
 /*--------------------------------------------------------------------
 // RESPONSIVE FIXES
 //-------------------------------------------------------------------*/

@@ -107,15 +107,15 @@ class Content extends Admin_Controller
      */
     public function create()
     {
-        $this->upload->do_upload('image');
+
 
         $this->auth->restrict($this->permissionCreate);
         
         if (isset($_POST['save'])) {
+            $this->upload->do_upload('image');
             $upload_data =$this->upload->data();
             $file_name = $upload_data['file_name'];
             $_POST['image'] = $file_name;
-            echo $this->upload->display_errors();
             if ($insert_id = $this->save_articles()) {
                 log_activity($this->auth->user_id(), lang('articles_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'articles');
                 Template::set_message(lang('articles_create_success'), 'success');
@@ -148,6 +148,17 @@ class Content extends Admin_Controller
         }
         
         if (isset($_POST['save'])) {
+            if (isset($_POST['image']['name']) && $_POST['image']['name'] != '') {
+            $this->upload->do_upload('image');
+            $upload_data =$this->upload->data();
+            $file_name = $upload_data['file_name'];
+            echo $this->upload->display_errors();
+            $_POST['image'] = $file_name;
+            }
+            else {
+                $_POST['image'] = $_POST['image-old'];
+            }
+
             $this->auth->restrict($this->permissionEdit);
 
             if ($this->save_articles('update', $id)) {
