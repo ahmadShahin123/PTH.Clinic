@@ -146,13 +146,17 @@ class Content extends Admin_Controller
 
             redirect(SITE_AREA . '/content/articles');
         }
-        
+
         if (isset($_POST['save'])) {
+echo 'test';
             if (isset($_POST['image']['name']) && $_POST['image']['name'] != '') {
             $this->upload->do_upload('image');
             $upload_data =$this->upload->data();
+                echo $this->upload->display_errors();
+                echo 'test';
             $file_name = $upload_data['file_name'];
-            echo $this->upload->display_errors();
+
+
             $_POST['image'] = $file_name;
             }
             else {

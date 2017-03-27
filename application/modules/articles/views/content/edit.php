@@ -17,7 +17,7 @@ $id = isset($articles->article_id) ? $articles->article_id : '';
 ?>
 <div class='admin-box'>
     <h3>articles</h3>
-    <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
+    <?php echo form_open_multipart($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
             
 
@@ -59,7 +59,7 @@ $id = isset($articles->article_id) ? $articles->article_id : '';
                 <?php echo form_label(lang('articles_field_image') . lang('bf_form_label_required'), 'image', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='image' type='file' required='required' name='image' maxlength='255' value="<?php echo set_value('image', isset($articles->image) ? $articles->image : ''); ?>" />
-                    <input id='image-old' type='hidden' name='image-old' maxlength='255' value="<?php echo set_value('image-old', isset($articles->image) ? $articles->image : ''); ?>" />
+                    <input id='image-old' type='hidden' name='image-old' maxlength='255' value="<?php echo set_value('image', isset($articles->image) ? $articles->image : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('image'); ?></span>
                 </div>
             </div>

@@ -64,7 +64,7 @@ if ($can_delete) {
 					<td><?php e($record->description); ?></td>
 					<td><?php e($record->about_us); ?></td>
 					<td><?php e($record->video); ?></td>
-					<td><?php e($record->image); ?></td>
+					<td><img src="<?php echo base_url() . 'assets/images/' .  $record->image; ?>" width="100px" height="100px" /></td>
 					<td><?php echo $record->deleted > 0 ? lang('articles_true') : lang('articles_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>

@@ -1,4 +1,4 @@
-<?php //echo theme_view('header'); ?>
+<?php echo theme_view('header'); ?>
 <style>body { background: #f5f5f5; }</style>
 <div class="container"><!-- Start of Main Container -->
     <?php
