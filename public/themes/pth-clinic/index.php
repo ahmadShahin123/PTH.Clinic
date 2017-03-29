@@ -36,16 +36,15 @@
 			<ul>
 			   
 			    <li class="active"><a href="<?php echo base_url() . 'index.php' ?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
-				<li><a href="<?php echo base_url() . 'about us.php' ?>" accesskey="2" title="">معلومات عنا</a></li>
+				<li><a href="<?php echo base_url() . 'about us.php' ?>" accesskey="1" title="">معلومات عنا</a></li>
 				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
 				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
 				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
-                <li><a href="#" accesskey="6" title="">اتصل بنا</a></li>
+                <li><a href="#" accesskey="7" title="">اتصل بنا</a></li>
 		   </ul>
 		</div>
 	</div>
 </div>
-
     <!-- Full Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -82,7 +81,7 @@
 			
 			<div class="item">
                 <!-- Set the fourth background image using inline CSS below. -->
-                <div class="fill" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/clinic_image4.jpg';?>); height: 100%; width: 100%;"> </div>
+                <div class="fill" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/m5.jpg';?>); height: 100%; width: 100%;"> </div>
                 <div class="carousel-caption">
                     <h2>Caption 4 </h2>
                 </div>
