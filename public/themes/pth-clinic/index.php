@@ -82,7 +82,7 @@
                 <!-- Set the fourth background image using inline CSS below. -->
                 <div class="fill" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/clinic_image4.jpg';?>); height: 100%; width: 100%;"> </div>
                 <div class="carousel-caption">
-                    <h2>Caption 4</h2>
+                    <h2>Caption 4 </h2>
                 </div>
             </div>
 			
