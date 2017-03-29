@@ -40,14 +40,12 @@
 				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
 				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
 				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
-                <li><a href="#" accesskey="7" title="">اتصل بنا</a></li>
+                <li><a href="#" accesskey="6" title="">اتصل بنا</a></li>
 		   </ul>
 		</div>
 	</div>
 </div>
-<div class="wrapper">
-	<div id="banner" class="container">
-	<div id="welcome" class="container">
+<div>
     	
 <h1>
 مرحبا بكم في موقع الطبي
