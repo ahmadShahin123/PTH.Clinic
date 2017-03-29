@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -31,18 +31,18 @@
 <div id="header-wrapper" style="position:absolute; z-index:1;width:100%;">
 	<div id="header" class="container">
 	
-            
+
 <div id="menu">
-    
-	<ul> 
-		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
-		<li><a href="<?php echo base_url() .'about_us.php' ;?>" accesskey="1" title="">معلومات عنا</a></li>
-		<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
-		<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
-		<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
-        <li><a href="#" accesskey="6" title="">اتصل بنا</a></li>
-        </ul>
-		</div> 
+			<ul>
+			   
+			    <li class="active"><a href="<?php echo base_url() . 'index.php'; ?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
+				<li><a href="<?php echo base_url()  . 'about_us.php';?>" >معلومات عنا</a></li>
+				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
+				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
+				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
+                <li><a href="#" accesskey="6" title="">اتصل بنا</a></li>
+		   </ul>
+		</div>
 	</div>
 </div>
     <!-- Full Page Image Background Carousel Header -->
@@ -101,6 +101,7 @@
     </header>
 	
 	
+	
 	<!-- jQuery -->
     <script src="<?php echo base_url() . 'themes/pth-clinic/js/jquery.js ';?>"> </script>
 
@@ -114,6 +115,11 @@
     })
     </script>
 
-</body>
+    	
 
+
+		
+
+	
+</body>
 </html>
