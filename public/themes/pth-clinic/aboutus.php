@@ -36,7 +36,7 @@
 			<ul>
 			   
 			    <li class="active"><a href="<?php echo base_url() . 'index.php' ?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
-				<li><a href="<?php echo base_url() . 'about us.php' ?>" accesskey="2" title="">معلومات عنا</a></li>
+				<li><a href="<?php echo base_url() . 'aboutus.php' ?>" accesskey="2" title="">معلومات عنا</a></li>
 				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
 				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
 				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
