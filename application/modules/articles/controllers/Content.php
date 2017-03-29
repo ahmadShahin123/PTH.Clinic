@@ -86,6 +86,15 @@ class Content extends Admin_Controller
         $this->articles_model->limit($limit, $offset);
         
         $records = $this->articles_model->find_all();
+      //about us
+       /* $ab = $this->db->query('select * from `bf_articles` where `about_us` = 1 order by article_id desc limit 1');
+foreach($ab->result() as $key=> $value) {
+    echo $value->description;
+}
+       //video
+foreach ($records as $key => $value) {
+    echo "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$value->video\" allowfullscreen></iframe>";
+}*/
 
         Template::set('records', $records);
         
