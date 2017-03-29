@@ -25,8 +25,7 @@
 
 <body>
 
-
-     <!-- home page -->
+     <!--  home page  -->
 
 <div id="header-wrapper" style="position:absolute; z-index:1;width:100%;">
 	<div id="header" class="container">
@@ -36,7 +35,7 @@
 			<ul>
 			   
 			    <li class="active"><a href="<?php echo base_url() . 'index.php'; ?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
-				<li><a href="<?php echo base_url()  . 'about_us.php';?>" >معلومات عنا</a></li>
+				<li><a href="<?php echo base_url()  .'about_us.php';?>">معلومات عنا</a></li>
 				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
 				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
 				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
