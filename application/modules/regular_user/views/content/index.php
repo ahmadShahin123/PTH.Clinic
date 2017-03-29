@@ -20,11 +20,13 @@ if ($can_delete) {
 					<?php if ($can_delete && $has_records) : ?>
 					<th class='column-check'><input class='check-all' type='checkbox' /></th>
 					<?php endif;?>
+                                        
 					
 					<th><?php echo lang('regular_user_field_first_name'); ?></th>
 					<th><?php echo lang('regular_user_field_last_name'); ?></th>
 					<th><?php echo lang('regular_user_field_email'); ?></th>
 					<th><?php echo lang('regular_user_field_password'); ?></th>
+                                        <th><?php echo lang('regular_user_field_avatar'); ?></th>
 					<th><?php echo lang('regular_user_field_deleted'); ?></th>
 					<th><?php echo lang('regular_user_field_deleted_by'); ?></th>
 					<th><?php echo lang('regular_user_field_created_on'); ?></th>
@@ -60,9 +62,11 @@ if ($can_delete) {
 				<?php else : ?>
 					<td><?php e($record->first_name); ?></td>
 				<?php endif; ?>
-					<td><?php e($record->last_name); ?></td>
+                                        
+                                        <td><?php e($record->last_name); ?></td>
 					<td><?php e($record->email); ?></td>
 					<td><?php e($record->password); ?></td>
+                                        <td><img src="<?php echo base_url() . 'assets/images/' .  $record->avatar; ?>" width="100px" height="100px" /></td>
 					<td><?php echo $record->deleted > 0 ? lang('regular_user_true') : lang('regular_user_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>

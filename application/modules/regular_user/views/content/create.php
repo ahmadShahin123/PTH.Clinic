@@ -17,10 +17,10 @@ $id = isset($regular_user->reg_user_id) ? $regular_user->reg_user_id : '';
 ?>
 <div class='admin-box'>
     <h3>regular user</h3>
-    <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
+    <?php echo form_open_multipart($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
             
-
+            
             <div class="control-group<?php echo form_error('first_name') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('regular_user_field_first_name') . lang('bf_form_label_required'), 'first_name', array('class' => 'control-label')); ?>
                 <div class='controls'>
@@ -52,6 +52,16 @@ $id = isset($regular_user->reg_user_id) ? $regular_user->reg_user_id : '';
                     <span class='help-inline'><?php echo form_error('password'); ?></span>
                 </div>
             </div>
+            
+               <div class="control-group<?php echo form_error('avatar') ? ' error' : ''; ?>">
+                <?php echo form_label(lang('regular_user_field_avatar') , 'avatar', array('class' => 'control-label')); ?>
+                <div class='controls'>
+                    <input id='avatar' type='file' name='avatar' maxlength='255' value="<?php echo set_value('avatar', isset($regular_user->avatar) ? $regular_user->avatar : ''); ?>" />
+                     
+                    <span class='help-inline'><?php echo form_error('avatar'); ?></span>
+                </div>
+            </div>
+
 
             <div class="control-group<?php echo form_error('deleted') ? ' error' : ''; ?>">
                 <div class='controls'>

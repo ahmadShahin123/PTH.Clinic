@@ -28,6 +28,12 @@ class Content extends Admin_Controller
             Assets::add_css('jquery-ui-timepicker.css');
             Assets::add_js('jquery-ui-timepicker-addon.js');
             $this->form_validation->set_error_delimiters("<span class='error'>", "</span>");
+            
+        $config['encrypt_name'] = TRUE;
+        $config['upload_path'] ='./assets/images';
+        $config['allowed_types'] = 'gif|jpg|png|jpeg';
+        $this->load->library('upload', $config);
+        
         
         Template::set_block('sub_nav', 'content/_sub_nav');
 
@@ -87,6 +93,11 @@ class Content extends Admin_Controller
         $this->auth->restrict($this->permissionCreate);
         
         if (isset($_POST['save'])) {
+            $this->upload->do_upload('avatar');
+            $upload_data =$this->upload->data();
+            $file_name = $upload_data['file_name'];
+             $_POST['avatar'] = $file_name;
+             $this->upload->display_errors();
             if ($insert_id = $this->save_regular_user()) {
                 log_activity($this->auth->user_id(), lang('regular_user_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'regular_user');
                 Template::set_message(lang('regular_user_create_success'), 'success');
@@ -119,6 +130,20 @@ class Content extends Admin_Controller
         }
         
         if (isset($_POST['save'])) {
+            echo 'test';
+            if (isset($_POST['avatar']['name']) && $_POST['avatar']['name'] != '') {
+            $this->upload->do_upload('avatar');
+            $upload_data =$this->upload->data();
+                echo $this->upload->display_errors();
+                echo 'test';
+            $file_name = $upload_data['file_name'];
+
+
+            $_POST['avatar'] = $file_name;
+            }
+            else {
+                $_POST['avatar'] = $_POST['avatar_old'];
+            }
             $this->auth->restrict($this->permissionEdit);
 
             if ($this->save_regular_user('update', $id)) {

@@ -20,6 +20,14 @@ $id = isset($regular_user->reg_user_id) ? $regular_user->reg_user_id : '';
     <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
             
+             <div class="control-group<?php echo form_error('avatar') ? ' error' : ''; ?>">
+                <?php echo form_label(lang('regular_user_field_avatar') , 'avatar', array('class' => 'control-label')); ?>
+                <div class='controls'>
+                    <input id='avatar' type='file'  name='avatar' maxlength='255' value="<?php echo set_value('avatar', isset($articles->avatar) ? $articles->avatar : ''); ?>" />
+                    <input id='avatar-old' type='hidden' name='avatar-old' maxlength='255' value="<?php echo set_value('avatar', isset($articles->avatar) ? $articles->avatar : ''); ?>" />
+                    <span class='help-inline'><?php echo form_error('avatar'); ?></span>
+                </div>
+            </div>
 
             <div class="control-group<?php echo form_error('first_name') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('regular_user_field_first_name') . lang('bf_form_label_required'), 'first_name', array('class' => 'control-label')); ?>

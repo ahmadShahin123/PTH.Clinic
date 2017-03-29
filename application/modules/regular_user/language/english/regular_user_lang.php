@@ -53,6 +53,7 @@ $lang['regular_user_module_description'] = 'Your module description';
 $lang['regular_user_area_title'] = 'regular user';
 
 // Fields
+$lang['regular_user_field_avatar'] = 'Avatar';
 $lang['regular_user_field_first_name'] = 'First Name';
 $lang['regular_user_field_last_name'] = 'Last Name';
 $lang['regular_user_field_email'] = 'Email';
