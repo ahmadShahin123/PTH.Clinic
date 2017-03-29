@@ -30,15 +30,17 @@
 
 <div id="header-wrapper" style="position:absolute; z-index:1;width:100%;">
 	<div id="header" class="container">
+	
 
 <div id="menu">
 			<ul>
-				<li class="active"><a href="about us.html" accesskey="1" title="">معلومات عنا</a></li>
-				<li><a href="#" accesskey="2" title="">مقالات طبية</a></li>
-				<li><a href="#" accesskey="3" title="">اسئلة وإجابات</a></li>
-				<li><a href="#" accesskey="4" title="">المواضيع الصحية</a></li>
-				<li><a href="#" accesskey="5" title="">الأعراض</a></li>
-                <li><a href="#" accesskey="5" title="">اتصل بنا</a></li>
+			   
+			    <li class="active"><a href="<?php echo base_url() . 'pth.clinic/public/index.php' ?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
+				<li><a href="<?php echo base_url() . 'pth.clinic/public/about us.php' ?>" accesskey="2" title="">معلومات عنا</a></li>
+				<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
+				<li><a href="#" accesskey="4" title="">اسئلة وإجابات</a></li>
+				<li><a href="#" accesskey="5" title="">المواضيع الصحية</a></li>
+                <li><a href="#" accesskey="7" title="">اتصل بنا</a></li>
 		   </ul>
 		</div>
 	</div>
