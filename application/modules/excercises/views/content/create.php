@@ -16,7 +16,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
 
 ?>
 <div class='admin-box'>
-    <h3>excercises</h3>
+    <h3>exercises</h3>
     <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
             
@@ -30,7 +30,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             </div>
 
             <div class="control-group<?php echo form_error('video') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('excercises_field_video') . lang('bf_form_label_required'), 'video', array('class' => 'control-label')); ?>
+                <?php echo form_label(lang('excercises_field_video') , 'video', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='video' type='text' required='required' name='video' maxlength='255' value="<?php echo set_value('video', isset($excercises->video) ? $excercises->video : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('video'); ?></span>
@@ -40,7 +40,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_description'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='description' type='text' name='description' maxlength='255' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" />
+                    <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" ></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>

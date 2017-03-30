@@ -60,7 +60,7 @@ if ($can_delete) {
 				<?php else : ?>
 					<td><?php e($record->title); ?></td>
 				<?php endif; ?>
-					<td><?php e($record->video); ?></td>
+                                        <td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td> 
 					<td><?php e($record->description); ?></td>
 					<td><?php e($record->section); ?></td>
 					<td><?php echo $record->deleted > 0 ? lang('excercises_true') : lang('excercises_false'); ?></td>
