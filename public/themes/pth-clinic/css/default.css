@@ -379,13 +379,13 @@
 	
 	#menu li a, #menu li span 
 	{
-		display: inline-block;
+		display: inline-block ;
 		padding: 0em 0.5em;
 		text-decoration: none;
 		font-size: 1.6em !important;
 		font-weight: 900;
 		text-transform: uppercase;
-		line-height: 35px !important;
+		line-height: 35px;
 		outline: 0;
 		color: white-space;
 	}
@@ -393,8 +393,8 @@
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 		background: white;
-		border-radius: 16px 16px 16px 16px !important;
-		color: black ;
+		border-radius: 16px 16px 16px 16px;
+		color: blue;
 	}
 	
 	#menu .current_page_item a
