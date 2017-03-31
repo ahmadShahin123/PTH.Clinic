@@ -3,8 +3,13 @@
 
 
 <head>
+<style>
+div.container {
+direction: rtl;
+}
+</style>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'themes/pth-clinic/css/style.css';?>" >
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
 
     <meta charset="utf-8">
@@ -20,6 +25,8 @@
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url() . 'themes/pth-clinic/css/full-slider.css' ?>" rel="stylesheet">
+	
+
 
 </head>
 
@@ -32,7 +39,7 @@
 	<div id="header" class="container">
 	
             
-<div id="menu">
+<div id="menu" >
     
 	<ul> 
 		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">الصفحة الرئيسية</a></li>
@@ -113,6 +120,7 @@
         interval: 2000 //changes the speed
     })
     </script>
+
 
 </body>
 
