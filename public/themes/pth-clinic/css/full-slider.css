@@ -33,3 +33,6 @@ body {
 footer {
     margin: 50px 0;
 }
+.icon-next, .icon-prev {
+    direction: ltr;
+}

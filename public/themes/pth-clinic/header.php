@@ -3,12 +3,6 @@
 
 <head>
 
-<style>
-div.container {
-direction: rtl;
-}
-</style>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
 
@@ -41,12 +35,12 @@ direction: rtl;
 <div id="menu">
     
 	<ul> 
-		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">╟с╒▌═╔ ╟с╤╞э╙э╔</a></li>
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>" accesskey="1" title="">у┌сцу╟╩ ┌ф╟</a></li>
-		<li><a href="#" accesskey="3" title="">у▐╟с╟╩ ╪╚э╔</a></li>
-		<li><a href="#" accesskey="4" title="">╟╙╞с╔ ц┼╠╟╚╟╩</a></li>
-		<li><a href="#" accesskey="5" title="">╟суц╟╓э┌ ╟с╒═э╔</a></li>
-        <li><a href="#" accesskey="6" title="">╟╩╒с ╚ф╟</a></li>
+		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">╪з┘Д╪▒╪ж┘К╪│┘К╪й</a></li>
+		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>" accesskey="1" title="">┘Е┘Ж ┘Ж╪н┘Ж</a></li>
+		<li><a href="#" accesskey="3" title="">┘Е┘В╪з┘Д╪з╪к ╪╖╪и┘К╪й</a></li>
+		<li><a href="#" accesskey="4" title="">╪з╪│╪ж┘Д╪й ┘И ╪з╪м╪з╪и╪з╪к</a></li>
+		<li><a href="#" accesskey="5" title="">┘Д┘К╪з┘В╪й ╪и╪п┘Ж┘К╪й</a></li>
+        <li><a href="#" accesskey="6" title="">╪з╪к╪╡┘Д ╪и┘Ж╪з</a></li>
         </ul>
 		</div> 
 	</div>
