@@ -30,7 +30,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             </div>
 
             <div class="control-group<?php echo form_error('video') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('excercises_field_video') , 'video', array('class' => 'control-label')); ?>
+                <?php echo form_label(lang('excercises_field_video') . lang('bf_form_label_required') , 'video', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='video' type='text' required='required' name='video' maxlength='255' value="<?php echo set_value('video', isset($excercises->video) ? $excercises->video : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('video'); ?></span>
