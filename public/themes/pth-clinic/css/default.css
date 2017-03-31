@@ -393,7 +393,7 @@
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 		background: white;
-		border-radius: 16px 16px 16px 16px;
+		border-radius: 10px 10px 10px 10px;
 		color: blue;
 	}
 	
