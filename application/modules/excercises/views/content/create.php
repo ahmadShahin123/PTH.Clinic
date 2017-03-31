@@ -40,7 +40,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_description'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" ></textarea>
+                     <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" ></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>
