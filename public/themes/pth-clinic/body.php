@@ -14,14 +14,21 @@
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/clinic_image.jpg';?>); height: 100%; width: 100%;"> </div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+				<div class="center">
+				
+                    <h3>In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+					</h3>
+					
+				</div>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/clinic_image2.jpg';?>); height: 100%; width: 100%;"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2> Caption 2 </h2>
                 </div>
             </div>
             <div class="item">

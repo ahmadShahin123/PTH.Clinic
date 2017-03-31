@@ -59,6 +59,22 @@
 		width: 1200px;
 	}
 	
+	.center {
+	color : red ;	
+    padding: 0px 0;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+    .center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+	
 
 /*********************************************************************************/
 /* Form Style                                                                    */
@@ -262,7 +278,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-    margin: 5px 3px;
+    margin: 3px 3px;
     cursor: pointer;
 }
 
