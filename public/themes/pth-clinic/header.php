@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
 
 <style>
@@ -31,8 +30,6 @@ direction: rtl;
 
 </head>
 
-
-
 <body>
 
    <!-- home page -->
@@ -41,7 +38,7 @@ direction: rtl;
 	<div id="header" class="container">
 	
             
-<div id="menu" >
+<div id="menu">
     
 	<ul> 
 		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">«·’›Õ… «·—∆Ì”Ì…</a></li>
@@ -55,7 +52,3 @@ direction: rtl;
 	</div>
 </div>
 
-</body>
-
-
-</html>
