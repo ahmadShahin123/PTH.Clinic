@@ -35,13 +35,13 @@
 <div id="menu">
     
 	<ul> 
-		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" accesskey="1" title="">الرئيسية</a></li>
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>" accesskey="1" title="">من نحن</a></li>
-		<li><a href="#" accesskey="3" title="">مقالات طبية</a></li>
-		<li><a href="#" accesskey="4" title="">اسئلة و اجابات</a></li>
-		<li><a href="#" accesskey="5" title="">لياقة بدنية</a></li>
-        <li><a href="#" accesskey="6" title="">اتصل بنا</a></li>
-        </ul>
+		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
+		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
+		<li><a href="#"  class="button" accesskey="3" title="">مقالات طبية</a></li>
+		<li><a href="#"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
+		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
+        <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
+   </ul>
 		</div> 
 	</div>
 </div>
