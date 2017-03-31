@@ -29,7 +29,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
                 </div>
             </div>
 
-            <div class="control-group<?php echo form_error('video') ? ' error' : ''; ?>">
+             <div class="control-group<?php echo form_error('video') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_video') , 'video', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='video' type='text' required='required' name='video' maxlength='255' value="<?php echo set_value('video', isset($excercises->video) ? $excercises->video : ''); ?>" />
@@ -40,7 +40,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_description'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='description' type='text' name='description' maxlength='255' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" />
+                    <textarea id='description'  required='required' name='description'  rows="5" cols="100" maxlength='500' placeholder="write the descriptopn here" wrap="hard" dir="ltr" value="<?php echo set_value('description', isset($articles->description) ? $articles->description : ''); ?>" ></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>
