@@ -390,7 +390,7 @@
 		color: white-space;
 	}
 	
-	#menu li:hover a, #menu li.active a, #menu li.active span
+	#menu li:hover a, #menu li.active a, #menu li.active span.important
 	{
 		background: white;
 		border-radius: 16px 16px 16px 16px;
