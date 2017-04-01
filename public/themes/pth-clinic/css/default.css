@@ -10,7 +10,7 @@
 		margin: 0px;
 		padding: 0px;
 		background: #2056ac;
-		font-family: 'Questrial', sans-serif;
+		font-family: 'Lemonada', cursive;
 		font-size: 12pt;
 		color: rgba(0,0,0,.6);
 	}
@@ -372,6 +372,7 @@
 	
 	#menu ul
 	{
+		font-family: 'Lemonada', cursive !important;
 		display: inline-block;
 		padding: 0em 2em;
 		text-align: center;
@@ -380,11 +381,13 @@
 	
 	#menu li
 	{
+		font-family: 'Lemonada', cursive;
 		display: inline-block;
 	}
 	
 	#menu li a, #menu li span 
 	{
+		font-family: 'Lemonada', cursive;
 		display: inline-block ;
 		padding: 0em 0.5em;
 		text-decoration: none;
@@ -398,6 +401,7 @@
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+		font-family: 'Lemonada', cursive;
 		background: white;
 		border-radius: 16px 16px 16px 16px;
 		color: blue;

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
