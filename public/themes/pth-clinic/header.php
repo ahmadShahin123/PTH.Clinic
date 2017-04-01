@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
@@ -33,7 +33,7 @@
 	<div id="header" class="container">
 	
             
-<div id="menu">
+<div id="menu" class="font-family">
     
 	<ul> 
 		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
