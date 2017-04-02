@@ -76,7 +76,15 @@
 }
 
      .font-family {
-      font-family: 'Mada', sans-serif; 
+     font-family: 'Lalezar', cursive;
+	 }
+	 
+	 .signin{
+	 font-family: 'Lalezar', cursive;
+     border: none;
+     text-align: center;
+     text-decoration: left ;
+     font-size:20px;
 	 }
 	
 /*********************************************************************************/

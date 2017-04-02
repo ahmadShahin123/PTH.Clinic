@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
@@ -42,8 +42,14 @@
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
-   </ul>
-		</div> 
+	</ul> 
+		
+
+  <ul> <a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></ul>
+   <ul><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin" accesskey="8" title="">انضم الآن</a></ul>
+</div>	
 	</div>
 </div>
+
+
 
