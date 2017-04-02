@@ -43,6 +43,17 @@ button {
 	
 }
 
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+
 /* Clear floats */
 .clearfix::after {
     content: "";
@@ -64,6 +75,9 @@ button {
 
 <form action="/action_page.php" style="border:1px solid lightblue; width:50%; border-radius:3px; margin:0 auto;">
   <div class="container">
+  <div class="imgcontainer">
+    <img src="imgs/avatar.png" alt="Avatar" class="avatar">
+  </div>
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter username" name="username" required>
 
