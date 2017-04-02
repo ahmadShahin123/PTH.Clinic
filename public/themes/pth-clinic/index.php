@@ -4,7 +4,7 @@ include("header.php");
 
 include("body.php");
 
-include("header_inner.php");
+//include("header_inner.php");
 ?>
 <!-- jQuery -->
 <script src="<?php echo base_url() . 'themes/pth-clinic/js/jquery.js ';?>"> </script>
