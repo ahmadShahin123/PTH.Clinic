@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.divborder{
+    width: 43%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: 2px solid lightblue;
+	border-radius:20px;
+	direction:rtl;
+	font-family: 'Droid Arabic Kufi', serif;
+	
+	}
+	
+	
+.topdiv{
+border-bottom:1px solid lightblue;
+}
+
+.imgcontainer{
+ text-align: right;
+   margin: 10px 0 12px 0;
+	
+}
+
+.imgdiv{
+width: 13%;
+border-radius: 50%;
+}
+
+.drname{
+text-decoration:none;
+color:blue;
+font-size:140%;
+
+}
+
+.question{
+text-decoration:none;
+color:green;
+font-size:110%;
+}
+
+
+.answer{font-size:110%;}
+
+.lastdiv{
+text-align:left;
+margin:10px 0px;
+}
+.abutton{
+padding:5px 40px;
+background-color:#0080ff;
+color:white;
+text-decoration:none;
+border-radius:20px;
+
+}
