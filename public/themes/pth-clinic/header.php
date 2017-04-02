@@ -27,9 +27,7 @@
 
 <body>
 
-
-
-   <!-- home page -->
+<!-- home page -->
 
 <div id="header-wrapper" style="position:absolute; z-index:1;width:100%;">
 	<div id="header" class="container">
