@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Q&A </title>
 
-<link rel="stylesheet" type="text/css" href="q&a.css"/>
+<?php
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+include("header.php");
 
-
-</head>
+?>
 <body>
 
 <div class="divborder">
@@ -100,26 +94,3 @@
 
 
 
-</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
