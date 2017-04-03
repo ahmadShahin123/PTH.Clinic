@@ -1,104 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display:block;
-    border: 2px solid lightblue;
-    box-sizing: border-box;
-	border-radius:3px;
-}
+<link rel="stylesheet" type="text/css" href="css/signUpForm.css"/>
 
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 3px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,.signupbtn {
-    float: left;
-    width: 100%;
-	border-radius:3px;
-}
-
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-	
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-img.avatar {
-    width: 30%;
-    border-radius: 50%;
-}
-
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-}
-</style>
 </head>
 <body>
 
-<h2 style="text-align:center">Sign up </h2>
+<div class="fontst hst">
+<h2>إنشاء حساب </h2>
+</div>
 
-<form action="/action_page.php" style="border:1px solid lightblue; width:50%; border-radius:3px; margin:0 auto;">
+<form class="form" action="/action_page.php">
   <div class="container">
   <div class="imgcontainer">
     <img src="imgs/avatar.png" alt="Avatar" class="avatar">
   </div>
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter username" name="username" required>
+    <label><b>اسم المستخدم</b></label>
+    <input class="fontst" type="text" placeholder="أدخل اسم المستخدم" name="username" required>
 
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label><b>كلمة المرور</b></label>
+    <input class="fontst" type="password" placeholder="أدخل كلمة المرور" name="psw" required>
 
-    <label><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <label><b>كلمة المرور مرة أخرى</b></label>
+    <input class="fontst" type="password" placeholder="أدخل كلمة المرور مرة أخرى" name="psw-repeat" required>
 	
-	<label><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+	<label><b>البريد الإلكتروني</b></label>
+    <input class="fontst" type="text" placeholder="أدخل البريد الإلكتروني" name="email" required>
 	
-    <input type="checkbox" checked="checked"> Remember me
+    <input type="checkbox" checked="checked"> تذكرني
 	
 	
 	
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <p>بإنشائك حسابا أنت توافق على  <a href="#">الشروط والأحكام</a>.</p>
 
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+    <div class="clearfix fontst">
+      <button class="cancelbtn fontst" type="button" >إلغاء</button>
+      <button class="signupbtn fontst" type="submit" >إنشاء حساب</button>
     </div>
   </div>
 </form>
