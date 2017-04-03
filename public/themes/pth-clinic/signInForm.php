@@ -11,7 +11,7 @@
 
 <form class="form" action="/action_page.php" >
   <div class="imgcontainer">
-    <img src="imgs/avatar.png" alt="Avatar" class="avatar">
+    <img src="images/avatar.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container direction formst">

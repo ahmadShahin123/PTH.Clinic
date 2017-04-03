@@ -13,7 +13,7 @@
 <form class="form" action="/action_page.php">
   <div class="container">
   <div class="imgcontainer">
-    <img src="imgs/avatar.png" alt="Avatar" class="avatar">
+    <img src="images/avatar.png" alt="Avatar" class="avatar">
   </div>
     <label><b>اسم المستخدم</b></label>
     <input class="fontst" type="text" placeholder="أدخل اسم المستخدم" name="username" required>
