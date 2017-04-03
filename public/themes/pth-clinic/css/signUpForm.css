@@ -5,76 +5,76 @@
 .fontst{font-family: 'Droid Arabic Kufi', serif;}
 .hst{text-align:center;}
 .form {
-    border: 3px solid lightblue;
-	margin: 0 auto;
-	width:40%; 
-	border-radius:10px; 
-	
-	font-family: 'Droid Arabic Kufi', serif; 
-	direction:rtl;
+border: 3px solid lightblue;
+margin: 0 auto;
+width:40%; 
+border-radius:10px; 
+
+font-family: 'Droid Arabic Kufi', serif; 
+direction:rtl;
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display:block;
-    border: 1px solid lightblue;
-    box-sizing: border-box;
-	border-radius:3px;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display:block;
+border: 1px solid lightblue;
+box-sizing: border-box;
+border-radius:3px;
 }
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 3px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 3px;
+border: none;
+cursor: pointer;
+width: 100%;
 }
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
+padding: 14px 20px;
+background-color: #f44336;
 }
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
-    float: left;
-    width: 100%;
-	border-radius:3px;
+float: left;
+width: 100%;
+border-radius:3px;
 }
 
 /* Add padding to container elements */
 .container {
-    padding: 16px;
-	
+padding: 16px;
+
 }
 
 .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
+text-align: center;
+margin: 24px 0 12px 0;
 }
 
 img.avatar {
-    width: 25%;
-    border-radius: 50%;
+width: 25%;
+border-radius: 50%;
 }
 
 
 /* Clear floats */
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+content: "";
+clear: both;
+display: table;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
+.cancelbtn, .signupbtn {
+   width: 100%;
+}
 }
