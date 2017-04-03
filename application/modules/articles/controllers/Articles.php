@@ -63,5 +63,11 @@ class Articles extends Front_Controller
 
         Template::render();
     }
+    public function about_us() {
+        $ab = $this->db->query('select * from `bf_articles` where `about_us` = 1 order by article_id desc limit 1');
+        $art = $ab->result();
+        Template::set('record', $art);
+        Template::render('us');
+    }
     
 }

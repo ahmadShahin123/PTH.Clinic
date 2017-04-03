@@ -1,8 +1,8 @@
 ﻿<?php
 
-include("header.php");
+echo theme_view("header");
 
-include("body.php");
+echo theme_view("body");
 
 
 

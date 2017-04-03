@@ -33,7 +33,7 @@
     
 <ul>
 		<li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
+		<li><a href="<?php echo base_url() .'index.php/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
 		<li><a href="#"  class="button" accesskey="3" title="">مقالات طبية</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
