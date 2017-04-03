@@ -13,13 +13,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Page ......</title>
+    <title>pth</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/bootstrap.min.css';?>"	>
 
     <!-- Custom CSS -->
-    <link href="<?php echo base_url() . 'themes/pth-clinic/css/full-slider.css' ?>" rel="stylesheet">
+    <link href="<?php echo base_url() . 'themes/pth-clinic/css/full-slider.css'; ?>" rel="stylesheet">
 	
 
 
@@ -42,9 +42,15 @@
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
-   </ul> 
+		</ul>
+		      <ul>  
+				<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
+  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
+		</ul>
+   
    </div>
 </div>
-        <li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
-  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
+
 </div>
+<?php ini_set('display_errors', 1);
+error_reporting(E_ALL|E_STRICT); ?>

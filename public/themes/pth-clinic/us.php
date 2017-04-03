@@ -1,4 +1,6 @@
+<?php include ('header.php');
 
+?>
 
 <p>
 <center>
@@ -20,3 +22,9 @@
 5. الابتكار: وجودك في المقدمة لا يعني ان تأخذ الطريق السهل و تقلد الآخرين. نسعى دائما لأن نجد طرقا فريدة من نوعها وخاصة بنا للقيام بأفضل مما هو متوقع أو قد سبق القيام به.
 <center>
 </p>
+<script src="<?php echo base_url() . 'themes/pth-clinic/js/jquery.js ';?>"> </script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
+	</body>
+</html>
