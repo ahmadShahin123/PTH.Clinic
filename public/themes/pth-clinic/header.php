@@ -35,21 +35,17 @@
             
 <div id="menu" class="font-family">
     
-	<ul> 
-		 <li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
+	<ul>
+		<li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/us.php' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
 		<li><a href="#"  class="button" accesskey="3" title="">مقالات طبية</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
-	</ul> 
-		
-
-  <ul> <a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></ul>
-   <ul><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin" accesskey="8" title="">انضم الآن</a></ul>
-</div>	
-	</div>
+		 </ul> 
+        <li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
+  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title=""> سجّل الدخول</a></li>
+   
 </div>
-
-
-
+</div>
+</div>
