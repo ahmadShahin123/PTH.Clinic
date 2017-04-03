@@ -4,7 +4,6 @@ include("header.php");
 
 include("body.php");
 
-include("contact.php");
 
 
 ?>

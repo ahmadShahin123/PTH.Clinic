@@ -2,6 +2,7 @@ html, body
 {
 direction: rtl;
 height: 100%;
+font-family: 'Cairo', sans-serif !important;
 }
 
 body
@@ -12,6 +13,7 @@ padding: 0px;
 background: #2056ac;
 font-size: 12pt;
 color: rgba(0,0,0,.6);
+font-family: 'Cairo', sans-serif;
 }
 
 h1, h2, h3
@@ -59,7 +61,6 @@ width: 1200px;
 }
 
 .center {
-font-family: 'Gloria Hallelujah', cursive !important;
 color : black;	
 padding: 0px 0;
 border: 0px solid blue;
@@ -73,12 +74,6 @@ top: 50%;
 left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
-}
-
-.font-family {
-font-family: 'Mada', sans-serif;
-
-
 }
 
 
@@ -95,7 +90,6 @@ margin: 8px auto;
 border: 2px solid lightblue;
 border-radius:20px;
 direction:rtl;
-font-family: 'Droid Arabic Kufi', serif;
 
 }
 
@@ -501,7 +495,7 @@ float: left;
 }
 
  .signin {
-font-family: 'Lalezar', cursive;
+
 position:absolute !important;
 font-size:20px;
 height:69px; 
@@ -510,7 +504,7 @@ top:7px;
 left:-25px; 
 }
 .signin1 {
-font-family: 'Lalezar', cursive;
+
 position:absolute !important;
 font-size:20px;	
 height:100px; 
