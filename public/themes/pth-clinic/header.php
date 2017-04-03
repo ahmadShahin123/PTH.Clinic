@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
@@ -29,7 +29,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper" style="position:absolute; z-index:1;width:100%;">
+<div id="header-wrapper">
 	<div id="header" class="container">
 	
             
@@ -44,7 +44,7 @@
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 		</ul>
 		      <ul>  
-				<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
+				<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
   		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
 		</ul>
    
