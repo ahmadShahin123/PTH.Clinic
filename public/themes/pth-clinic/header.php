@@ -8,11 +8,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>pth</title>
 
@@ -42,7 +37,7 @@
 		<li><a href="#"  class="button" accesskey="3" title="">مقالات طبية</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
-        <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
+        <li><a href="<?php echo base_url() .'themes/pth-clinic/contact.php' ;?>"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 		</ul>
 		      <ul>  
 				<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
