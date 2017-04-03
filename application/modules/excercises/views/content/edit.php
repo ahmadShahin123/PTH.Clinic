@@ -48,7 +48,12 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('section') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_section') . lang('bf_form_label_required'), 'section', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='section' type='text' required='required' name='section' maxlength='255' value="<?php echo set_value('section', isset($excercises->section) ? $excercises->section : ''); ?>" />
+                     <?php $options = array ( 'SHOULDERS' => 'shoulders' , 'CHEST' =>'chest' , 'ABS' => 'abs','BACK' => 'back', 'BICEPS' => 'biceps' ,'TRICEPS' => 'triceps', 'LEGS' => 'legs'); 
+                    echo "<div class = 'drop_pos'>";
+                    echo form_dropdown('section[]' , $options );
+                  
+                     ?>
+                    
                     <span class='help-inline'><?php echo form_error('section'); ?></span>
                 </div>
             </div>
