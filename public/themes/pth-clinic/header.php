@@ -42,10 +42,12 @@
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/q&a.php' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
-		 </ul> 
+   </ul> 
+   </div>
+</div>
+  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
         <li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
-  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title=""> سجّل الدخول</a></li>
+
    
-</div>
-</div>
+
 </div>

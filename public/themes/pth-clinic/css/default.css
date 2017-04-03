@@ -81,33 +81,26 @@
 	 
 	 .signin {
 	 font-family: 'Lalezar', cursive;
-     
+     font-size:20px;
     
 	 height:69px; 
-    width:200px; 
+    width:130px; 
     position:absolute !important;
 	position:z-index ;
     top:6px; 
-    left:10px; 
-	border: none;  
-	
-	outline:none; 
-border:none; 
-border-style: none; 
-     
+    left:-25px; 
+	border-style: none;
 	 }
 	 .signin1 {
-	 font-family: 'Lalezar', cursive;
-    border: none;   
+	font-family: 'Lalezar', cursive;
+	font-size:20px;
+    border-style: dotted	
     height:100px; 
-    width:330px; 
+    width:270px; 
     top:6px; 
-    left:50px;  
+    left:-70px;  
 	position:absolute !important;
-	
-	 outline:none; 
-border:none; 
-border-style: none; 
+    border-style: none;
 	 }
 	
 /*********************************************************************************/
