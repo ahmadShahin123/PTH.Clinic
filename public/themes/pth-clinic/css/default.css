@@ -81,26 +81,22 @@
 	 
 	 .signin {
 	 font-family: 'Lalezar', cursive;
+	 position:absolute !important;
      font-size:20px;
-    
 	 height:69px; 
-    width:130px; 
-    position:absolute !important;
-	position:z-index ;
-    top:6px; 
-    left:-25px; 
-	border-style: none;
+     width:130px; 
+     top:7px; 
+     left:-25px; 
 	 }
 	 .signin1 {
 	font-family: 'Lalezar', cursive;
-	font-size:20px;
-    border-style: dotted	
+    position:absolute !important;
+	font-size:20px;	
     height:100px; 
     width:270px; 
-    top:6px; 
+    top:7px; 
     left:-70px;  
-	position:absolute !important;
-    border-style: none;
+	
 	 }
 	
 /*********************************************************************************/

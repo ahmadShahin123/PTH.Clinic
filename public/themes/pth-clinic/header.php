@@ -33,7 +33,7 @@
 	<div id="header" class="container">
 	
             
-<div id="menu" class="font-family">
+<div id="menu" class="font-family" >
     
 	<ul>
 		<li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
@@ -45,9 +45,6 @@
    </ul> 
    </div>
 </div>
-  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
         <li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">أنشئ حسابًا</a></li>
-
-   
-
+  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">سجّل الدخول</a></li>
 </div>
