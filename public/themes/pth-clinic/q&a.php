@@ -1,9 +1,4 @@
 
-<?php
-
-include("header.php");
-
-?>
 <body>
 
 <div class="divborder">
@@ -11,7 +6,7 @@ include("header.php");
 <div class="topdiv">إجابات
 </div>
 
-<div class="imgcontainer"> <img class="imgdiv" src="imgs/avatar.png" alt="doctor image" />
+<div class="imgcontainer"> <img class="imgdiv" src="images/avatar.png" alt="doctor image" />
 </div>
 
 
@@ -33,7 +28,7 @@ include("header.php");
 <div class="topdiv">إجابات
 </div>
 
-<div class="imgcontainer"> <img class="imgdiv" src="imgs/avatar.png" alt="doctor image" />
+<div class="imgcontainer"> <img class="imgdiv" src="images/avatar.png" alt="doctor image" />
 </div>
 
 
@@ -54,7 +49,7 @@ include("header.php");
 <div class="topdiv">إجابات
 </div>
 
-<div class="imgcontainer"> <img class="imgdiv" src="imgs/avatar.png" alt="doctor image" />
+<div class="imgcontainer"> <img class="imgdiv" src="images/avatar.png" alt="doctor image" />
 </div>
 
 
@@ -75,7 +70,7 @@ include("header.php");
 <div class="topdiv">إجابات
 </div>
 
-<div class="imgcontainer"> <img class="imgdiv" src="imgs/avatar.png" alt="doctor image" />
+<div class="imgcontainer"> <img class="imgdiv" src="images/avatar.png" alt="doctor image" />
 </div>
 
 
