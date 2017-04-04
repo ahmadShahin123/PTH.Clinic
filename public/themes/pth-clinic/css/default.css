@@ -76,6 +76,20 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
+.about_headlines{
+    text-align: right;
+    color: #2F1E28;
+    font-family: 'Amiri', serif;
+}
+
+.about_desc{
+    text-align: right;
+    color: #0080ff;
+    font-family: 'Harmattan', sans-serif;
+}
+
+
+
 
 
 

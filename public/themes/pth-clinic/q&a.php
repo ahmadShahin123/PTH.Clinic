@@ -1,4 +1,10 @@
+<?php echo theme_view('header'); ?>
 
+
+<div>
+<?php echo isset($content) ? $content : Template::content(); ?>
+</div>
+<html>
 <body>
 
 <div class="divborder">
@@ -86,6 +92,9 @@
 <div class="lastdiv"><a class="abutton" href="">اسأل</a></div>
 
 </div>
+</body>
+</html>
+
 
 
 
