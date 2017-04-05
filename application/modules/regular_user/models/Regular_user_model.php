@@ -92,6 +92,7 @@ class Regular_user_model extends BF_Model
 			'label' => 'lang:regular_user_field_modified_by',
 			'rules' => 'max_length[11]',
 		),
+
 	);
 	protected $insert_validation_rules  = array();
 	protected $skip_validation 			= false;

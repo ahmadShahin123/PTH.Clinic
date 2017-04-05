@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
 <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">

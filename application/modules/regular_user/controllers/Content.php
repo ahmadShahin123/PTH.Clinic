@@ -97,7 +97,6 @@ class Content extends Admin_Controller
             $upload_data =$this->upload->data();
             $file_name = $upload_data['file_name'];
              $_POST['avatar'] = $file_name;
-             $this->upload->display_errors();
             if ($insert_id = $this->save_regular_user()) {
                 log_activity($this->auth->user_id(), lang('regular_user_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'regular_user');
                 Template::set_message(lang('regular_user_create_success'), 'success');

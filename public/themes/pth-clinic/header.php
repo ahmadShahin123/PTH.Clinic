@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 
 <head>
 <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
@@ -16,6 +16,10 @@
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url() . 'themes/pth-clinic/css/full-slider.css'; ?>" rel="stylesheet">
+    <script src="<?php echo base_url() . 'themes/pth-clinic/js/jquery.js ';?>"> </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
 	
 
 
@@ -40,7 +44,7 @@
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 </ul>
 	  <ul>  
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
+		<li><a href="<?php echo base_url() .'index.php/regular_user/signUp' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
   		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></li>
       </ul>
    
@@ -48,5 +52,4 @@
 </div>
 
 </div>
-<?php ini_set('display_errors', 1);
-error_reporting(E_ALL|E_STRICT); ?>
+
