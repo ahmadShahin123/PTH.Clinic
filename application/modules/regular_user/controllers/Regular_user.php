@@ -59,12 +59,11 @@ class Regular_user extends Front_Controller
             $password = $_POST['password'];
             $email =  $_POST['email'];
             $this->form_validation->set_rules('password', 'Password', 'min_length[8]');
+            $this->form_validation->set_rules('first_name', 'First Name', 'alpha');
+            $this->form_validation->set_rules('first_name', 'Last Name', 'alpha');
             if ($this->form_validation->run() == FALSE) {
                 $this->form_validation->set_message('min_length[8]', '%s: the minimum of characters is %s');
                 redirect(base_url(). 'index.php/regular_user/signUp');
-            }
-            if($password != $_POST['psw-repeat']) {
-                echo $password . 'is not the same as ' . $_POST['psw-repeat'];
             }
 
                 $password = password_hash($password, PASSWORD_DEFAULT);

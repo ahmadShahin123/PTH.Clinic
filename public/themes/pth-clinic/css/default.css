@@ -855,4 +855,7 @@ ul.tools li a:before
 	text-align: center;
 	color: #FFFFFF;
 }
+.inner {
+	position: relative !important;
+}
 

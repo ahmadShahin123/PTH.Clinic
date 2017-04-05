@@ -48,7 +48,7 @@ class Articles_model extends BF_Model
 		array(
 			'field' => 'description',
 			'label' => 'lang:articles_field_description',
-			'rules' => 'required|max_length[255]',
+			'rules' => 'required',
 		),
 		array(
 			'field' => 'about_us',

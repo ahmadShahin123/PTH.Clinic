@@ -40,8 +40,8 @@
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 </ul>
 	  <ul>  
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/signUpForm.php' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
-  		<li><a href="<?php echo base_url() .'themes/pth-clinic/signInForm.php' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></li>
+		<li><a href="<?php echo base_url() .'index.php/regular_user/signUp' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
+  		<li><a href="<?php echo base_url() .'index.php/regular_user/signIn' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></li>
       </ul>
    
    </div>
