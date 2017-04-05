@@ -1,4 +1,4 @@
-<?php echo theme_view('header'); ?>
+<?php echo theme_view('header_inner'); ?>
 
 
 <div>

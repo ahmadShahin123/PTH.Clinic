@@ -1,11 +1,9 @@
 
 <?php
-foreach($record as $key=>$article) {
-    echo "<h1>" . $article->title . "</h1>" ;
-    echo "<p>" . $article->description . "</p>";
- } ?>
-
-<?php foreach($record as $key=>$article) { ?>
+foreach($record as $key=>$article) { ?>
+<img src="<?php echo base_url() . 'assets/images/' . $article->image; ?>" />
+<h1> <?php echo $article->title ?> </h1>
+     <p> <?php echo $article->description; ?></p>
 
 <div class ="about_headlines">
 <h1> المهمة والجمهور :</h1>

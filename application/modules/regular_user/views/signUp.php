@@ -1,4 +1,4 @@
-<?php echo theme_view('header'); ?>
+<?php echo theme_view('header_inner'); ?>
 
 <div class="fontst hst">
 <h2>إنشاء حساب </h2>
