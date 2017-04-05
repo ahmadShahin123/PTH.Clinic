@@ -25,7 +25,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper">
+<div id="header-wrapper" class="inner">
 	<div id="header" class="container">
 	
             
@@ -48,5 +48,4 @@
 </div>
 
 </div>
-<?php ini_set('display_errors', 1);
-error_reporting(E_ALL|E_STRICT); ?>
+
