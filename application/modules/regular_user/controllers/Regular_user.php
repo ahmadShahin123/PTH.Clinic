@@ -28,6 +28,7 @@ class Regular_user extends Front_Controller
         Assets::add_js('jquery-ui-timepicker-addon.js');
 
         $this->load->library('form_validation');
+        $this->load->library('session');
         Assets::add_module_js('regular_user', 'regular_user.js');
     }
 
@@ -60,10 +61,10 @@ class Regular_user extends Front_Controller
             $email =  $_POST['email'];
             $this->form_validation->set_rules('password', 'Password', 'min_length[8]');
             $this->form_validation->set_rules('first_name', 'First Name', 'alpha');
-            $this->form_validation->set_rules('first_name', 'Last Name', 'alpha');
+            $this->form_validation->set_rules('last_name', 'Last Name', 'alpha');
             if ($this->form_validation->run() == FALSE) {
-                $this->form_validation->set_message('min_length[8]', '%s: the minimum of characters is %s');
-                redirect(base_url(). 'index.php/regular_user/signUp');
+                $this->session->set_flashdata('valid_error', validation_errors());
+                redirect(base_url() . 'index.php/regular_user/signUp');
             }
 
                 $password = password_hash($password, PASSWORD_DEFAULT);

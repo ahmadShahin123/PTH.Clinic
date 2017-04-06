@@ -3,8 +3,10 @@
 <div class="fontst hst">
 <h2>إنشاء حساب </h2>
 </div>
-<?php echo validation_errors(); ?>
-<form class="form" action="<?php echo base_url() . 'index.php/regular_user/signup'; ?>" method="post" onsubmit="subFunc()">
+<div class="valid_error">
+<p><?php echo $this->session->flashdata('valid_error'); ?></p>
+</div>
+<form class="form" action="<?php echo base_url() . 'index.php/regular_user/signup'; ?>" method="post" >
   <div class="container">
     <label><b>الاسم الاول</b></label>
     <input class="fontst" type="text" placeholder="أدخل الاسم الاول" name="first_name" value="<?php echo set_value('first_name'); ?>" required>
