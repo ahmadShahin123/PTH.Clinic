@@ -858,4 +858,9 @@ ul.tools li a:before
 .inner {
 	position: relative !important;
 }
+.avatar img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
 

@@ -43,11 +43,21 @@
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="#"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 </ul>
-	  <ul>  
+    <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
+        <ul>
+            <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
+        </ul>
+        <?php } else { ?>
+
+	  <ul>
+          <?php if($this->uri->segment(2) != 'signUp') { ?>
 		<li><a href="<?php echo base_url() .'index.php/regular_user/signUp' ;?>" class="signin1" accesskey="8" title="">إنشاء حساب</a></li>
+          <?php } ?>
+          <?php if($this->uri->segment(2) != 'signIn') { ?>
   		<li><a href="<?php echo base_url() .'index.php/regular_user/signIn' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></li>
+          <?php } ?>
       </ul>
-   
+   <?php } ?>
    </div>
 </div>
 

@@ -12,7 +12,7 @@
     <input class="fontst" type="text" placeholder="أدخل الاسم الاول" name="first_name" value="<?php echo set_value('first_name'); ?>" required>
 
       <label><b>الاسم الاخير</b></label>
-      <input class="fontst" type="text" placeholder="أدخل الاسم الاخير" name="last_name" required>
+      <input class="fontst" type="text" placeholder="أدخل الاسم الاخير" name="last_name" value="<?php echo set_value('last_name'); ?>" required>
 
     <label><b>كلمة المرور</b></label>
     <input class="fontst" type="password" placeholder="أدخل كلمة المرور" name="password" id="password" required>
@@ -22,7 +22,7 @@
       <span id='message'></span>
 	
 	<label><b>البريد الإلكتروني</b></label>
-    <input class="fontst" type="email" placeholder="أدخل البريد الإلكتروني" name="email" required>
+    <input class="fontst" type="email" placeholder="أدخل البريد الإلكتروني" name="email" value="<?php echo set_value('email'); ?>"required>
 
     <div class="clearfix fontst">
       <button class="signupbtn fontst" type="submit" name="create" >إنشاء حساب</button>

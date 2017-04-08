@@ -1,33 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/signInForm.css"/>
-
-</head>
-<body>
+<?php echo theme_view('header_inner'); ?>
 <div class="fontst hst">
 <h2>تسجيل الدخول </h2>
 </div>
-
-<form class="form" action="/action_page.php" >
-  <div class="imgcontainer">
-    <img src="images/avatar.png" alt="Avatar" class="avatar">
-  </div>
-
+<div class="signin_error">
+<p><?php echo $this->session->flashdata('email_error');
+    echo $this->session->flashdata('pass_error'); ?></p>
+</div>
+<form class="form" action="<?php echo base_url() . 'index.php/regular_user/signIn'; ?>" method="post">
   <div class="container direction formst">
-    <label><b>اسم المستخدم</b></label>
-    <input class="fontst" type="text" placeholder="أدخل اسم المستخدم" name="uname" required>
+    <label><b>البريد الالكتروني</b></label>
+    <input class="fontst" type="email" placeholder="أدخل البريد الالكتروني" name="email" value="<?php set_value('email');?>"required>
 
     <label><b>كلمة المرور</b></label>
     <input class="fontst" type="password" placeholder="أدخل كلمة المرور" name="psw" required>
         
-    <button class="fontst" type="submit">تسجيل دخول</button>
-    <input type="checkbox" checked="checked"> تذكرني
-  </div>
-
-  <div class="container lastdiv">
-    <button type="button" class="cancelbtn fontst">إلغاء</button>
-    <span class="psw">نسيت <a href="#">كلمة المرور؟</a></span>
+    <button class="fontst" type="submit" name="signIn">تسجيل دخول</button>
   </div>
 </form>
 
