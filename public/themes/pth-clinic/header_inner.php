@@ -8,6 +8,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
 
+ <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signInForm.css';?>"	>
+ <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signUpForm.css';?>"	>
 
     <title>pth.clinic</title>
 
