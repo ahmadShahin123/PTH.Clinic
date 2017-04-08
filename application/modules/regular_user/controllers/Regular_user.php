@@ -80,7 +80,7 @@ class Regular_user extends Front_Controller
             $this->db->query("INSERT INTO `bf_reg_user` (first_name, last_name, email, password)
                               VALUES ('$first_name', '$last_name', '$email', '$password')");
 
-            redirect(base_url() . 'index.php');
+            redirect(base_url() . 'index.php/regular_user/signIn');
         }
         Template::render('signUp');
 

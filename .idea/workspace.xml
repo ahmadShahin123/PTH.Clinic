@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/signIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/index.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/us.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/us.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,23 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Regular_user.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Regular_user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+            <state relative-caret-position="459">
+              <caret line="82" column="67" lean-forward="true" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
               <folding>
-                <marker date="1491665840000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
-                <marker date="1491665840000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-                <marker date="1491665840000" expanded="true" signature="3178:3219" ph="select * fro... bf_reg_user" />
-                <marker date="1491665840000" expanded="true" signature="3178:3220" ph="select * fro... bf_reg_user" />
-                <marker date="1491665840000" expanded="true" signature="3178:3227" ph="select * fro... bf_reg_user" />
-                <marker date="1491665840000" expanded="true" signature="3178:3228" ph="select * fro... bf_reg_user" />
-                <marker date="1491665840000" expanded="true" signature="3178:3230" ph="select * fro... bf_reg_user" />
-                <marker date="1491665840000" expanded="true" signature="4648:4679" ph="update `bf_r... " />
-                <marker date="1491665840000" expanded="true" signature="4648:4691" ph="update `bf_r... " />
-                <marker date="1491665840000" expanded="true" signature="4648:4712" ph="update `bf_r... " />
-                <marker date="1491665840000" expanded="true" signature="4648:4713" ph="update `bf_r... " />
+                <marker date="1491668167000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
+                <marker date="1491668167000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
+                <marker date="1491668167000" expanded="true" signature="3198:3239" ph="select * fro... bf_reg_user" />
+                <marker date="1491668167000" expanded="true" signature="3198:3240" ph="select * fro... bf_reg_user" />
+                <marker date="1491668167000" expanded="true" signature="3198:3247" ph="select * fro... bf_reg_user" />
+                <marker date="1491668167000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
+                <marker date="1491668167000" expanded="true" signature="3198:3250" ph="select * fro... bf_reg_user" />
+                <marker date="1491668167000" expanded="true" signature="4668:4699" ph="update `bf_r... " />
+                <marker date="1491668167000" expanded="true" signature="4668:4711" ph="update `bf_r... " />
+                <marker date="1491668167000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
+                <marker date="1491668167000" expanded="true" signature="4668:4733" ph="update `bf_r... " />
               </folding>
             </state>
           </provider>
@@ -122,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -177,8 +167,8 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
-        <option value="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/profile.php" />
+        <option value="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
       </list>
     </option>
   </component>
@@ -540,12 +530,12 @@
       <updated>1491233414553</updated>
       <workItem from="1491233417307" duration="28125000" />
       <workItem from="1491585218756" duration="255000" />
-      <workItem from="1491588337386" duration="13815000" />
+      <workItem from="1491588337386" duration="13941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42195000" />
+    <option name="totallyTimeSpent" value="42321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -618,17 +608,17 @@
         <state relative-caret-position="975">
           <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding>
-            <marker date="1491665840000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491665840000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491665840000" expanded="true" signature="3178:3219" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3220" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3227" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3228" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3230" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="4648:4679" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4691" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4712" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4713" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
+            <marker date="1491668167000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
+            <marker date="1491668167000" expanded="true" signature="3198:3239" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3240" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3247" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3250" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="4668:4699" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4711" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4733" ph="update `bf_r... " />
           </folding>
         </state>
       </provider>
@@ -863,32 +853,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
-          <folding>
-            <marker date="1491665840000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491665840000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491665840000" expanded="true" signature="3178:3219" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3220" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3227" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3228" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="3178:3230" ph="select * fro... bf_reg_user" />
-            <marker date="1491665840000" expanded="true" signature="4648:4679" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4691" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4712" ph="update `bf_r... " />
-            <marker date="1491665840000" expanded="true" signature="4648:4713" ph="update `bf_r... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding>
             <marker date="1491665907000" expanded="true" signature="683:716" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="82" column="67" lean-forward="true" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+          <folding>
+            <marker date="1491668167000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
+            <marker date="1491668167000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
+            <marker date="1491668167000" expanded="true" signature="3198:3239" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3240" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3247" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="3198:3250" ph="select * fro... bf_reg_user" />
+            <marker date="1491668167000" expanded="true" signature="4668:4699" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4711" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
+            <marker date="1491668167000" expanded="true" signature="4668:4733" ph="update `bf_r... " />
           </folding>
         </state>
       </provider>
