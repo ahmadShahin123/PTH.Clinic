@@ -3,10 +3,8 @@
     echo theme_view('profile');
 } ?>
 
-<div>
+<div class="main">
 <?php echo isset($content) ? $content : Template::content(); ?>
 </div>
-<body>
-    
 </body>
 </html>

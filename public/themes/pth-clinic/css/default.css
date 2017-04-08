@@ -1,42 +1,43 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 html, body
 {
-direction: rtl;
-height: 100%;
-font-family: 'Cairo', sans-serif !important;
+	direction: rtl;
+	height: 100%;
+	font-family: 'Cairo', sans-serif !important;
 }
 
 body
 {
-direction: rtl;
-margin: 0px;
-padding: 0px;
-background: #2056ac;
-font-size: 12pt;
-color: rgba(0,0,0,.6);
-font-family: 'Cairo', sans-serif;
+	direction: rtl;
+	margin: 0px;
+	padding: 0px;
+	background: #2056ac;
+	font-size: 12pt;
+	color: rgba(0,0,0,.6);
+	font-family: 'Cairo', sans-serif;
 }
 
 h1, h2, h3
 {
-margin: 0;
-padding: 0;
-color: #404040;
+	margin: 0;
+	padding: 0;
+	color: #404040;
 }
 
 p, ol, ul
 {
-margin-top: 0;
+	margin-top: 0;
 }
 
 ol, ul
 {
-padding: 0;
-list-style: none;
+	padding: 0;
+	list-style: none;
 }
 
 p
 {
-line-height: 180%;
+	line-height: 180%;
 }
 
 strong
@@ -45,47 +46,95 @@ strong
 
 a
 {
-color: #2056ac;
+	color: #2056ac;
 }
 
 a:hover
 {
-text-decoration: none;
+	text-decoration: none;
 }
 
 
 .container
 {
-margin: 0px auto;
-width: 1200px;
+	margin: 0px auto;
+	width: 1200px;
 }
 
 .center {
-color : black;	
-padding: 0px 0;
-border: 0px solid blue;
-text-align: center;
+	color : black;
+	padding: 0px 0;
+	border: 0px solid blue;
+	text-align: center;
 }
 
 .center p {
-margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
--ms-transform: translate(-50%, -50%);
-transform: translate(-50%, -50%);
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.about_maindiv{
+	text-align:center;
+	/*border: 1px solid lightblue;*/
+	margin: 0 auto;
+	border-radius:5px;
+	padding:10px;
+	width:80%;
+
+
+}
+
+.main{height:100%;}
+
+
+.about_imgdiv h2{
+
+	color: white;
+	margin: auto;
+	margin-top:10%;
+	-webkit-text-stroke: 2px black;
+	vertical-align: middle;
+	font-size:70px;
+}
+
+.about_imgdiv{
+
+
+	text-align:center;
+	border-radius:5px;
+	padding:10px;
+	width:100%;
+	height:60%;
+	background-repeat:no-repeat;
+
 }
 
 .about_headlines{
-    text-align: right;
-    color: #2F1E28;
-    font-family: 'Amiri', serif;
+	font-family: 'Droid Arabic Kufi', serif;
+	text-align: right;
+	color: #2F1E28;
+	/*font-family: 'Amiri', serif;*/
+	font-size:30px;
+}
+
+.about_newheadlines{
+	color: white;
+	margin: auto;
+	margin-top:20%;
+	-webkit-text-stroke: 2px black;
+	vertical-align: middle;
 }
 
 .about_desc{
-    text-align: right;
-    color: #0080ff;
-    font-family: 'Harmattan', sans-serif;
+	font-family: 'Droid Arabic Kufi', serif;
+	text-align: right;
+	color: #28283e;
+	/*font-family: 'Harmattan', sans-serif;*/
+	font-size:20px;
 }
 
 
@@ -98,57 +147,57 @@ transform: translate(-50%, -50%);
 /*********************************************************************************/
 
 .divborder{
-width: 43%;
-padding: 12px 20px;
-margin: 8px auto;
-border: 2px solid lightblue;
-border-radius:20px;
-direction:rtl;
+	width: 43%;
+	padding: 12px 20px;
+	margin: 8px auto;
+	border: 2px solid lightblue;
+	border-radius:20px;
+	direction:rtl;
 
 }
 
 
 .topdiv{
-border-bottom:1px solid lightblue;
+	border-bottom:1px solid lightblue;
 }
 
 .imgcontainer{
-text-align: right;
-margin: 10px 0 12px 0;
+	text-align: right;
+	margin: 10px 0 12px 0;
 
 }
 
 .imgdiv{
-width: 13%;
-border-radius: 50%;
+	width: 13%;
+	border-radius: 50%;
 }
 
 .drname{
-text-decoration:none;
-color:blue;
-font-size:140%;
+	text-decoration:none;
+	color:blue;
+	font-size:140%;
 
 }
 
 .question{
-text-decoration:none;
-color:green;
-font-size:110%;
+	text-decoration:none;
+	color:green;
+	font-size:110%;
 }
 
 
 .answer{font-size:110%;}
 
 .lastdiv{
-text-align:left;
-margin:10px 0px;
+	text-align:left;
+	margin:10px 0px;
 }
 .abutton{
-padding:5px 40px;
-background-color:#0080ff;
-color:white;
-text-decoration:none;
-border-radius:20px;
+	padding:5px 40px;
+	background-color:#0080ff;
+	color:white;
+	text-decoration:none;
+	border-radius:20px;
 
 }
 
@@ -162,41 +211,41 @@ form
 
 form label
 {
-display: block;
-text-align: left;
-margin-bottom: 0.0em;
+	display: block;
+	text-align: left;
+	margin-bottom: 0.0em;
 }
 
 form .submit
 {
-margin-top: 2em;
-line-height: 1.5em;
-font-size: 1.3em;
+	margin-top: 2em;
+	line-height: 1.5em;
+	font-size: 1.3em;
 }
 
 form input.text,
 form select,
 form textarea
 {
-position: relative;
--webkit-appearance: none;
-display: block;
-border: 0;
-background: #fff;
-background: rgba(255,255,255,0.75);
-width: 100%;
-border-radius: 0.50em;
-margin: 1em 0em;
-padding: 1.50em 1em;
-box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
-border: solid 1px rgba(0,0,0,0.15);
--moz-transition: all 0.35s ease-in-out;
--webkit-transition: all 0.35s ease-in-out;
--o-transition: all 0.35s ease-in-out;
--ms-transition: all 0.35s ease-in-out;
-transition: all 0.35s ease-in-out;
-font-size: 1em;
-outline: none;
+	position: relative;
+	-webkit-appearance: none;
+	display: block;
+	border: 0;
+	background: #fff;
+	background: rgba(255,255,255,0.75);
+	width: 100%;
+	border-radius: 0.50em;
+	margin: 1em 0em;
+	padding: 1.50em 1em;
+	box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
+	border: solid 1px rgba(0,0,0,0.15);
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	font-size: 1em;
+	outline: none;
 }
 
 form input.text:hover,
@@ -346,16 +395,16 @@ ul.contact li a:before
 /*********************************************************************************/
 
 .button {
-background-color: blue; /* blue */
-border: none;
-color: white;
-padding: 10px 10px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 10px;
-margin: 3px 3px;
-cursor: pointer;
+	background-color: blue; /* blue */
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	margin: 3px 3px;
+	cursor: pointer;
 }
 
 .button{border-radius: 12px;}
@@ -363,7 +412,7 @@ cursor: pointer;
 .button {border-radius: 12px;}
 .button {border-radius: 12px;}
 .button {border-radius: 12px;}
-	
+
 /*********************************************************************************/
 /* Heading Titles                                                               */
 /*********************************************************************************/
@@ -391,7 +440,7 @@ cursor: pointer;
 #header-wrapper
 {
 	overflow: hidden;
-	position:absolute;
+	position:relative;
 	z-index:1;
 	width:100%;
 }
@@ -402,7 +451,7 @@ cursor: pointer;
 }
 
 #header {
- width: 100%;
+	width: 100%;
 }
 
 /*********************************************************************************/
@@ -466,7 +515,7 @@ cursor: pointer;
 	display: inline-block;
 }
 
-#menu li a, #menu li span 
+#menu li a, #menu li span
 {
 	display: inline-block ;
 	padding: 0em 0.5em;
@@ -496,42 +545,42 @@ cursor: pointer;
 
 
 #menu ul:nth-child(2) a {
-position: relative !important;
-width: 100%;
-height: auto;
-left: 0;
+	position: relative !important;
+	width: 100%;
+	height: auto;
+	left: 0;
 }
 #menu ul:nth-child(2) {
-float: left;
+	float: left;
 }
 #menu ul:first-child {
-  float: right;
+	float: right;
 }
 
- .signin {
+.signin {
 
-position:absolute !important;
-font-size:20px;
-height:69px; 
-width:130px; 
-top:7px; 
-left:-25px; 
+	position:absolute !important;
+	font-size:20px;
+	height:69px;
+	width:130px;
+	top:7px;
+	left:-25px;
 }
 .signin1 {
 
-position:absolute !important;
-font-size:20px;	
-height:100px; 
-width:270px; 
-top:7px; 
-left:-70px;  
+	position:absolute !important;
+	font-size:20px;
+	height:100px;
+	width:270px;
+	top:7px;
+	left:-70px;
 
 }
 
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
- 
+
 #banner
 {
 	padding-top: 5em;
@@ -622,7 +671,7 @@ left:-70px;
 }
 
 
-	
+
 #footer .fbox1,
 #footer .fbox2,
 #footer .fbox3
@@ -783,9 +832,9 @@ left:-70px;
 	border: 6px solid #67128F;
 	text-align: center;
 	color: #FFF;
-	
+
 }
-	
+
 #three-column #tbox1,
 #three-column #tbox2,
 #three-column #tbox3
@@ -844,8 +893,7 @@ ul.tools li a
 	color: #FFF;
 }
 
-ul.tools li a:before
-{
+ul.tools li a:before {
 	display: inline-block;
 	background: #1ABC9C;
 	width: 120px;
@@ -855,12 +903,4 @@ ul.tools li a:before
 	text-align: center;
 	color: #FFFFFF;
 }
-.inner {
-	position: relative !important;
-}
-.avatar img {
-	width: 100px;
-	height: 100px;
-	border-radius: 100%;
-}
-
+.avatar img {width: 100px;height: 100px;border-radius: 100%;}
