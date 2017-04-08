@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php dir="rtl" lang="ar">
+<html dir="rtl" lang="ar">
 <head>
 <meta charset="UTF-8" />
 
@@ -190,7 +190,7 @@ var tie = {"prettyPhoto" : "light_rounded" };
 	<div class="grofile-hash-map-12882a07dbfaaf8e91641d83a4ef5157">
 	</div>
 	</div>
-	<script type='text/javascript' src='wp-content/js/devicepx-jetpack.js?ver=201710'></script>
+
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.php","checking_credentials":"Checking credentials...","pwd_meter":"","disable_ajax":""};
@@ -203,4 +203,4 @@ var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.p
 
 
 </body>
-</php>
+</html>

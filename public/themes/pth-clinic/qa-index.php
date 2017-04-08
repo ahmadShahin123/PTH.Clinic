@@ -1,5 +1,5 @@
 <!DOCTYPE php>
-<php dir="rtl" lang="ar">
+<html dir="rtl" lang="ar">
 <head>
 <meta charset="UTF-8" />
 
@@ -132,4 +132,4 @@ var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.p
 
 
 </body>
-</php>
+</html>
