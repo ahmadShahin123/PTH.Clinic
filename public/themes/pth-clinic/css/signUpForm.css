@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
 .fontst{font-family: 'Droid Arabic Kufi', serif;
-       width: 43%;
+       width: 100%;
 }
 .hst{text-align:center;}
 .form {
@@ -46,7 +46,7 @@ background-color: #f44336;
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
 float: right;
-width: 43%;
+width: 100%;
 border-radius:3px;
 }
 

@@ -10,7 +10,7 @@
                                                         <nav id="main-nav">
                                         <div class="main-menu"><ul id="menu-main" class="menu">
                                         <li id="menu-item-61328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328">
-                                        <a href="qa-index.php">التخصصات الباطنية</a>
+                                        <a href="#">التخصصات الباطنية</a>
 <ul class="sub-menu">
         <li id="menu-item-61490" class="menu-item-61490"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">طب الأسرة</a></li>
         <li id="menu-item-61489" class="menu-item-61489"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الباطنة</a></li>
@@ -21,7 +21,7 @@
         <li id="menu-item-61478" class="menu-item-61478"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">سكّري</a></li>
 </ul>
 </li>
-<li id="menu-item-61333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61333"><a href="qa-index.php">التخصصات الجراحية</a>
+<li id="menu-item-61333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61333"><a href="#">التخصصات الجراحية</a>
 <ul class="sub-menu">
         <li id="menu-item-61484" class="menu-item-61484"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجراحة العامة</a></li>
         <li id="menu-item-61479" class="menu-item-61479"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العظام</a></li>

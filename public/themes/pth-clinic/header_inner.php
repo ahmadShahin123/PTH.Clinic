@@ -6,11 +6,11 @@
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
-
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" >
+    <?php if($this->uri->segment(2) == 'signUp' || $this->uri->segment(2) == 'signIn') { ?>
  <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signInForm.css';?>"	>
  <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signUpForm.css';?>"	>
-
+<?php } ?>
     <title>pth.clinic</title>
 
     <!-- Bootstrap Core CSS -->
@@ -57,7 +57,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper" class="header-inner">
+<div id="header-wrapper-inner" class="header-inner">
 	<div id="header" class="container">
 	
             

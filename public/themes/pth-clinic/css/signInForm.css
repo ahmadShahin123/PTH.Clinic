@@ -14,7 +14,7 @@ font-family: 'Droid Arabic Kufi', serif;
 }
 
 input[type=text], input[type=password], input[type=email] {
-width: 43%;
+width: 100% !important;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
@@ -71,6 +71,13 @@ padding-top: 16px;
 }
 
 .lastdiv{background-color:#f1f1f1}
+.form {
+   width: 35%;
+}
+.container {
+   margin-right: 0 !important;
+   width: 100% !important;
+}
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {

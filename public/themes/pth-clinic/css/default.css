@@ -217,7 +217,7 @@ form
 form label
 {
 	display: block;
-	text-align: left;
+	text-align: right;
 	margin-bottom: 0.0em;
 }
 
@@ -442,6 +442,13 @@ ul.contact li a:before
 #header-wrapper
 {
 	overflow: hidden;
+	position:absolute;
+	z-index:1;
+	width:100%;
+}
+#header-wrapper-inner
+{
+	overflow: hidden;
 	position:relative;
 	z-index:1;
 	width:100%;
@@ -542,7 +549,7 @@ ul.contact li a:before
 
 #menu li:hover a, #menu li:visited a, #menu li:active span
 {
-	background: white;
+	background: transparent;
 	
 	color: blue;
 	border-bottom:3px solid blue;
@@ -921,3 +928,7 @@ ul.tools li a:before {
 	color: #FFFFFF;
 }
 .avatar img {width: 100px;height: 100px;border-radius: 100%;}
+#header-wrapper-inner #header {
+	margin-right: 0 !important;
+}
+
