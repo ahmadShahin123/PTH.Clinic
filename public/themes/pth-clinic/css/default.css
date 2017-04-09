@@ -395,7 +395,7 @@ ul.contact li a:before
 /*********************************************************************************/
 
 .button {
-	background-color: white; /* blue */	
+	background-color: transparent; /* blue */	
 	border: none;
 	color: blue;
 	padding: 10px 10px;
@@ -408,11 +408,7 @@ ul.contact li a:before
 	
 }
 
-.button{border-radius: 12px;}
-.button{border-radius: 12px;}
-.button {border-radius: 12px;}
-.button {border-radius: 12px;}
-.button {border-radius: 12px;}
+
 
 /*********************************************************************************/
 /* Heading Titles                                                               */
@@ -527,17 +523,17 @@ ul.contact li a:before
 	line-height: 35px;
 	outline: 0;
 	color: blue;
-	background:none;
+	background-color:transparent;
 	
 	
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
+#menu li:hover a, #menu li:visited a, #menu li:active span
 {
 	background: white;
-	border-radius: 16px 16px 16px 16px;
+	
 	color: blue;
-	text-decoration:underline;
+	border-bottom:3px solid blue;
 	
 }
 
