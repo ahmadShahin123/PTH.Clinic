@@ -51,7 +51,7 @@ a
 
 a:hover
 {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
@@ -395,9 +395,9 @@ ul.contact li a:before
 /*********************************************************************************/
 
 .button {
-	background-color: blue; /* blue */
+	background-color: white; /* blue */	
 	border: none;
-	color: white;
+	color: blue;
 	padding: 10px 10px;
 	text-align: center;
 	text-decoration: none;
@@ -405,6 +405,7 @@ ul.contact li a:before
 	font-size: 10px;
 	margin: 3px 3px;
 	cursor: pointer;
+	
 }
 
 .button{border-radius: 12px;}
@@ -525,7 +526,10 @@ ul.contact li a:before
 	text-transform: uppercase;
 	line-height: 35px;
 	outline: 0;
-	color: white-space;
+	color: blue;
+	background:none;
+	
+	
 }
 
 #menu li:hover a, #menu li.active a, #menu li.active span
@@ -533,6 +537,8 @@ ul.contact li a:before
 	background: white;
 	border-radius: 16px 16px 16px 16px;
 	color: blue;
+	text-decoration:underline;
+	
 }
 
 #menu .current_page_item a
