@@ -57,7 +57,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper" class="inner">
+<div id="header-wrapper" class="header-inner">
 	<div id="header" class="container">
 	
             

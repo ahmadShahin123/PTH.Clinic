@@ -177,12 +177,12 @@ a:hover {
 
 		#sidebar .cover-img {background-image: url('http://askdr.com/wp-content/uploads/2015/04/sthe41.jpg') ;}
 	#content {
-	width: calc(100% - 170px);
+	width: calc(40% - 10px);
  }
 
 #main-content .item-list {
 	padding-bottom: 0px; 
-	margin-bottom: 70px;
+	margin-bottom: 0%;
  }
 
 .item-list {
@@ -273,20 +273,6 @@ transition: background 200ms ease, transform 500ms ease, opacity 500ms ease, fil
 background: #05a1ff;
 }
 
-#slide-out-open::before {
-position: absolute;
-content: "ابحث / اسأل";
-left: 0;
-top: 0;
-height: 100%;
-width: 100%;
-color: white;
-text-align: center;
-line-height: 43px;
-font-size: 16px;
-font-weight: 700;
-font-family: "droid arabic kufi" !important; 
-}
 
 .tieicon-menu {
 display: none;

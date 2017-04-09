@@ -14,7 +14,6 @@
 <ul class="sub-menu">
         <li id="menu-item-61490" class="menu-item-61490"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">طب الأسرة</a></li>
         <li id="menu-item-61489" class="menu-item-61489"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الباطنة</a></li>
-        <li id="menu-item-61480" class="menu-item-61480"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأعصاب والتخدير</a></li>
         <li id="menu-item-61477" class="menu-item-61477"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">القلب</a></li>
         <li id="menu-item-61475" class="menu-item-61475"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجلدية</a></li>
         <li id="menu-item-61332" class="menu-item-61332"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">النفسية</a></li>
@@ -31,12 +30,7 @@
         <li id="menu-item-61331" class="menu-item-61331"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العيون</a></li>
 </ul>
 </li>
-<li id="menu-item-61327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61327"><a href="qa-index.php">التغذية والرياضة</a>
-<ul class="sub-menu">
-        <li id="menu-item-61481" class="menu-item-61481"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">رياضة ولياقة</a></li>
-        <li id="menu-item-61482" class="menu-item-61482"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">التغذية</a></li>
-</ul>
-</li>
+
 <li id="menu-item-61473" class="menu-item-61473"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأدوية والصيدلية</a></li>
 
 </ul></div>				</nav><!-- .main-nav /-->
@@ -151,12 +145,10 @@
 	
 		
 	</div><!-- .container /-->
-</div>
+	
 	<div style="display:none">
-	<div class="grofile-hash-map-12882a07dbfaaf8e91641d83a4ef5157">
 	</div>
-	</div>
-	<script type='text/javascript' src='wp-content/js/devicepx-jetpack.js?ver=201710'></script>
+
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.php","checking_credentials":"Checking credentials...","pwd_meter":"","disable_ajax":""};
@@ -169,4 +161,4 @@ var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.p
 
 
 </body>
-</php>
+</html>

@@ -3,7 +3,7 @@
 
 
 <div id="wrapper">
-        <aside id="sidebar">
+        <aside id="sidebar" style="position: relative;">
                 <div class="cover-img">
                         <div class="cover-body">
 
@@ -14,7 +14,6 @@
 <ul class="sub-menu">
         <li id="menu-item-61490" class="menu-item-61490"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">طب الأسرة</a></li>
         <li id="menu-item-61489" class="menu-item-61489"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الباطنة</a></li>
-        <li id="menu-item-61480" class="menu-item-61480"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأعصاب والتخدير</a></li>
         <li id="menu-item-61477" class="menu-item-61477"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">القلب</a></li>
         <li id="menu-item-61475" class="menu-item-61475"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجلدية</a></li>
         <li id="menu-item-61332" class="menu-item-61332"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">النفسية</a></li>
@@ -31,12 +30,7 @@
         <li id="menu-item-61331" class="menu-item-61331"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العيون</a></li>
 </ul>
 </li>
-<li id="menu-item-61327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61327"><a href="qa-index.php">التغذية والرياضة</a>
-<ul class="sub-menu">
-        <li id="menu-item-61481" class="menu-item-61481"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">رياضة ولياقة</a></li>
-        <li id="menu-item-61482" class="menu-item-61482"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">التغذية</a></li>
-</ul>
-</li>
+
 <li id="menu-item-61473" class="menu-item-61473"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأدوية والصيدلية</a></li>
 
 </ul></div>				</nav><!-- .main-nav /-->
@@ -46,13 +40,14 @@
 
 <span class="blog-author-avatar">
 <a href="#">
-<img src=""<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
+<img src="<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
 </a>
 </span>
 
                                                                                 <div class="blog-author-content">
                                                 <h2 class="blog-author-name">اسئلة واجوبة</h2>
-                                                <div>موقع متخصص في الإجابة على الإستفسارات الطبية</div>
+												<div>قسم متخصص في الإجابة على الإستفسارات الطبية</div>
+                                               
 
                                 </div> <!-- .about-blog-author -->				
                                                                                 </div> <!-- .cover-body -->
@@ -62,8 +57,7 @@
         <aside id="slide-out">
 
 </div><!-- .widget /-->			</aside><!-- #slide-out /-->
-                <div id="main-content" class="container animated">	<div id="content">
-                <article class="item-list post-64087 post type-post status-publish format-standard hentry category-neurology category-ophthalmology tag-5409 tag-5410 tag-3585">
+                
 
 
                 <div class="post-inner">			
@@ -76,6 +70,11 @@
 
         <span> <a href="#.php#comments">‎إجابة واحدة</a></span> -->
 </p>
+
+<div id="main-content" class="container-animated">
+	 <article class="item-list post-64087">
+	 <div id="content">
+               
 
 
                 </div>
