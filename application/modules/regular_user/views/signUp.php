@@ -13,6 +13,10 @@
 
       <label><b>الاسم الاخير</b></label>
       <input class="fontst" type="text" placeholder="أدخل الاسم الاخير" name="last_name" value="<?php echo set_value('last_name'); ?>" required>
+      
+      	<label><b>البريد الإلكتروني</b></label>
+    <input class="fontst" type="email" placeholder="أدخل البريد الإلكتروني" name="email" value="<?php echo set_value('email'); ?>"required>
+
 
     <label><b>كلمة المرور</b></label>
     <input class="fontst" type="password" placeholder="أدخل كلمة المرور" name="password" id="password" required>
@@ -21,8 +25,6 @@
     <input class="fontst" type="password" placeholder="أدخل كلمة المرور مرة أخرى" name="psw-repeat" id="confirm_password" required>
       <span id='message'></span>
 	
-	<label><b>البريد الإلكتروني</b></label>
-    <input class="fontst" type="email" placeholder="أدخل البريد الإلكتروني" name="email" value="<?php echo set_value('email'); ?>"required>
 
     <div class="clearfix fontst">
       <button class="signupbtn fontst" type="submit" name="create" >إنشاء حساب</button>

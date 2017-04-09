@@ -2,7 +2,9 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
-.fontst{font-family: 'Droid Arabic Kufi', serif;}
+.fontst{font-family: 'Droid Arabic Kufi', serif;
+       width: 43%;
+}
 .hst{text-align:center;}
 .form {
 border: 3px solid lightblue;
@@ -15,9 +17,9 @@ direction:rtl;
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
-width: 100%;
+width: 43%;
 padding: 12px 20px;
-margin: 8px 0;
+margin-top: 1px;
 display:block;
 border: 1px solid lightblue;
 box-sizing: border-box;
@@ -43,8 +45,8 @@ background-color: #f44336;
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn,.signupbtn {
-float: left;
-width: 100%;
+float: right;
+width: 43%;
 border-radius:3px;
 }
 

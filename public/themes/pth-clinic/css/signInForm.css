@@ -14,7 +14,7 @@ font-family: 'Droid Arabic Kufi', serif;
 }
 
 input[type=text], input[type=password], input[type=email] {
-width: 100%;
+width: 43%;
 padding: 12px 20px;
 margin: 8px 0;
 display: inline-block;
