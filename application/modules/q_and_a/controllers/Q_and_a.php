@@ -52,5 +52,8 @@ class Q_and_a extends Front_Controller
 
         Template::render();
     }
+    public function qa() {
+        Template::render('qa');
+    }
     
 }
