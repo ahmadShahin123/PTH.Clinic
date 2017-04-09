@@ -20,6 +20,31 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
+    <?php if($this->uri->segment(1) == 'q_and_a') {?>
+        <link rel='stylesheet' id='wpum-frontend-css-css'  href="<?php echo base_url() . 'themes/pth-clinic/css/wp_user_manager_frontend.min.css'; ?>" type='text/css' media='all' />
+        <link rel='stylesheet' id='tie-style-css'  href="<?php echo base_url() . 'themes/pth-clinic/css/style_QA.css'; ?>" type='text/css' media='all' />
+
+        <link rel='stylesheet' id='jetpack_css-rtl-css'  href="<?php echo base_url() . 'themes/pth-clinic/css/jetpack-rtl.css'; ?>" type='text/css' media='all' />
+        <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/jquery.js'; ?>"></script>
+        <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/jquery-migrate.min.js'; ?>"></script>
+        <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/usp-pro.js'; ?>"></script>
+
+        <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/rtl.css'; ?>" type="text/css" media="screen" />
+
+
+
+
+        <style type='text/css'>img#wpstats{display:none}</style>
+        <link rel="shortcut icon" href="<?php echo base_url() . 'themes/pth-clinic/images/ask-dr-logo-2.png'; ?>" title="Favicon" />
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var tie = {"prettyPhoto" : "light_rounded" };
+            /* ]]> */
+        </script>
+
+        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/ie8.css'; ?>" />
+
+    <?php } ?>
 	
 
 

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/qa.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/q&amp;a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/qa-index.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/answer-inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/answer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
     </list>
@@ -26,8 +26,8 @@
       <file leaf-file-name="header_inner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="95" lean-forward="true" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
+            <state relative-caret-position="121">
+              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -46,18 +46,38 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="47" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qa.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="15">
+              <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/answer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,8 +86,8 @@
       <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/qa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,31 +96,9 @@
       <file leaf-file-name="Q_and_a.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="316">
+              <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Regular_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-              <folding>
-                <marker date="1491668167000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
-                <marker date="1491668167000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-                <marker date="1491668167000" expanded="true" signature="3198:3239" ph="select * fro... bf_reg_user" />
-                <marker date="1491668167000" expanded="true" signature="3198:3240" ph="select * fro... bf_reg_user" />
-                <marker date="1491668167000" expanded="true" signature="3198:3247" ph="select * fro... bf_reg_user" />
-                <marker date="1491668167000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
-                <marker date="1491668167000" expanded="true" signature="3198:3250" ph="select * fro... bf_reg_user" />
-                <marker date="1491668167000" expanded="true" signature="4668:4699" ph="update `bf_r... " />
-                <marker date="1491668167000" expanded="true" signature="4668:4711" ph="update `bf_r... " />
-                <marker date="1491668167000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
-                <marker date="1491668167000" expanded="true" signature="4668:4733" ph="update `bf_r... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,18 +121,6 @@
             <state relative-caret-position="345">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-              <folding>
-                <marker date="1491665907000" expanded="true" signature="683:716" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,9 +158,13 @@
         <option value="$PROJECT_DIR$/application/modules/articles/views/about_us.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/q&amp;a.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+        <option value="$USER_HOME$/Downloads/qa-index.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/answer.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
       </list>
     </option>
   </component>
@@ -459,15 +449,15 @@
       <workItem from="1491233417307" duration="28125000" />
       <workItem from="1491585218756" duration="255000" />
       <workItem from="1491588337386" duration="15086000" />
-      <workItem from="1491742555323" duration="1395000" />
+      <workItem from="1491742555323" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44861000" />
+    <option name="totallyTimeSpent" value="45624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="41" width="1260" height="685" extended-state="1" />
+    <frame x="0" y="41" width="1260" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,46 +486,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="67" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-          <folding>
-            <marker date="1491668167000" expanded="true" signature="2767:2872" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491668167000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1491668167000" expanded="true" signature="3198:3239" ph="select * fro... bf_reg_user" />
-            <marker date="1491668167000" expanded="true" signature="3198:3240" ph="select * fro... bf_reg_user" />
-            <marker date="1491668167000" expanded="true" signature="3198:3247" ph="select * fro... bf_reg_user" />
-            <marker date="1491668167000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
-            <marker date="1491668167000" expanded="true" signature="3198:3250" ph="select * fro... bf_reg_user" />
-            <marker date="1491668167000" expanded="true" signature="4668:4699" ph="update `bf_r... " />
-            <marker date="1491668167000" expanded="true" signature="4668:4711" ph="update `bf_r... " />
-            <marker date="1491668167000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
-            <marker date="1491668167000" expanded="true" signature="4668:4733" ph="update `bf_r... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1845">
@@ -885,42 +841,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
+    <entry file="file://$USER_HOME$/Downloads/qa-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="65" lean-forward="false" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="95" lean-forward="true" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
+        <state relative-caret-position="121">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/qa.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="47" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/qa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
           <folding />
         </state>
       </provider>

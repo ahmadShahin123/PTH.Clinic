@@ -55,5 +55,8 @@ class Q_and_a extends Front_Controller
     public function qa() {
         Template::render('qa');
     }
+    public function answer() {
+        Template::render('answer');
+    }
     
 }

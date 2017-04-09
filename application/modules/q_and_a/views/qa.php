@@ -33,11 +33,11 @@
 </li>
 <li id="menu-item-61327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61327"><a href="qa-index.php">التغذية والرياضة</a>
 <ul class="sub-menu">
-        <li id="menu-item-61481" class="menu-item-61481"><a href="qa-index.php">رياضة ولياقة</a></li>
-        <li id="menu-item-61482" class="menu-item-61482"><a href="qa-index.php">التغذية</a></li>
+        <li id="menu-item-61481" class="menu-item-61481"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">رياضة ولياقة</a></li>
+        <li id="menu-item-61482" class="menu-item-61482"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">التغذية</a></li>
 </ul>
 </li>
-<li id="menu-item-61473" class="menu-item-61473"><a href="qa-index.php">الأدوية والصيدلية</a></li>
+<li id="menu-item-61473" class="menu-item-61473"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأدوية والصيدلية</a></li>
 
 </ul></div>				</nav><!-- .main-nav /-->
 

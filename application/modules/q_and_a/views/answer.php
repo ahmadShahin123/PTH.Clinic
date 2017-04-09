@@ -12,32 +12,32 @@
                                         <li id="menu-item-61328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328">
                                         <a href="qa-index.php">التخصصات الباطنية</a>
 <ul class="sub-menu">
-        <li id="menu-item-61490" class="menu-item-61490"><a href="qa-index.php">طب الأسرة</a></li>
-        <li id="menu-item-61489" class="menu-item-61489"><a href="qa-index.php">الباطنة</a></li>
-        <li id="menu-item-61480" class="menu-item-61480"><a href="qa-index.php">الأعصاب والتخدير</a></li>
-        <li id="menu-item-61477" class="menu-item-61477"><a href="qa-index.php">القلب</a></li>
-        <li id="menu-item-61475" class="menu-item-61475"><a href="qa-index.php">الجلدية</a></li>
-        <li id="menu-item-61332" class="menu-item-61332"><a href="qa-index.php">النفسية</a></li>
-        <li id="menu-item-61476" class="menu-item-61476"><a href="qa-index.php">السرطان</a></li>
-        <li id="menu-item-61478" class="menu-item-61478"><a href="qa-index.php">سكّري</a></li>
+        <li id="menu-item-61490" class="menu-item-61490"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">طب الأسرة</a></li>
+        <li id="menu-item-61489" class="menu-item-61489"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الباطنة</a></li>
+        <li id="menu-item-61480" class="menu-item-61480"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأعصاب والتخدير</a></li>
+        <li id="menu-item-61477" class="menu-item-61477"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">القلب</a></li>
+        <li id="menu-item-61475" class="menu-item-61475"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجلدية</a></li>
+        <li id="menu-item-61332" class="menu-item-61332"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">النفسية</a></li>
+        <li id="menu-item-61476" class="menu-item-61476"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">السرطان</a></li>
+        <li id="menu-item-61478" class="menu-item-61478"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">سكّري</a></li>
 </ul>
 </li>
 <li id="menu-item-61333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61333"><a href="qa-index.php">التخصصات الجراحية</a>
 <ul class="sub-menu">
-        <li id="menu-item-61484" class="menu-item-61484"><a href="qa-index.php">الجراحة العامة</a></li>
-        <li id="menu-item-61479" class="menu-item-61479"><a href="qa-index.php">العظام</a></li>
-        <li id="menu-item-61335" class="menu-item-61335"><a href="qa-index.php">الأنف والأذن والحنجرة</a></li>
-        <li id="menu-item-61330" class="menu-item-61330"><a href="qa-index.php">الذكورة والمسالك البولية</a></li>
-        <li id="menu-item-61331" class="menu-item-61331"><a href="qa-index.php">العيون</a></li>
+        <li id="menu-item-61484" class="menu-item-61484"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجراحة العامة</a></li>
+        <li id="menu-item-61479" class="menu-item-61479"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العظام</a></li>
+        <li id="menu-item-61335" class="menu-item-61335"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأنف والأذن والحنجرة</a></li>
+        <li id="menu-item-61330" class="menu-item-61330"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الذكورة والمسالك البولية</a></li>
+        <li id="menu-item-61331" class="menu-item-61331"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العيون</a></li>
 </ul>
 </li>
 <li id="menu-item-61327" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61327"><a href="qa-index.php">التغذية والرياضة</a>
 <ul class="sub-menu">
-        <li id="menu-item-61481" class="menu-item-61481"><a href="qa-index.php">رياضة ولياقة</a></li>
-        <li id="menu-item-61482" class="menu-item-61482"><a href="qa-index.php">التغذية</a></li>
+        <li id="menu-item-61481" class="menu-item-61481"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">رياضة ولياقة</a></li>
+        <li id="menu-item-61482" class="menu-item-61482"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">التغذية</a></li>
 </ul>
 </li>
-<li id="menu-item-61473" class="menu-item-61473"><a href="qa-index.php">الأدوية والصيدلية</a></li>
+<li id="menu-item-61473" class="menu-item-61473"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأدوية والصيدلية</a></li>
 
 </ul></div>				</nav><!-- .main-nav /-->
 
