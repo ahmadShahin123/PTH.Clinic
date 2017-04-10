@@ -137,6 +137,12 @@ a:hover
 	font-size:20px;
 }
 
+.item-list {
+	width: 776px !important;
+    height: 0px !important;
+	
+}
+
 
 /*******************************************************************************/
 /* Form Contact us                                                              */

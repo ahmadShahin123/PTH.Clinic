@@ -187,7 +187,8 @@ a:hover {
 
 .item-list {
 	padding-bottom: 0px; 
-	margin:12px 0 70px;
+	margin: 100px 0px 0px !important;
+    display: -webkit-inline-box !important;
  }
 
 #main-content h2.page-title {
