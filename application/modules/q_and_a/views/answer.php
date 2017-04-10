@@ -42,7 +42,7 @@
 
 <span class="blog-author-avatar">
 <a href="#">
-<img src=""<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
+<img src="<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
 </a>
 </span>
 
@@ -75,7 +75,7 @@
 
 <div id="comments">
 
-<<h3 id="comments-title">
+<h3 id="comments-title">
 ‎إجابة واحدة</h3>
 
 <ol class="commentlist">	<li id="comment-6430">
