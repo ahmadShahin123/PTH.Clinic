@@ -4,12 +4,10 @@
 <meta charset="utf-8">
 
 <meta name="description" content="المنصة التفاعلية الطبية الاكبر للتواصل بين المرضى و الاطباء و توفير المعلومات الطبية و الصحية الموثوقة لمن يبحث عنها. انضم الآن"><link href="https://www.altibbi.com/global/stylesheets/app_7.min.css" media="screen" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/art.css'; ?>" /> 
+<link href="https://www.altibbi.com/global/stylesheets/home_6.min.css" media="screen" rel="stylesheet" type="text/css">  
 
 </head>
 <body class="unv-menu bac-header">
-
-
 
 <section>
 <div id="hotArticles">
