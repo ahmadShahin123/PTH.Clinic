@@ -570,8 +570,9 @@ ul.contact li a:before
 .header-inner
 {
 	direction: rtl;
-	margin-right: auto;
-	
+	margin-right: auto;	
+	background-color:silver;
+	height: 11%;
 }
 
 /*********************************************************************************/

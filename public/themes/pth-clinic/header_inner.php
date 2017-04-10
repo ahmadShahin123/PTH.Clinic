@@ -57,7 +57,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper-inner" class="header-inner">
+<div id="header-wrapper-inner" class="header-inner" style="background-color:silver;">
 	<div id="header" class="container">
 	
             
