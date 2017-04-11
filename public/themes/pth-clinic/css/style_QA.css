@@ -265,13 +265,29 @@ input.text_input:focus,textarea.textarea:focus {border: 1px solid #999;	}
 #sidebar {
 	background: #000 url(images/loading.gif) no-repeat center;
 	position: fixed;
-	left: 0;
-	top: 0;
+	left: 0px;
+	top: 0px;
 	bottom: 0;
 	z-index: 100;
 	width: 280px;
 	height: 100%;
 }
+
+.sidebar_ans {	
+	top: 87px !important;
+	
+}
+
+.text {
+	
+	text-align: center ;
+	
+	
+	
+}
+
+
+
 	.cover-img {
 		position: absolute;
 		width: 100%;
@@ -1038,6 +1054,7 @@ body.single #main-content .item-list{padding-bottom: 20px; margin-bottom: 20px;}
 		line-height: 44px;
 		margin: 25px 0 15px;
 		text-align: center;
+
 	}
 
 .post p.post-meta , .post-date{
