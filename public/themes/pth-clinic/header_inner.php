@@ -55,7 +55,7 @@
 
 </head>
 
-<body>
+<body class="<?php if($this->uri->segment(1) == 'articles') echo 'unv-menu bac-header'; else echo ''; ?>">
 
 <!-- home page -->
 
@@ -68,7 +68,7 @@
 <ul>
 		<li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo base_url() .'index.php/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
-		<li><a href="<?php echo base_url() . 'themes/pth-clinic/articles.php'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
+		<li><a href="<?php echo base_url() . 'index.php/articles/article'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
                 <li><a href="#"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
 		<li><a href="<?php echo base_url() .'index.php/q_and_a/qa' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
 		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
@@ -87,6 +87,8 @@
             <?php if($this->uri->segment(2) != 'signIn') { ?>
                 <li><a href="<?php echo base_url() .'index.php/regular_user/signIn' ;?>" class="signin" accesskey="7" title="">تسجيل الدخول</a></li>
             <?php } ?>
+            <link href="https://www.altibbi.com/global/stylesheets/app_7.min.css" media="screen" rel="stylesheet" type="text/css">
+            <link href="https://www.altibbi.com/global/stylesheets/home_6.min.css" media="screen" rel="stylesheet" type="text/css">
         </ul>
     <?php } ?>
    

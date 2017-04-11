@@ -572,7 +572,11 @@ ul.contact li a:before
 	direction: rtl;
 	margin-right: auto;	
 	background-color:silver;
-	height: 11.5%;
+	height: auto;
+
+}
+#header-wrapper-inner #header {
+	padding-bottom: 0;
 }
 
 /*********************************************************************************/
@@ -641,7 +645,7 @@ ul.contact li a:before
 	display: inline-block ;
 	padding: 0em 0.5em;
 	text-decoration: none;
-	font-size: 1.4em !important;
+	font-size: 1em !important;
 	font-weight: 900;
 	text-transform: uppercase;
 	line-height: 35px;
