@@ -7,30 +7,30 @@
 
 <body>
 
-<div class="divtext"><span class="span">مؤشر كتلة الجسم</span>  هو أفضل مقياس متعارف عليه عالميا في القياسات الجسمية  لتمييز الوزن الزائد عن السمنة أو البدانة عن النحافة عن الوزن المثالى، وهو يعبر عن العلاقة بين وزن الشخص وطوله. وهو حاصل على اعتراف المعهد القومي الأمريكي للصحة ومنظمة الصحة العالمية كأفضل معيار لقياس السمنة. و يحسب مؤشر كتلة الجسم بتقسيم الوزن بالكيلوجرام على مربع الطول بالمتر كما يلي<br/>
+<div class="bmidivtext"><span class="span">مؤشر كتلة الجسم</span>  هو أفضل مقياس متعارف عليه عالميا في القياسات الجسمية  لتمييز الوزن الزائد عن السمنة أو البدانة عن النحافة عن الوزن المثالى، وهو يعبر عن العلاقة بين وزن الشخص وطوله. وهو حاصل على اعتراف المعهد القومي الأمريكي للصحة ومنظمة الصحة العالمية كأفضل معيار لقياس السمنة. و يحسب مؤشر كتلة الجسم بتقسيم الوزن بالكيلوجرام على مربع الطول بالمتر كما يلي<br/>
 <b>مؤشر كتلة الجسم = الوزن بالكيلوجرام/مربع الطول بالمتر  </b>
 <br/>و بعد حسابه قارن النتيجة بالجدول التالي 
 	</div>
 
-<div class="div">
-<div class="form">
+<div class="bmidiv">
+<div class="bmiform">
 <b>أدخل البيانات المطلوبة</b>
 <form  action="" method="post" >
 
-الوزن:<input class="font" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" />
-الطول:<input class="font" type="text" placeholder="أدخل الطول بالمتر" name="height" />
+الوزن:<input class="bmifont" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" />
+الطول:<input class="bmifont" type="text" placeholder="أدخل الطول بالمتر" name="height" />
 
-مؤشر كتلة الجسم:<input class="font" type="text" placeholder="النتيجة" name="bmi" align="center"	/>
+مؤشر كتلة الجسم:<input class="bmifont" type="text" placeholder="النتيجة" name="bmi" align="center"	/>
 
-<div class="divbtn">
- <input class="button" type="submit" name="bmisubmit" value="احسب" align="center">
- <input class="cancelbtn" type="reset" name="bmireset" value="تفريغ الحقول" align="center">
+<div class="bmidivbtn">
+ <input class="bmibutton" type="submit" name="bmisubmit" value="احسب" align="center">
+ <input class="bmicancelbtn" type="reset" name="bmireset" value="تفريغ الحقول" align="center">
 </div>
  </form>
 </div>
 
 
-<table class="table">
+<table class="bmitable">
 <tr>
 <th>التصنيف</th>
 <th>مؤشر كتلة الجسم – كغ/م<sup>2</sup></th>
