@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
 
 
+
     <title>pth.clinic</title>
 
     <!-- Bootstrap Core CSS -->

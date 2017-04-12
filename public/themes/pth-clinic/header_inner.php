@@ -9,6 +9,7 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" >
 
+
     <?php if($this->uri->segment(2) == 'signUp' || $this->uri->segment(2) == 'signIn') { ?>
  <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signInForm.css';?>"	>
  <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/signUpForm.css';?>"	>

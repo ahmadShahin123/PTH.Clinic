@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>BMI</title>
-
+<link rel="stylesheet" type="text/css" media="all" href="css/bmi.css" >
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 مؤشر كتلة الجسم:<input class="font" type="text" placeholder="النتيجة" name="bmi" align="center"	/>
 
 <div class="divbtn">
- <input class="buttona" type="submit" name="bmisubmit" value="احسب" align="center">
+ <input class="button" type="submit" name="bmisubmit" value="احسب" align="center">
  <input class="cancelbtn" type="reset" name="bmireset" value="تفريغ الحقول" align="center">
 </div>
  </form>
