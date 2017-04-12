@@ -69,11 +69,11 @@ class Articles extends Front_Controller
         Template::set('record', $art);
         Template::render('us');
     }
-    public function article() {
+    public function art() {
         $article_query = $this->db->query("select * from bf_articles where deleted = 0 and about_us = 0 ");
         $articles = $article_query->result();
         Template::set('articles', $articles);
-        Template::render('article');
+        Template::render('art');
     }
     
 }
