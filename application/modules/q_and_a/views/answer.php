@@ -42,7 +42,7 @@
 
 <span class="blog-author-avatar">
 <a href="#">
-<img src="<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
+<img src="<?php echo base_url() . 'themes/pth-clinic/images/ask-dr-logo-2.png'; ?>" title="" alt="" />
 </a>
 </span>
 

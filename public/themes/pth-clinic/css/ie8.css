@@ -175,7 +175,7 @@ body{
 a:hover {
 	color: #3498db;	}
 
-		#sidebar .cover-img {background-image: url('http://askdr.com/wp-content/uploads/2015/04/sthe41.jpg') ;}
+	#sidebar .cover-img {background-image: url('http://localhost/pth.clinic/public/themes/pth-clinic/images/new-architecture.jpg');}
 	#content {
 	width: calc(40% - 10px);
  }

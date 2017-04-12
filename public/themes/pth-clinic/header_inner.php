@@ -65,7 +65,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper-inner" class="header-inner" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/m2.jpg'; ?>);">
+<div id="header-wrapper-inner" class="header-inner" >
 	<div id="header" class="container">
 	
             

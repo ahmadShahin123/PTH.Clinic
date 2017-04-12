@@ -3,7 +3,7 @@
 
 
 <div id="wrapper">
-<aside id="sidebar" style="position: relative;">
+<aside id="sidebar" style="position: relative" >
 <div class="cover-img">
 <div class="cover-body">
 
@@ -42,7 +42,7 @@
 
 <span class="blog-author-avatar">
 <a href="#">
-<img src="<?php echo base_url() . 'themes/pth-clinic/images/logo31.png'; ?>" title="" alt="" />
+<img src="<?php echo base_url() . 'themes/pth-clinic/images/ask-dr-logo-2.png'; ?>" title="" alt="" />
 </a>
 </span>
 
