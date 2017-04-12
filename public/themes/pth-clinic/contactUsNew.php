@@ -19,13 +19,13 @@
 	<label><b>البريد الإلكتروني</b></label>
     <input class="fontst" type="text" placeholder="أدخل البريد الإلكتروني" name="email">
 	
-	<label><b>إلى</b></label>
+	<label><b>Website</b></label>
     <input class="fontst todirection" type="text" value="pth@clinic.com"  maxlength="200" name="to" readonly>
 	
 	
    
 	
-	<textarea form="contactusform" class="fontst textarea" wrap="hard" placeholder="أدخل النص هنا" maxlength="500"name="textarea" ></textarea>
+	<textarea form="contactusform" class="fontst textarea" wrap="hard" placeholder="أدخل النص هنا" maxlength="500"name="comment" ></textarea>
 	
   
 
