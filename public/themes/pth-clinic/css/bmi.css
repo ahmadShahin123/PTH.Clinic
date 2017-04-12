@@ -1,13 +1,13 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
-.font{font-family: 'Droid Arabic Kufi', serif; font-size:20px;}
+.bmifont{font-family: 'Droid Arabic Kufi', serif; font-size:20px;}
 
-.span{font-size:25px; font-weight:bold; color:blue;}
+.bmispan{font-size:25px; font-weight:bold; color:blue;}
 
 
 
-.button {
+.bmibutton {
 font-size:15px;
 background-color: #4CAF50;
 color: white;
@@ -21,7 +21,7 @@ display:inline;
 margin:20px 10px;
 }
 
-.cancelbtn {
+.bmicancelbtn {
 background-color: #f44336;
 font-size:15px;
 color: white;
@@ -37,16 +37,16 @@ margin:20px 10px;
 
 }
 
-.divbtn{text-align:center;}
+.bmidivbtn{text-align:center;}
 
-.div{text-align:center; font-family: 'Droid Arabic Kufi', serif; }
+.bmidiv{text-align:center; font-family: 'Droid Arabic Kufi', serif; }
 
-.divtext{text-align:center; font-family: 'Droid Arabic Kufi', serif; margin:30px;}
+.bmidivtext{text-align:center; font-family: 'Droid Arabic Kufi', serif; margin:30px;}
 
-.form{border: 1px solid gray;background-color:#f2f2f2; width:10cm; border-radius:5px;
+.bmiform{border: 1px solid gray;background-color:#f2f2f2; width:10cm; border-radius:5px;
  display:inline-table; margin:0px 15px 0px 15px; direction:rtl; text-align:right; padding:8px; }
 
-.table{ border-radius:15px;
+.bmitable{ border-radius:15px;
   margin:0px 15px 0px 15px; 
   text-align:right;  display:inline-table; direction:rtl; height:100%; }
 
