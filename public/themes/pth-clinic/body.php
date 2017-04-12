@@ -16,9 +16,8 @@
                 <div class="carousel-caption" style="position:absolute; z-index:1;height:65%;">
 				<div class="center" >
 				
-                    <h3>In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+                    <h3>
+					يجب أن يثق المريض في كفاءة طبيبه وأن يشعر أن بإمكانه الوثوق به أو بها. بالنسبة لغالبية الأطباء، فإن إقامة علاقة طيبة مع المريض تعتبر أمرًا مهمًا. فبعض التخصصات الطبية مثل الطب النفسي وطب الأسرة تؤكد على أهمية العلاقة بين الطبيب والمريض أكثر من غيرها مثل علم الأمراض أو الطب الإشعاعي.
 					</h3>
 					
 				</div>
@@ -30,9 +29,8 @@
                 <div class="carousel-caption" style="position:absolute; z-index:1;height:65%;">
                     <div class="center">
 				
-                    <h3>In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+                    <h3>
+					تمثل علاقة الطبيب بـ المريض عنصرًا بالغ الأهمية في ممارسة الرعاية الصحية وتعتبر أساسية في تقديم رعاية صحية عالية الجودة في تشخيص المرض وعلاجه. وتشكل علاقة الطبيب بالمريض أحد أساسيات الأخلاقيات الطبية المعاصرة. فغالبية الجامعات تعلم الطلاب منذ البداية وحتى قبل أن تطأ أقدامهم المستشفيات، المحافظة على علاقة احترافية مع المرضى وتعزيز كرامة المرضى واحترام خصوصيتهم.
 					</h3>
 					
 				</div>
@@ -44,9 +42,7 @@
                 <div class="carousel-caption" style="position:absolute; z-index:1;height:65%;">
                     <div class="center" >
 				
-                    <h3>In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+                    <h3>يمكن للنظام الغذائي الخاص بك انقاذك من القلق، سواء كنت تعاني من القلق المزمن أو نوبات من الأفكار و المشاعر المرهقة في بعض الأحيان. بعض الأطعمة تحتوي على عناصر غذائية محددة مصممة لتحسين صحتك العقلية، النفسية و الجسدية.
 					</h3>
 					
 				</div>
@@ -59,9 +55,10 @@
                 <div class="carousel-caption" style="position:absolute; z-index:1;height:65%;">
                     <div class="center">
 				    
-                    <h3>In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
-					In this example, we use positioning and the transform property to vertically and horizontally center the div element:
+                    <h3>
+                     عملية التشخيص
+هي الطريقة التي يتوصل بها الطبيب إلى معرفة المرض الكامن وراء الأعراض الظاهرة على المريض. وهو الخطوة الأولى في علاج أي مرض، إذ أن معرفة اسم المرض وفهم التفسير الوظيفي للمرض هو الأساس الذي يترتب عليه إيجاد العلاج المناسب.
+
 					</h3>
 					
 				</div>

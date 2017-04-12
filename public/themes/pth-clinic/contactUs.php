@@ -34,15 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
     
-  if (empty($_POST["website"])) {
-    $website = "";
-  } else {
-    $website = test_input($_POST["website"]);
-    // check if URL address syntax is valid
-    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
-      $websiteErr = "Invalid URL";
-    }    
-  }
+
 
   if (empty($_POST["comment"])) {
     $comment = "";
@@ -50,11 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $comment = test_input($_POST["comment"]);
   }
 
-  if (empty($_POST["gender"])) {
-    $genderErr = "Gender is required";
-  } else {
-    $gender = test_input($_POST["gender"]);
-  }
+
 }
 
 function test_input($data) {
@@ -76,29 +64,21 @@ function test_input($data) {
 <form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
 <div class="container">
 <label><b>
-  Name: <input  type="text" name="name" class="fontst">
+  الإسم: <input  type="text" name="name" class="fontst">
   <span class="error">* <?php echo $nameErr;?></span>
   </label></b>
   <br>
   <label><b>
-  E-mail: <input type="text" name="email" class="fontst">
+  البريد الالكتروني: <input type="text" name="email" class="fontst">
   <span class="error">* <?php echo $emailErr;?></span>
   </label></b>
   <br>
   <label><b>
-  Website: <input type="text" name="website" class="fontst todirection">
-  <span class="error"><?php echo $websiteErr;?></span>
-  </label></b>
-  <br>
-  <label><b>
-  Comment: <textarea name="comment" rows="5" cols="40" class="fontst textarea"></textarea>
+  الرسالة: <textarea name="comment" rows="5" cols="40" class="fontst textarea"></textarea>
   <br>
   </label></b>
-  Gender:
-  <input type="radio" name="gender" value="female">Female
-  <input type="radio" name="gender" value="male">Male
-  <span class="error">* <?php echo $genderErr;?></span>
   <br>
+
   <div class="clearfix fontst">
   <button class="signupbtn fontst" name="submit" class="signupbtn fontst"  value="Submit"> أرسل </button>
   
@@ -113,11 +93,8 @@ echo $name;
 echo "<br>";
 echo $email;
 echo "<br>";
-echo $website;
-echo "<br>";
 echo $comment;
 echo "<br>";
-echo $gender;
 ?>
 
 </body>
