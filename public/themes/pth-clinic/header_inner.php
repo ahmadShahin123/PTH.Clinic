@@ -77,7 +77,7 @@
                 <li><a href="#"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
 		<li><a href="<?php echo base_url() .'index.php/q_and_a/qa' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>"  class="button" accesskey="6" title="">لياقة بدنية</a></li>
-        <li><a href="<?php echo base_url() . 'themes/pth-clinic/contactUsNew.php'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
+        <li><a href="<?php echo base_url() . 'themes/pth-clinic/contactUs.php'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
