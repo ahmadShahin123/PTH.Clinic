@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
 
 
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/default.css';?>" > 
@@ -22,6 +23,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
     <?php if($this->uri->segment(1) == 'q_and_a') {?>
+	
+	
+	
         <link rel='stylesheet' id='wpum-frontend-css-css'  href="<?php echo base_url() . 'themes/pth-clinic/css/wp_user_manager_frontend.min.css'; ?>" type='text/css' media='all' />
         <link rel='stylesheet' id='tie-style-css'  href="<?php echo base_url() . 'themes/pth-clinic/css/style_QA.css'; ?>" type='text/css' media='all' />
 
@@ -49,7 +53,6 @@
     <?php } ?>
 	
 
-
 </head>
 
 <body>
@@ -63,12 +66,12 @@
 <div id="menu" class="font-family" >
     
 <ul>
-		<li class="active"><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
+		<li><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo base_url() .'index.php/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
 		<li><a href="<?php echo base_url() . 'themes/pth-clinic/art.php'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
                 <li><a href="#"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
 		<li><a href="<?php echo base_url() .'index.php/q_and_a/qa' ;?>"  class="button" accesskey="4" title="">أسئلة وأجوبة</a></li>
-		<li><a href="#"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
+		<li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>"  class="button" accesskey="5" title="">لياقة بدنية</a></li>
         <li><a href="<?php echo base_url() . 'themes/pth-clinic/contactUsNew.php'; ?>"  class="button" accesskey="6" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
