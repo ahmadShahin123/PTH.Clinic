@@ -3,6 +3,7 @@ html, body
 {
 	direction: rtl;
 	height: 100%;
+	color: #0000ff !important;
 	font-family: 'Cairo', sans-serif !important;
 }
 
@@ -13,8 +14,8 @@ body
 	padding: 0px;
 	background: #2056ac;
 	font-size: 13pt !important;
-	color: rgba(0,0,0,.6);
-	font-family: 'Cairo', sans-serif;
+	
+	
 }
 
 h1, h2, h3
@@ -38,6 +39,8 @@ ol, ul
 p
 {
 	line-height: 180%;
+	text-align: center;
+    
 }
 
 strong
@@ -708,6 +711,11 @@ ul.contact li a:before
 	top:7px;
 	left:-70px;
 
+}
+
+.valid_error{
+	
+	color:red;
 }
 
 /*********************************************************************************/
