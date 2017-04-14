@@ -33,7 +33,7 @@
                         <div class="articleAnswer clearfix">
                             <p>
                                 <?php echo $article->description; ?></p>
-                            <span target="#article_3699"><a href="#" class="readMore pull-left mouse-pointer">إقرأ المزيد</span></a>
+                            <span target="#article_3699"><a href="<?php echo base_url() . 'index.php/articles/articles_inner/' . $article->article_id; ?>" class="readMore pull-left mouse-pointer">إقرأ المزيد</span></a>
                         </div>
 
 

@@ -75,5 +75,15 @@ class Articles extends Front_Controller
         Template::set('articles', $articles);
         Template::render('art');
     }
+    public function articles_inner() {
+        $id = $this->uri->segment(3);
+        $query = $this->db->query("select * from `bf_articles` where article_id = $id");
+        $article = $query->result();
+        Template::set('article', $article);
+        Template::render('articles_inner');
+    }
+    public function contactUs() {
+        Template::render('contactUs');
+    }
     
 }

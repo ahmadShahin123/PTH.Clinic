@@ -35,9 +35,9 @@
 
     $('#password, #confirm_password').on('keyup', function () {
         if ($('#password').val() == $('#confirm_password').val()) {
-            $('#message').html('Matching').css('color', 'green');
+            $('#message').html('متطابق').css('color', 'green');
         } else
-            $('#message').html('Not Matching').css('color', 'red');
+            $('#message').html('لا يوجد تطابق').css('color', 'red');
     });
 </script>
 
