@@ -9,8 +9,8 @@
   <form action="#">
      <select id="art" name="art">
       <option value="a">#</option>
-      <option value="">#</option>
-      <option value="usa">#</option>
+      <option value="b">#</option>
+      <option value="c">#</option>
      </select>
       <textarea>Some text...</textarea>
     <input type="submit" value="Submit">
