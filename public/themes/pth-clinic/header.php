@@ -68,13 +68,13 @@
 <div id="menu" class="font-family" >
     
 <ul>
-		<li><a href="<?php echo base_url() . 'index.php' ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
-		<li><a href="<?php echo base_url() .'index.php/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
-		<li><a href="<?php echo base_url() . 'index.php/articles/art'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
+		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
+		<li><a href="<?php echo site_url() . '/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
+		<li><a href="<?php echo site_url() . '/articles/art'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
                 <li><a href="#"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
-		<li><a href="<?php echo base_url() .'index.php/q_and_a/qa' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
+		<li><a href="<?php echo site_url() .     '/q_and_a/qa' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
 		<li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>"  class="button" accesskey="6" title="">لياقة بدنية</a></li>
-        <li><a href="<?php echo base_url() . 'themes/pth-clinic/contactUs.php'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
+        <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
@@ -84,10 +84,10 @@
 
 	  <ul>
           <?php if($this->uri->segment(2) != 'signUp') { ?>
-		<li><a href="<?php echo base_url() .'index.php/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
+		<li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
           <?php } ?>
           <?php if($this->uri->segment(2) != 'signIn') { ?>
-  		<li><a href="<?php echo base_url() .'index.php/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
+  		<li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
           <?php } ?>
       </ul>
    <?php } ?>

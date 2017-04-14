@@ -26,7 +26,29 @@ class Articles extends Front_Controller
             Assets::add_js('jquery-ui-1.8.13.min.js');
             Assets::add_css('jquery-ui-timepicker.css');
             Assets::add_js('jquery-ui-timepicker-addon.js');
-        
+        $this->load->library('email');
+        $config['protocol']    = 'smtp';
+
+        $config['smtp_host']    = 'ssl://smtp.gmail.com';
+
+        $config['smtp_port']    = '465';
+
+        $config['smtp_timeout'] = '7';
+
+        $config['smtp_user']    = 'shahin4153@gmail.com';
+
+        $config['smtp_pass']    = '14919953';
+
+        $config['charset']    = 'utf-8';
+
+        $config['newline']    = "\r\n";
+
+        $config['mailtype'] = 'text'; // or html
+
+        $config['validation'] = TRUE; // bool whether to validate email or not
+
+        $this->email->initialize($config);
+
 
         Assets::add_module_js('articles', 'articles.js');
     }
@@ -83,6 +105,20 @@ class Articles extends Front_Controller
         Template::render('articles_inner');
     }
     public function contactUs() {
+        if(isset($_POST['submit'])) {
+            $this->email->from($_POST['email'], $_POST['name']);
+            $this->email->to('shahin41@live.com');
+
+            $this->email->subject('pth-clinic');
+            $this->email->message($_POST['comment']);
+            if($this->email->send()) {
+                $this->session->set_flashdata('success', "Your email was sent successfully. We'll contact you soon");
+            }
+            else {
+                $this->session->set_flashdata('failure', "Something went wrong. Please try later");
+            }
+            redirect(site_url() . '/articles/contactUs');
+        }
         Template::render('contactUs');
     }
     

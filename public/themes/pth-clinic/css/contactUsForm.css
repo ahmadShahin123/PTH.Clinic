@@ -88,6 +88,12 @@ img.avatar {
     clear: both;
     display: table;
 }
+.container {
+    width: 100%;
+}
+textarea {
+    border: 1px solid #69C3C4 !important;
+}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {

@@ -3,8 +3,13 @@
 <div class="fontst hst">
     <h2>اتصل بنا </h2>
 </div>
-
-<form method="post" class="form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<div class="success">
+    <p><?php echo $this->session->flashdata('success'); ?></p>
+</div>
+<div class="fail">
+    <p> <?php echo $this->session->flashdata('failure'); ?></p>
+</div>
+<form method="post" class="form" action="<?php echo site_url() . '/articles/contactUs'?>">
     <div class="container">
         <label>
             الإسم: <input  type="text" name="name" class="fontst">

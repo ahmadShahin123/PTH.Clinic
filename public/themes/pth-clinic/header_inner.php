@@ -59,7 +59,9 @@
     <link href="https://www.altibbi.com/global/stylesheets/app_7.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="https://www.altibbi.com/global/stylesheets/home_6.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="https://www.altibbi.com/global/stylesheets/articlesviewstyle/articlesviewstyle_1.min.css" media="screen" rel="stylesheet" type="text/css"/>
+    <?php if($this->uri->segment('2') == 'contactUs') { ?>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'themes/pth-clinic/css/contactUsForm.css'; ?>"/>
+    <?php } ?>
 
 
 </head>
