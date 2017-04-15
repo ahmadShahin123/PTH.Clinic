@@ -76,7 +76,7 @@
 		<li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
             <ul class="submenu">
                 <li><a>تمارين</a></li>
-                <li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>">مؤشر كتلة الجسم</a></li>
+                <li><a href="<?php echo site_url() . '/excercises/bmi' ;?>">مؤشر كتلة الجسم</a></li>
             </ul>
         </li>
         <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>

@@ -63,5 +63,8 @@ class Excercises extends Front_Controller
 
         Template::render();
     }
+    public function bmi() {
+        Template::render('bmi');
+    }
     
 }
