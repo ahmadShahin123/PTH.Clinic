@@ -552,6 +552,7 @@ ul.contact li a:before
 	position:absolute;
 	z-index:1;
 	width:100%;
+	height:100%;
 }
 #header-wrapper-inner
 {
@@ -568,6 +569,7 @@ ul.contact li a:before
 
 #header {
 	width: 100%;
+	height:100%;
 }
 
 
@@ -630,7 +632,7 @@ ul.contact li a:before
 
 #menu
 {
-	height: 60px;
+	height: 100%;
 }
 
 #menu ul
@@ -1051,4 +1053,39 @@ ul.tools li a:before {
 #header-wrapper-inner #header {
 	margin-right: 0 !important;
 }
-
+.hasSubmenu {
+	position: relative;
+}
+body #menu ul li .submenu {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	background-color: #fcfcfc;
+	min-width: 192px;
+	padding: 15px 15px;
+	border-radius: 13px;
+	display: none;
+	transition: all 0.5s;
+}
+.submenu li {
+	float: right;
+}
+.hasSubmenu:hover a {
+	border-bottom: none !important;
+}
+.submenu li:hover {
+	border-bottom: 3px solid blue;
+}
+.hasSubmenu:hover .submenu {
+	display: block !important;
+}
+.submenu::after {
+	content: " ";
+	position: absolute;
+	bottom: 100%;
+	right: 25%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent white transparent;
+}

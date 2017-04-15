@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/art.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/art.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,16 +23,28 @@
       <file leaf-file-name="header_inner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
               <folding>
-                <marker date="1492171729000" expanded="true" signature="3752:3880" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="3790:3880" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="3841:3880" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="3852:3867" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="3852:3880" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="4749:4798" ph="..." />
-                <marker date="1492171729000" expanded="true" signature="4937:4985" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="3752:3880" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="3790:3880" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="3841:3880" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="3852:3867" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="3852:3880" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="4930:4979" ph="..." />
+                <marker date="1492278276000" expanded="true" signature="5118:5166" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="1055" column="0" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1090" selection-end-column="1" />
+              <folding>
+                <marker date="1492278013000" expanded="true" signature="11348:11350" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,22 +53,12 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="265">
+              <caret line="80" column="13" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="80" selection-end-column="13" />
               <folding>
-                <marker date="1492170902000" expanded="true" signature="3737:3786" ph="..." />
-                <marker date="1492170902000" expanded="true" signature="3933:3979" ph="..." />
+                <marker date="1492278164000" expanded="true" signature="3912:3961" ph="..." />
+                <marker date="1492278164000" expanded="true" signature="4108:4154" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="art.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,16 +66,26 @@
       <file leaf-file-name="Articles.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Articles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            <state relative-caret-position="354">
+              <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
               <folding>
-                <marker date="1492174357000" expanded="true" signature="2530:2611" ph="select * fro... bf_articles" />
-                <marker date="1492174357000" expanded="true" signature="2793:2849" ph="select * fro... bf_articles" />
-                <marker date="1492174357000" expanded="true" signature="2793:2853" ph="select * fro... bf_articles" />
-                <marker date="1492174357000" expanded="true" signature="3101:3148" ph="select * fro... bf_articles" />
-                <marker date="1492174357000" expanded="true" signature="3101:3149" ph="select * fro... bf_articles" />
-                <marker date="1492174357000" expanded="true" signature="3101:3151" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="1984:2065" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="2247:2303" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="2247:2307" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="2555:2602" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="2555:2603" ph="select * fro... bf_articles" />
+                <marker date="1492275698000" expanded="true" signature="2555:2605" ph="select * fro... bf_articles" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="art.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +148,6 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/index.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/articles.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/articles.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/article.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/custom.css" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/responsive_rtl.css" />
@@ -146,12 +160,13 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/contactUs.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/responsive.css" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/contactUsForm.css" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" />
-        <option value="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/art.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
       </list>
     </option>
   </component>
@@ -566,7 +581,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68316000" />
+    <option name="totallyTimeSpent" value="71000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -604,13 +619,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/language/arabic/q_and_a_lang.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,62 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="581" column="22" lean-forward="false" selection-start-line="581" selection-start-column="22" selection-end-line="581" selection-end-column="22" />
-          <folding>
-            <marker date="1492170246000" expanded="true" signature="10903:10984" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11007:11024" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11046:11064" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11074:11177" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11320:11322" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11585:11607" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11872:11940" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11952:11974" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="11986:12070" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="12082:12085" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="12097:12100" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="12369:12461" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="12469:12472" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="12736:12832" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13097:13130" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13396:13480" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13531:13592" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13608:13666" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13689:13723" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="13989:14099" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14114:14190" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14205:14263" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14530:14614" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14638:14666" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14689:14726" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="14992:15073" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15091:15140" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15156:15240" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15260:15284" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15307:15335" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15376:15394" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15425:15463" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15474:15492" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15761:15881" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15900:15959" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="15981:16228" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16295:16358" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16381:16405" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16431:16454" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16485:16547" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16575:16606" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16618:16679" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16693:16757" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16776:16820" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16836:16853" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="16876:17036" ph="{...}" />
-            <marker date="1492170246000" expanded="true" signature="17129:17161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -966,33 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <marker date="1492170902000" expanded="true" signature="3737:3786" ph="..." />
-            <marker date="1492170902000" expanded="true" signature="3933:3979" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <marker date="1492171729000" expanded="true" signature="3752:3880" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="3790:3880" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="3841:3880" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="3852:3867" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="3852:3880" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="4749:4798" ph="..." />
-            <marker date="1492171729000" expanded="true" signature="4937:4985" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/contactUsForm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1023,6 +948,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/signUp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="84" column="34" lean-forward="false" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+          <folding>
+            <marker date="1492275698000" expanded="true" signature="1984:2065" ph="select * fro... bf_articles" />
+            <marker date="1492275698000" expanded="true" signature="2247:2303" ph="select * fro... bf_articles" />
+            <marker date="1492275698000" expanded="true" signature="2247:2307" ph="select * fro... bf_articles" />
+            <marker date="1492275698000" expanded="true" signature="2555:2602" ph="select * fro... bf_articles" />
+            <marker date="1492275698000" expanded="true" signature="2555:2603" ph="select * fro... bf_articles" />
+            <marker date="1492275698000" expanded="true" signature="2555:2605" ph="select * fro... bf_articles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/articles/views/articles_inner.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1041,34 +1005,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/signUp.php">
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state relative-caret-position="265">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="80" selection-end-column="13" />
           <folding>
-            <marker date="1492174357000" expanded="true" signature="2530:2611" ph="select * fro... bf_articles" />
-            <marker date="1492174357000" expanded="true" signature="2793:2849" ph="select * fro... bf_articles" />
-            <marker date="1492174357000" expanded="true" signature="2793:2853" ph="select * fro... bf_articles" />
-            <marker date="1492174357000" expanded="true" signature="3101:3148" ph="select * fro... bf_articles" />
-            <marker date="1492174357000" expanded="true" signature="3101:3149" ph="select * fro... bf_articles" />
-            <marker date="1492174357000" expanded="true" signature="3101:3151" ph="select * fro... bf_articles" />
+            <marker date="1492278164000" expanded="true" signature="3912:3961" ph="..." />
+            <marker date="1492278164000" expanded="true" signature="4108:4154" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="34" column="89" lean-forward="false" selection-start-line="34" selection-start-column="89" selection-end-line="34" selection-end-column="89" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+          <folding>
+            <marker date="1492278276000" expanded="true" signature="3752:3880" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="3790:3880" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="3841:3880" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="3852:3867" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="3852:3880" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="4930:4979" ph="..." />
+            <marker date="1492278276000" expanded="true" signature="5118:5166" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="1055" column="0" lean-forward="false" selection-start-line="1055" selection-start-column="0" selection-end-line="1090" selection-end-column="1" />
+          <folding>
+            <marker date="1492278013000" expanded="true" signature="11348:11350" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

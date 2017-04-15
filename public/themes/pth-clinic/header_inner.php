@@ -82,7 +82,12 @@
 		<li><a href="<?php echo site_url() . '/articles/art'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
                 <li><a href="#"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
 		<li><a href="<?php echo site_url() .'/q_and_a/qa' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
-		<li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>"  class="button" accesskey="6" title="">لياقة بدنية</a></li>
+        <li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
+            <ul class="submenu">
+                <li><a>تمارين</a></li>
+                <li><a href="<?php echo base_url() .'themes/pth-clinic/bmi.php' ;?>">مؤشر كتلة الجسم</a></li>
+            </ul>
+        </li>
         <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
