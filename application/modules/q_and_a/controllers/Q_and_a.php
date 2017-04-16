@@ -53,18 +53,21 @@ class Q_and_a extends Front_Controller
         Template::render();
     }
     public function qa() {
-        $query1 = $this->db->query("select * from bf_categories where type = 0");
-        $internal = $query1->result();
-        Template::set('internal', $internal);
-        $query2 = $this->db->query("select * from bf_categories where type = 1");
-        $surgical = $query2->result();
-        Template::set('surgical', $surgical);
-        $query2 = $this->db->query("select * from bf_categories where type = 2");
-        $medicine = $query2->result();
-        Template::set('medicine', $medicine);
+        $query1 = $this->db->query("select * from bf_categories where parent = 0");
+        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $parents = $query1->result();
+        $children = $query2->result();
+        Template::set('parents', $parents);
+        Template::set('children', $children);
         Template::render('qa');
     }
     public function answer() {
+        $query1 = $this->db->query("select * from bf_categories where parent = 0");
+        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $parents = $query1->result();
+        $children = $query2->result();
+        Template::set('parents', $parents);
+        Template::set('children', $children);
         Template::render('answer');
     }
     

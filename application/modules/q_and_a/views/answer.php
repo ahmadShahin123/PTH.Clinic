@@ -8,33 +8,26 @@
 <div class="cover-body">
 
 <nav id="main-nav">
-<div class="main-menu"><ul id="menu-main" class="menu">
-<li id="menu-item-61328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328">
-<a href="qa-index.php">التخصصات الباطنية</a>
-<ul class="sub-menu">
-<li id="menu-item-61490" class="menu-item-61490"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">طب الأسرة</a></li>
-<li id="menu-item-61489" class="menu-item-61489"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الباطنة</a></li>
-<li id="menu-item-61477" class="menu-item-61477"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">القلب</a></li>
-<li id="menu-item-61475" class="menu-item-61475"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجلدية</a></li>
-<li id="menu-item-61332" class="menu-item-61332"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">النفسية</a></li>
-<li id="menu-item-61476" class="menu-item-61476"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">السرطان</a></li>
-<li id="menu-item-61478" class="menu-item-61478"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">سكّري</a></li>
-</ul>
-</li>
-<li id="menu-item-61333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61333">
-<a href="qa-index.php">التخصصات الجراحية</a>
-<ul class="sub-menu">
-<li id="menu-item-61484" class="menu-item-61484"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الجراحة العامة</a></li>
-<li id="menu-item-61479" class="menu-item-61479"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العظام</a></li>
-<li id="menu-item-61335" class="menu-item-61335"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأنف والأذن والحنجرة</a></li>
-<li id="menu-item-61330" class="menu-item-61330"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الذكورة والمسالك البولية</a></li>
-<li id="menu-item-61331" class="menu-item-61331"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">العيون</a></li>
-</ul>
-</li>
+    <div class="main-menu"><ul id="menu-main" class="menu">
+            <?php foreach ($parents as $key=>$parent) { ?>
+                <li id="menu-item-61328" class="<?php if(isset($parent->link) && $parent->link != '') echo 'menu-item-61473'; else echo 'menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328'; ?>">
+                    <a href="<?php if(isset($parent->link) && $parent->link != '') echo site_url() . $parent->link . '/' . $parent->cat_id; else echo '#';?>"><?php echo $parent->cat_name; ?></a>
+                    <?php if(isset($parent->link) && $parent->link != '') continue; ?>
+                    <ul class="sub-menu">
+                        <?php foreach ($children as $key_child=>$child) { ?>
+                            <?php if ($child->parent == $parent->cat_id) { ?>
+                                <li id="menu-item-<?php echo $child->cat_id; ?>" class="menu-item-<?php echo $child->cat_id; ?>"><a href="<?php echo site_url() . $child->link . '/' . $child->cat_id; ?>"><?php echo $child->cat_name; ?></a></li>
+                            <?php  } ?>
 
-<li id="menu-item-61473" class="menu-item-61473"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>">الأدوية والصيدلية</a></li>
+                        <?php } ?>
+                    </ul>
+                </li>
+            <?php } ?>
 
-</ul></div>				
+            <li id="menu-item-61333" class="menu-item">
+                <a href="#">اسأل</a>
+            </li>
+        </ul></div>
 </nav><!-- .main-nav /-->
 
 

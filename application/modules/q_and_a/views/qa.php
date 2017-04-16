@@ -1,6 +1,5 @@
 <?php echo theme_view('header_inner'); ?>
 
-
 <div id="wrapper">
 <aside id="sidebar" style="position: relative" >
 <div class="cover-img">
@@ -8,26 +7,26 @@
 
 <nav id="main-nav">
 <div class="main-menu"><ul id="menu-main" class="menu">
-<li id="menu-item-61328" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328">
-<a href="#">التخصصات الباطنية</a>
-<ul class="sub-menu">
-    <?php foreach($internal as $key=>$major) { ?>
-<li id="menu-item-<?php echo $major->cat_id; ?>" class="menu-item-<?php echo $major->cat_id; ?>"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>"><?php echo $major->cat_name; ?></a></li>
+        <?php foreach ($parents as $key=>$parent) { ?>
+<li id="menu-item-61328" class="<?php if(isset($parent->link) && $parent->link != '') echo 'menu-item-61473'; else echo 'menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61328'; ?>">
+<a href="<?php if(isset($parent->link) && $parent->link != '') echo site_url() . $parent->link . '/' . $parent->cat_id; else echo '#';?>"><?php echo $parent->cat_name; ?></a>
+<?php if(isset($parent->link) && $parent->link != '') continue; ?>
+    <ul class="sub-menu">
+    <?php foreach ($children as $key_child=>$child) { ?>
+        <?php if ($child->parent == $parent->cat_id) { ?>
+<li id="menu-item-<?php echo $child->cat_id; ?>" class="menu-item-<?php echo $child->cat_id; ?>"><a href="<?php echo site_url() . $child->link . '/' . $child->cat_id; ?>"><?php echo $child->cat_name; ?></a></li>
+<?php  } ?>
+
     <?php } ?>
-</ul>
+    </ul>
 </li>
-<li id="menu-item-61333" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-61333">
-<a href="#">التخصصات الجراحية</a>
-<ul class="sub-menu">
-    <?php foreach ($surgical as $key=>$major) { ?>
-<li id="menu-item-<?php echo $major->cat_id; ?>" class="menu-item-<?php echo $major->cat_id; ?>"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>"><?php echo $major->cat_name; ?></a></li>
-    <?php } ?>
-</ul>
-</li>
-<?php foreach ($medicine as $item=>$major) { ?>
-<li id="menu-item-<?php echo $major->cat_name; ?>" class="menu-item-<?php echo $major->cat_name; ?>"><a href="<?php echo base_url() . 'index.php/q_and_a/qa'; ?>"><?php echo $major->cat_name; ?></a></li>
-<?php } ?>
-</ul></div>				
+        <?php } ?>
+
+        <li id="menu-item-61333" class="menu-item">
+            <a href="#">اسأل</a>
+        </li>
+</ul></div>
+
 </nav><!-- .main-nav /-->
 
 

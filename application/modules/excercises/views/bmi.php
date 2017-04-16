@@ -8,12 +8,12 @@
 <div class="bmidiv">
     <div class="bmiform">
         <b>أدخل البيانات المطلوبة</b>
-        <form  action="" method="post" >
+        <form  action="<?php echo site_url() . '/excercises/bmi'; ?>" method="post" >
 
-            الوزن:<input class="bmifont" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" />
-            الطول:<input class="bmifont" type="text" placeholder="أدخل الطول بالمتر" name="height" />
+            الوزن:<input class="bmifont" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" value="<?php isset($_POST['weight']) ? $_POST['weight'] : '' ?>"/>
+            الطول:<input class="bmifont" type="text" placeholder="أدخل الطول بالمتر" name="height" value="<?php isset($_POST['height']) ? $_POST['height'] : '' ?>"/>
 
-            مؤشر كتلة الجسم:<input class="bmifont" type="text" placeholder="النتيجة" name="bmi" align="center"	/>
+            مؤشر كتلة الجسم:<input class="bmifont" type="text" placeholder="النتيجة" name="bmi" align="center"	value="<?php echo isset($_POST['bmi']) ? $_POST['bmi'] : ''; ?>"/>
 
             <div class="bmidivbtn">
                 <input class="bmibutton" type="submit" name="bmisubmit" value="احسب" align="center">

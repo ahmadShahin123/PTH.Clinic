@@ -1125,3 +1125,6 @@ body #menu ul li .submenu {
 	border-style: solid;
 	border-color: transparent transparent white transparent;
 }
+#hotArticles article .articleAnswer {
+	border-bottom: none !important;
+}

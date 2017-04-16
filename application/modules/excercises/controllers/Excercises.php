@@ -64,6 +64,9 @@ class Excercises extends Front_Controller
         Template::render();
     }
     public function bmi() {
+        if(isset($_POST['bmisubmit'])) {
+            $_POST['bmi'] = $_POST['weight'] / round(pow($_POST['height'], 2), 1);
+        }
         Template::render('bmi');
     }
     
