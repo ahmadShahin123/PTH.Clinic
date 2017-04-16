@@ -146,6 +146,43 @@ a:hover
 	
 }
 
+/*********************************************************************************/
+/* articles                                                                       */
+/*********************************************************************************/
+
+
+.articleImg{
+	
+max-width: 100%;
+max-height: 170px;
+}
+
+
+
+@media only screen and (min-width: 980px) {
+  .article-image {
+    width:100% !important;
+	width: 100% !important;
+    max-height: 400px !important;
+    max-width: 1318px !important;
+	border: 0px solid #69C3C4 !important;
+	border-radius: 0px !important;
+	
+  }
+}
+
+
+.box-border {
+	
+height: 100% !important;
+width: 965px !important;
+line-height: 2.42857 ! important;
+
+	
+}
+
+
+
 
 /*******************************************************************************/
 /* Form Contact us                                                              */
