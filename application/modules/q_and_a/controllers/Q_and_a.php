@@ -70,5 +70,14 @@ class Q_and_a extends Front_Controller
         Template::set('children', $children);
         Template::render('answer');
     }
+    public function ask() {
+        $query1 = $this->db->query("select * from bf_categories where parent = 0");
+        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $parents = $query1->result();
+        $children = $query2->result();
+        Template::set('parents', $parents);
+        Template::set('children', $children);
+        Template::render('ask');
+    }
     
 }

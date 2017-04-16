@@ -1128,3 +1128,13 @@ body #menu ul li .submenu {
 #hotArticles article .articleAnswer {
 	border-bottom: none !important;
 }
+li.ask {
+	text-align: center;
+}
+li.ask a {
+	background: #062c50 !important;
+}
+li.ask a:hover {
+	background: white !important;
+	color: #062c4e;
+}

@@ -1,16 +1,16 @@
 <?php echo theme_view('header_inner'); ?>
 
-<h3>Askdr :</h3>
+<h3>اسأل سؤالك</h3>
 
 <div >
-    <form action="#">
-        <select id="art" name="art">
+    <form action="<?php echo site_url() . '/q_and_a/ask'; ?>" method="post">
+        <select id="art" name="cat">
             <option value="a">#</option>
             <option value="b">#</option>
             <option value="c">#</option>
         </select>
-        <textarea>Some text...</textarea>
-        <input type="submit" value="Submit">
+        <textarea name="question" placeholder="السؤال"></textarea>
+        <input type="submit" name ="send" value="Submit">
     </form>
 </div>
 

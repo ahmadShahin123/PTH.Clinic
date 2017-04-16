@@ -22,8 +22,8 @@
 </li>
         <?php } ?>
 
-        <li id="menu-item-61333" class="menu-item">
-            <a href="#">اسأل</a>
+        <li id="menu-item-61333" class="menu-item ask">
+            <a href="<?php echo site_url() . '/q_and_a/ask'; ?>">اسأل</a>
         </li>
 </ul></div>
 
