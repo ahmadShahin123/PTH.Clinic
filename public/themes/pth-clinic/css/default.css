@@ -177,6 +177,8 @@ max-height: 170px;
 height: 100% !important;
 width: 965px !important;
 line-height: 2.42857 ! important;
+font-family: 'Droid Arabic Kufi', serif !important;
+text-align: justify !important;
 
 	
 }
