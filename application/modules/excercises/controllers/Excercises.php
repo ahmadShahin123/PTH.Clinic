@@ -70,4 +70,8 @@ class Excercises extends Front_Controller
         Template::render('bmi');
     }
     
+    public function excercises() {
+         Template::render('excercises');
+    }
+    
 }
