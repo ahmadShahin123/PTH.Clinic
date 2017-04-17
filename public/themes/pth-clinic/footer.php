@@ -73,14 +73,17 @@
 
 			<div class="footer-left">
 
-				<h3>PTH<span>Clinic</span></h3>
+				<h3>PTH <span>Clinic</span></h3>
 
 				<p class="footer-links">
 					<a href="#">الرئيسية</a>
 					·
-					<a href="#">من نحن</a>
+
+					<a href="#">مقالات طبية</a>
 					·
-					<a href="#">البلقاء</a>
+					<a href="#">تشخيص الأمراض</a>
+					·
+					<a href="#">أسئلة وأجوبة</a>
 					·
 					<a href="#">اتصل بنا</a>
 				</p>
