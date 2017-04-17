@@ -14,7 +14,7 @@
                     <div class="articleHolder">
                         <h2 id="article_<?php echo $article->article_id; ?>" class="articleTitle"><?php echo $article->title; ?></h2>
 
-                        <div class="articleImg">
+                         <div class="articleImg">
                             <img src="<?php echo base_url() . 'assets/images/' . $article->image; ?>"/>
                         </div>
                         <!--<div class="doctorBox clearfix">
