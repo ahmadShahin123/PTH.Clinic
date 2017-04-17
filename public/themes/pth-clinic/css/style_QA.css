@@ -1677,7 +1677,7 @@ img.alignleft {margin: 2px 8px 3px 3px;display: inline;}
 		background: #f39c12;
 	}
 	 input[type=submit]:active .form-submit #submit:active, #login-form .login-button:active , .widget-feedburner .feedburner-subscribe:active , .post-password-required input[type="submit"]:active, #searchsubmit:active {top:2px;}
-	.entry input[type=text], .entry input[type=password], .entry input[type=email]{max-width: 250px;}
+	.entry input[type=text], .entry input[type=password], .entry input[type=email]{max-width: 250px;} 
 	.entry textarea{width: 95%}
 	.post-password-required input[type="password"]{width: 250px;}
 
