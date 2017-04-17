@@ -57,8 +57,9 @@
 
 
 
-<div class="post-inner">			
-<h2 class="entry-title"><a href="<?php echo base_url() . 'index.php/q_and_a/answer'; ?>" title="رابط ثابت لـ ما هو نوع التخدير الذي سيتم عند إخراج الأنبوب من العين؟">ما هو نوع التخدير الذي سيتم عند إخراج الأنبوب من العين؟</a></h2>
+<div class="post-inner">
+    <?php foreach ($questions as $key=>$question) { ?>
+<h2 class="entry-title"><a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" ><?php echo $question->question; ?></a></h2>
 
 <p class="post-meta">
 
@@ -77,6 +78,7 @@
 </article><!-- .item-list -->
 
 </div><!-- .container /-->
+    <?php } ?>
 </div>
 
 <div style="display:none">

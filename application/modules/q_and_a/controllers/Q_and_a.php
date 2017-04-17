@@ -59,6 +59,10 @@ class Q_and_a extends Front_Controller
         $children = $query2->result();
         Template::set('parents', $parents);
         Template::set('children', $children);
+        $cat_id = $this->uri->segment(3);
+        $query3 = $this->db->query("select * from bf_q_and_a where cat_id = $cat_id");
+        $questions = $query3->result();
+        Template::set('questions', $questions);
         Template::render('qa');
     }
     public function answer() {
@@ -71,12 +75,23 @@ class Q_and_a extends Front_Controller
         Template::render('answer');
     }
     public function ask() {
-        $query1 = $this->db->query("select * from bf_categories where parent = 0");
-        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $query = $this->db->query("select * from bf_categories where parent <> 0");
+        $query1 = $this->db->query("select * from bf_categories where link <> '' and parent = 0");
+        $childs = $query->result();
         $parents = $query1->result();
-        $children = $query2->result();
-        Template::set('parents', $parents);
-        Template::set('children', $children);
+        foreach ($childs as $key=>$child){
+            $cats[$child->cat_id] = $child->cat_name;
+        }
+        foreach ($parents as $key=>$parent){
+            $cats[$parent->cat_id] = $parent->cat_name;
+        }
+        if(isset($_POST['send'])) {
+            $cat_id = $_POST['cat'];
+            $question = $_POST['question'];
+            $this->db->query("insert into `bf_q_and_a` (cat_id, question) VALUES ($cat_id, '$question')");
+            redirect(site_url() . '/q_and_a/qa/' . $cat_id);
+        }
+        Template::set('cats', $cats);
         Template::render('ask');
     }
     

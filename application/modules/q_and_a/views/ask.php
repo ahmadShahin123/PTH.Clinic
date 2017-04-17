@@ -6,12 +6,12 @@
 
     <form class="form" action="<?php echo site_url() . '/q_and_a/ask'; ?>" method="post">
 	<div class="fontst">
-		<div><h5>اختر سؤالا</h5></div>
+		<div><h5>اختر القسم</h5></div>
 		
         <select class="select" name="cat">
-            <option value="a">هل هذا هو السؤال الأول؟</option>
-            <option value="b">#</option>
-            <option value="c">#</option>
+            <?php foreach ($cats as $key=>$cat) { ?>
+            <option value="<?php echo $key; ?>"><?php echo $cat; ?></option>
+            <?php } ?>
         </select>
 		
         <textarea class="textarea" name="question" placeholder="السؤال"></textarea>
