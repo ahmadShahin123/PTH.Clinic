@@ -75,7 +75,7 @@
 		<li><a href="<?php echo site_url() .     '/q_and_a/qa' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
 		<li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
             <ul class="submenu">
-                <li><a href="<?php echo site_url() . '/excercises/excercises';?>"> تمارين </a></li>
+                <li><a href="<?php echo site_url() . '/excercises/excercises_frontend';?>"> تمارين </a></li>
                 <li><a href="<?php echo site_url() . '/excercises/bmi' ;?>">مؤشر كتلة الجسم</a></li>
             </ul>
         </li>
