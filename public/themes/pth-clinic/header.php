@@ -63,7 +63,7 @@
 
 <div id="header-wrapper">
 <div class="logo">
-<img src="./themes/pth-clinic/images/logo.png"/> 
+<img src="./themes/pth-clinic/images/logo.JPEG"/> 
 </div>
 	<div id="header" class="container">
 	
