@@ -60,7 +60,7 @@ class Q_and_a extends Front_Controller
         Template::set('parents', $parents);
         Template::set('children', $children);
         $cat_id = $this->uri->segment(3);
-        $query3 = $this->db->query("select * from bf_q_and_a where cat_id = $cat_id");
+        $query3 = $this->db->query("select * from bf_q_and_a where cat_id = $cat_id and deleted = 0");
         $questions = $query3->result();
         Template::set('questions', $questions);
         Template::render('qa');
@@ -75,24 +75,45 @@ class Q_and_a extends Front_Controller
         Template::render('answer');
     }
     public function ask() {
+        $query3 = $this->db->query("select * from bf_categories where parent = 0");
+        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $parents = $query3->result();
+        $children = $query2->result();
+        Template::set('parents', $parents);
+        Template::set('children', $children);
         $query = $this->db->query("select * from bf_categories where parent <> 0");
         $query1 = $this->db->query("select * from bf_categories where link <> '' and parent = 0");
-        $childs = $query->result();
-        $parents = $query1->result();
-        foreach ($childs as $key=>$child){
-            $cats[$child->cat_id] = $child->cat_name;
+        $child = $query->result();
+        $parent = $query1->result();
+        foreach ($child as $key=>$children){
+            $cats[$children->cat_id] = $children->cat_name;
         }
-        foreach ($parents as $key=>$parent){
-            $cats[$parent->cat_id] = $parent->cat_name;
+        foreach ($parent as $key=>$parents){
+            $cats[$parents->cat_id] = $parents->cat_name;
         }
         if(isset($_POST['send'])) {
+            $user_id = $this->uri->segment(3);
             $cat_id = $_POST['cat'];
             $question = $_POST['question'];
-            $this->db->query("insert into `bf_q_and_a` (cat_id, question) VALUES ($cat_id, '$question')");
+            $this->db->query("insert into `bf_q_and_a` (cat_id, question, asked_by) VALUES ($cat_id, '$question', $user_id)");
             redirect(site_url() . '/q_and_a/qa/' . $cat_id);
         }
         Template::set('cats', $cats);
         Template::render('ask');
     }
-    
+    public function myqa() {
+        $user_id = $this->uri->segment(3);
+        $query = $this->db->query("select * from bf_q_and_a where asked_by = $user_id and deleted = 0");
+        $questions = $query->result();
+
+        $query1 = $this->db->query("select * from bf_categories where parent = 0");
+        $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $parents = $query1->result();
+        $children = $query2->result();
+
+        Template::set('parents', $parents);
+        Template::set('children', $children);
+        Template::set('questions', $questions);
+        Template::render('myqa');
+    }
 }

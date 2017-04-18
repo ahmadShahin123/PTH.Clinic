@@ -1,3 +1,4 @@
+
 <div class="profile">
     <div class="avatar">
         <?php if(isset($_SESSION['avatar']) && $_SESSION['avatar'] != ''){ ?>
@@ -13,5 +14,6 @@
     </div>
     <div class=""user_info>
         <p><?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] . $_SESSION['id']; ?></p>
+        <p><a href="<?php echo site_url() . '/q_and_a/myqa/' . $_SESSION['id']; ?>">اسألتي</a></p>
     </div>
 </div>

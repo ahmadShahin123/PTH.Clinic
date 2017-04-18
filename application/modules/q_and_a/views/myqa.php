@@ -1,4 +1,5 @@
 <?php echo theme_view('header_inner'); ?>
+
 <div id="wrapper">
     <aside id="sidebar" style="position: relative" >
         <div class="cover-img">
@@ -53,25 +54,36 @@
 
 </div><!-- .widget /-->
 </aside><!-- #slide-out /-->
-<h3 class="fontst hst">اسأل سؤالك</h3>
 
-<div>
 
-    <form class="form" action="<?php echo site_url() . '/q_and_a/ask/' . $_SESSION['id']; ?>" method="post">
-	<div class="fontst">
-		<div><h5>اختر القسم</h5></div>
-		
-        <select class="select" name="cat">
-            <?php foreach ($cats as $key=>$cat) { ?>
-            <option value="<?php echo $key; ?>"><?php echo $cat; ?></option>
-            <?php } ?>
-        </select>
-		
-        <textarea class="textarea" name="question" placeholder="السؤال"></textarea>
-        <input class="submitbtn " type="submit" name ="send" value="أرسل">
-	</div>
-    </form>
+
+<div class="post-inner">
+    <?php foreach ($questions as $key=>$question) { ?>
+        <h2 class="entry-title"><a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" ><?php echo $question->question; ?></a></h2>
+
+        <p class="post-meta">
+
+
+            <!--	<span> في   <a href="#" rel="category tag">الأعصاب والتخدير</a>, <a href="https://askdr.com/category/ophthalmology/ophthalmology.php" rel="category tag">العيون</a></span>
+
+            <span> <a href="#.php#comments">‎إجابة واحدة</a></span> -->
+        </p>
+
+        <div id="main-content" class="container-animated">
+            <article class="item-list post-64087">
+                <div id="content">
+
+
+                </div>
+            </article><!-- .item-list -->
+
+        </div><!-- .container /-->
+    <?php } ?>
 </div>
+
+<div style="display:none">
+</div>
+
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.php","checking_credentials":"Checking credentials...","pwd_meter":"","disable_ajax":""};
@@ -81,5 +93,7 @@
 
 <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/tie-scripts.js'; ?>"></script>
 <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/wp-embed.min.js'; ?>"></script>
+
+
 </body>
 </html>
