@@ -71,7 +71,17 @@ class Excercises extends Front_Controller
     }
     
     public function excercises_frontend() {
+        $query = $this->db->query("select * from bf_excercises where deleted = 0");
+        $excercises = $query->result();
+        Template::set('excercises', $excercises);
          Template::render('excercises_frontend');
+    }
+    public function excercises_inner() {
+        $exc_id = $this->uri->segment(3);
+        $query = $this->db->query("select * from `bf_excercises` where exc_id = $exc_id");
+        $excercise = $query->result();
+        Template::set('excercise', $excercise);
+        Template::render('excercises_inner');
     }
     
 }
