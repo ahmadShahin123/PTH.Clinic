@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,33 +41,33 @@
       <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="126" />
               <folding>
-                <marker date="1492469843000" expanded="true" signature="785:1014" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1232:1320" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1393:1476" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1428:1476" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1441:1476" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1594:1705" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1843:1880" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="1928:2041" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2165:2409" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2173:2402" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2461:2566" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2500:2539" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2519:2528" ph="..." />
-                <marker date="1492469843000" expanded="true" signature="2636:2643" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="785:1014" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1232:1383" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1456:1539" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1491:1539" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1504:1539" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1657:1768" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1906:1943" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="1991:2104" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2228:2472" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2236:2465" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2524:2629" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2563:2602" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2582:2591" ph="..." />
+                <marker date="1492497315000" expanded="true" signature="2699:2706" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="390">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -101,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
@@ -163,16 +160,16 @@
         <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/ask.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/default.xml" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css" />
         <option value="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
       </list>
     </option>
   </component>
@@ -583,12 +580,12 @@
       <workItem from="1491585218756" duration="255000" />
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
-      <workItem from="1492327153897" duration="20020000" />
+      <workItem from="1492327153897" duration="20337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93495000" />
+    <option name="totallyTimeSpent" value="93812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -960,37 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-          <folding>
-            <marker date="1492469843000" expanded="true" signature="785:1014" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1232:1320" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1393:1476" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1428:1476" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1441:1476" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1594:1705" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1843:1880" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="1928:2041" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2165:2409" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2173:2402" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2461:2566" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2500:2539" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2519:2528" ph="..." />
-            <marker date="1492469843000" expanded="true" signature="2636:2643" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
@@ -1030,6 +996,37 @@
             <marker date="1492470640000" expanded="true" signature="3972:4021" ph="..." />
             <marker date="1492470640000" expanded="true" signature="4168:4214" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="126" />
+          <folding>
+            <marker date="1492497315000" expanded="true" signature="785:1014" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1232:1383" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1456:1539" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1491:1539" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1504:1539" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1657:1768" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1906:1943" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="1991:2104" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2228:2472" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2236:2465" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2524:2629" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2563:2602" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2582:2591" ph="..." />
+            <marker date="1492497315000" expanded="true" signature="2699:2706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

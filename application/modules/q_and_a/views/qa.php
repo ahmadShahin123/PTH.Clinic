@@ -23,7 +23,7 @@
         <?php } ?>
 
         <li id="menu-item-61333" class="menu-item ask">
-            <a href="<?php echo site_url() . '/q_and_a/ask'; ?>">اسأل</a>
+            <a href="<?php echo isset($_SESSION['id']) ? site_url() . '/q_and_a/ask' : site_url() . '/regular_user/signIn'; ?>">اسأل</a>
         </li>
 </ul></div>
 
