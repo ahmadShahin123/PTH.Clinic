@@ -87,17 +87,20 @@
         </ul>
         <?php } else { ?>
 
-	  <ul>
+	 
+   </div>
+</div>
+ <ul>
+              <div class="sign">
           <?php if($this->uri->segment(2) != 'signUp') { ?>
 		<li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
           <?php } ?>
           <?php if($this->uri->segment(2) != 'signIn') { ?>
   		<li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
           <?php } ?>
+              </div>
       </ul>
    <?php } ?>
-   </div>
 </div>
 
-</div>
 
