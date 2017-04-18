@@ -48,6 +48,7 @@
 	margin: 20px 0 12px;
 	padding: 0;
 	font-size:15px;
+        direction:rtl;
 }
 
 .footer-distributed .footer-links a{

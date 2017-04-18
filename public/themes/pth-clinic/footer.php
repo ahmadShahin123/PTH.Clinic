@@ -73,7 +73,7 @@
 
 			<div class="footer-left">
 
-				<h3><img src="C:/Users/Mirza Mahmoud/Desktop/pthlogo.png" width="80%" height="10%"/></h3>
+				<h3><img src="./themes/pth-clinic/images/logo.JPEG"/></h3>
 
 				<p class="footer-links">
 					<a href="#">الرئيسية</a>
