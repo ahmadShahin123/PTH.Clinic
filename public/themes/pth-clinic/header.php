@@ -62,6 +62,9 @@
 <!-- home page -->
 
 <div id="header-wrapper">
+<div class="logo">
+<img src="./themes/pth-clinic/images/logo.png"/> 
+</div>
 	<div id="header" class="container">
 	
             

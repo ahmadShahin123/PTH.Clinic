@@ -275,9 +275,12 @@ button {
 
 /* Add padding to container elements */
 .container {
-    padding: 16px;
+    padding: 0px;
+	
 	
 }
+
+
 
 .imgcontainer {
     text-align: center;
@@ -648,40 +651,11 @@ ul.contact li a:before
 /* Logo                                                                          */
 /*********************************************************************************/
 
-#logo
-{
-	padding: 0em 0em 0em 0em;
+.logo{
+	
+margin-right: 38%;
+
 }
-
-
-
-#logo h1
-{
-	display: block;
-	margin-bottom: 0.20em;
-	padding: 0.20em 0.9em;
-	font-size: 3.5em;
-}
-
-#logo a
-{
-	text-decoration: none;
-	color: #FFF;
-}
-
-#logo span
-{
-	text-transform: uppercase;
-	font-size: 2.90em;
-	color: rgba(255,255,255,1);
-}
-
-#logo span a
-{
-	color: rgba(255,255,255,0.8);
-}
-
-
 
 /*********************************************************************************/
 /* Menu                                                                          */
