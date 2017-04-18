@@ -86,7 +86,7 @@
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
-            <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
+            <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" id="signout" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
         </ul>
         <?php } else { ?>
 

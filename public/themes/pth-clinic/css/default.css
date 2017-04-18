@@ -653,7 +653,7 @@ ul.contact li a:before
 
 .logo{
 	
-margin-right: 38%;
+text-align: center;
 
 }
 
@@ -714,10 +714,10 @@ margin-right: 38%;
 
 
 #menu ul:nth-child(2) a {
-	position: relative !important;
-        width: 100%;
-	height: auto;
-	left: 0;
+    top: 10px;
+    right: 10px;
+    height: auto;
+    left: 0;
 }
 #menu ul:nth-child(2) {
 	float: left;
@@ -733,10 +733,8 @@ margin-right: 38%;
 	height:69px;
 	width:130px;
 	top:12px;
-	left:0px;
-        padding-left: 0px;
-        margin-right: 0px !important;
-        padding-right: 0px ;
+	right:10px;
+        
 }
 .signin1 {
 
@@ -745,9 +743,8 @@ margin-right: 38%;
 	height:100px;
 	width:240px;
 	top:12px;
-	left:0px;
-        margin-left: 0px;
-        padding-left: 0px;
+	right: 140px;
+        
 
 }
 
@@ -1140,4 +1137,10 @@ li.ask a:hover {
 }
 h3.hst {
 	margin-left: 22%;
+}
+
+
+
+    
+    
 }

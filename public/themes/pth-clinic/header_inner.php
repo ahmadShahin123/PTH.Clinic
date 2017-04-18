@@ -70,6 +70,10 @@
 <!-- home page -->
 
 <div id="header-wrapper-inner" class="header-inner" >
+    <div class="logo">
+        <img src="./themes/pth-clinic/images/logo.JPEG"/> 
+
+    </div>
 	<div id="header" class="container">
 	
             
