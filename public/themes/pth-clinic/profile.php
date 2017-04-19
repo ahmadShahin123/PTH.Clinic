@@ -8,12 +8,15 @@
         <img src="<?php echo base_url() . 'assets/images/avatar.png';?>" />
     <?php } ?>
         <form action="<?php echo base_url() . 'index.php/regular_user/avatar/' . $_SESSION['id']; ?>" method="post" enctype="multipart/form-data">
-            <input type="file" name="avatar" value="اختيار صورة" />
+            <div class="profile-form">
+			<input type="file" name="avatar" value="اختيار صورة" />
+			
             <input type="submit" name="upload" value="تغيير الصورة" />
-        </form>
+			</div>
+	   </form>
     </div>
-    <div class=""user_info>
+    <div class="">
         <p><?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] . $_SESSION['id']; ?></p>
-        <p><a href="<?php echo site_url() . '/q_and_a/myqa/' . $_SESSION['id']; ?>">اسألتي</a></p>
+        <p class="profilelink"><a href="<?php echo site_url() . '/q_and_a/myqa/' . $_SESSION['id']; ?>">أسئلتي</a></p>
     </div>
 </div>
