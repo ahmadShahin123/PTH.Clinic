@@ -91,21 +91,21 @@
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
-            <div class="exit">
+
             <li><a href="<?php echo site_url() .'/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
-            </div>
+
         </ul>
     <?php } else { ?>
 
         <ul>
-            <div class="signInUp">
+
             <?php if($this->uri->segment(2) != 'signUp') { ?>
                 <li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
             <?php } ?>
             <?php if($this->uri->segment(2) != 'signIn') { ?>
                 <li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
             <?php } ?>
-                	  </div>
+
 
         </ul>
     <?php } ?>
