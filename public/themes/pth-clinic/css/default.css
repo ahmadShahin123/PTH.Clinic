@@ -244,7 +244,6 @@ input[type=text], input[type=password] {
 .select{ 
 	width: 100% !important;
     padding: 12px 20px;
-    margin: ;
     display:block;
     border: 1px solid lightblue;
     box-sizing: border-box;
@@ -617,6 +616,7 @@ ul.contact li a:before
 }
 #header-wrapper-inner
 {
+    padding-right: 8%;
 	position:relative;
 	z-index:1;
 	width:100%;
