@@ -616,10 +616,12 @@ ul.contact li a:before
 }
 #header-wrapper-inner
 {
+    
     padding-right: 8%;
 	position:relative;
 	z-index:1;
 	width:100%;
+        
 }
 
 #header
@@ -732,9 +734,21 @@ font-size:30px;
 /* Menu                                                                          */
 /*********************************************************************************/
 
+#menu-home
+{
+	height: 100%;
+}
+
 #menu
 {
 	height: 100%;
+}
+
+#menu-home ul
+{
+	display: inline-block;
+	padding: 0em 2em;
+	text-align: center;
 }
 
 #menu ul
@@ -745,12 +759,18 @@ font-size:30px;
 }
 
 
+#menu-home li
+{
+	display: inline-block;
+}
+
 #menu li
 {
 	display: inline-block;
 }
 
-#menu li a, #menu li span
+
+#menu-home li a, #menu-home li span
 {
 	padding: 0em 0.5em;
 	text-decoration: none;
@@ -765,7 +785,22 @@ font-size:30px;
 	
 }
 
-#menu li:hover a, #menu li:visited a, #menu li:active span
+#menu li a, #menu li span
+{
+	padding: 0em 0.5em;
+	text-decoration: none;
+	font-size: 1em !important;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 35px;
+	outline: 0;
+	color: white;
+	background-color:transparent;
+	
+	
+}
+
+#menu-home li:hover a, #menu-home li:visited a, #menu-home li:active span
 {
 	background: transparent;
 	
@@ -773,6 +808,16 @@ font-size:30px;
 	border-bottom:2px solid blue;
 	
 }
+
+#menu li:hover a, #menu li:visited a, #menu li:active span
+{
+	background: transparent;
+	
+	color: #357ebd;
+	border-bottom:2px solid #357ebd;
+	
+}
+
 
 #menu .current_page_item a
 {
@@ -784,18 +829,37 @@ font-size:30px;
 /*********************************************************************************/
 
 
+#menu-home ul:nth-child(2) a {
+	position: relative !important;
+        width: 100%;
+	height: auto;
+	left: 0;
+}
+
+
 #menu ul:nth-child(2) a {
 	position: relative !important;
         width: 100%;
 	height: auto;
 	left: 0;
 }
+#menu-home ul:nth-child(2) {
+	float: left;
+}
+
+
 #menu ul:nth-child(2) {
 	float: left;
 }
+
+#menu-home ul:first-child {
+	text-align: center;
+}
+
 #menu ul:first-child {
 	text-align: center;
 }
+
 
 .signin {
 
@@ -1170,6 +1234,18 @@ ul.tools li a:before {
 .hasSubmenu {
 	position: relative;
 }
+body #menu-home ul li .submenu {
+	position: absolute;
+	right: 0;
+	top: 40px;
+	background-color: #fcfcfc;
+	min-width: 192px;
+	padding: 15px 15px;
+	border-radius: 13px;
+	display: none;
+	transition: all 0.5s;
+}
+
 body #menu ul li .submenu {
 	position: absolute;
 	right: 0;
@@ -1181,6 +1257,7 @@ body #menu ul li .submenu {
 	display: none;
 	transition: all 0.5s;
 }
+
 .submenu li {
 	float: right;
 }
@@ -1198,13 +1275,13 @@ body #menu ul li .submenu {
 	position: absolute;
 	bottom: 100%;
 	right: 25%;
-	margin-left: -5px;
+	margin-left: -5px;	border-bottom: none !important;
+
 	border-width: 5px;
 	border-style: solid;
 	border-color: transparent transparent white transparent;
 }
 #hotArticles article .articleAnswer {
-	border-bottom: none !important;
 }
 li.ask {
 	text-align: center;

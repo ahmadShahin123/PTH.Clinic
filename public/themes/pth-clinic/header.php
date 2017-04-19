@@ -65,7 +65,7 @@
 	<div id="header" class="container">
 	
             
-<div id="menu" class="font-family" >
+<div id="menu-home" class="font-family" >
     
 <ul>
 		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
@@ -81,8 +81,8 @@
         </li>
         <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
-    <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
-	
+	    <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
+
         <ul>
             <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
         </ul>
