@@ -153,12 +153,9 @@ class Content extends Admin_Controller
         }
 
         if (isset($_POST['save'])) {
-echo 'test';
             if (isset($_POST['image']['name']) && $_POST['image']['name'] != '') {
             $this->upload->do_upload('image');
             $upload_data =$this->upload->data();
-                echo $this->upload->display_errors();
-                echo 'test';
             $file_name = $upload_data['file_name'];
 
 
@@ -167,6 +164,7 @@ echo 'test';
             else {
                 $_POST['image'] = $_POST['image-old'];
             }
+
 
             $this->auth->restrict($this->permissionEdit);
 

@@ -49,7 +49,7 @@ if (isset($password_hints)) :
 <?php
 endif;
 
-echo form_open($this->uri->uri_string(), array('class' => 'form-horizontal', 'autocomplete' => 'off'));
+echo form_open_multipart($this->uri->uri_string(), array('class' => 'form-horizontal', 'autocomplete' => 'off'));
 ?>
     <fieldset>
         <legend><?php echo lang('us_account_details'); ?></legend>
@@ -64,7 +64,30 @@ echo form_open($this->uri->uri_string(), array('class' => 'form-horizontal', 'au
     }
     if ($canManageUser && $this->auth->has_permission('Bonfire.Roles.Manage')) :
     ?>
+        <div class="control-group<?php echo form_error('avatar') ? ' error' : ''; ?>">
+            <?php echo form_label('Avatar'); ?>
+            <div class='controls'>
+                <input id='avatar' type="file" name='avatar' maxlength='255' value="<?php echo set_value('avatar', isset($user->avatar) ? $user->avatar : ''); ?>" />
+                <input id='avatar-old' type="hidden" name='avatar-old' maxlength='255' value="<?php echo set_value('avatar', isset($user->avatar) ? $user->avatar : ''); ?>" />
+                <span class='help-inline'><?php echo form_error('avatar'); ?></span>
+            </div>
+        </div>
+        <div class="control-group<?php echo form_error('major') ? ' error' : ''; ?>">
+            <?php echo form_label('Major'); ?>
+            <div class='controls'>
+                <input id='major' type="text" name='major' maxlength='255' value="<?php echo set_value('major', isset($user->major) ? $user->major : ''); ?>" />
+                <span class='help-inline'><?php echo form_error('major'); ?></span>
+            </div>
+        </div>
+        <div class="control-group<?php echo form_error('experience') ? ' error' : ''; ?>">
+            <?php echo form_label('Experience'); ?>
+            <div class='controls'>
+                <input id='experience' type="text" name='experience' maxlength='255' value="<?php echo set_value('experience', isset($user->experience) ? $user->experience : ''); ?>" />
+                <span class='help-inline'><?php echo form_error('experience'); ?></span>
+            </div>
+        </div>
     <fieldset>
+
         <legend><?php echo lang('us_role'); ?></legend>
         <div class="control-group">
             <label for="role_id" class="control-label"><?php echo lang('us_role'); ?></label>

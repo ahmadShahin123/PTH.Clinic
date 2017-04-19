@@ -88,6 +88,14 @@ class User_model extends BF_Model
             'label' => 'lang:us_role',
             'rules' => 'trim|max_length[2]|is_numeric',
         ),
+        array(
+            'field' => 'avatar',
+            'label' => 'avatar',
+        ),
+        array(
+            'field' => 'major',
+            'label' => 'major',
+        ),
     );
 
     /** @var Array Additional validation rules only used on insert. */
@@ -126,6 +134,9 @@ class User_model extends BF_Model
         array('name' => 'active'),
         array('name' => 'activate_hash'),
         array('name' => 'force_password_reset'),
+        array('name' => 'avatar'),
+        array('name' => 'major'),
+        array('name' => 'experience'),
     );
 
     //--------------------------------------------------------------------------

@@ -52,9 +52,11 @@ class Q_and_a extends Front_Controller
 
         Template::render();
     }
+
     public function qa() {
         $query1 = $this->db->query("select * from bf_categories where parent = 0");
         $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+
         $parents = $query1->result();
         $children = $query2->result();
         Template::set('parents', $parents);
@@ -65,15 +67,21 @@ class Q_and_a extends Front_Controller
         Template::set('questions', $questions);
         Template::render('qa');
     }
+
     public function answer() {
+        $id = $this->uri->segment(3);
         $query1 = $this->db->query("select * from bf_categories where parent = 0");
         $query2 = $this->db->query("select * from bf_categories where parent <> 0");
+        $query3 = $this->db->query("select * from bf_q_and_a where q_and_a_id = $id");
         $parents = $query1->result();
         $children = $query2->result();
+        $answer = $query3->result();
+        Template::set('answer', $answer);
         Template::set('parents', $parents);
         Template::set('children', $children);
         Template::render('answer');
     }
+
     public function ask() {
         $query3 = $this->db->query("select * from bf_categories where parent = 0");
         $query2 = $this->db->query("select * from bf_categories where parent <> 0");
@@ -101,6 +109,7 @@ class Q_and_a extends Front_Controller
         Template::set('cats', $cats);
         Template::render('ask');
     }
+
     public function myqa() {
         $user_id = $this->uri->segment(3);
         $query = $this->db->query("select * from bf_q_and_a where asked_by = $user_id and deleted = 0");

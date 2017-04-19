@@ -55,19 +55,33 @@
 </div><!-- .widget /-->			
 </aside><!-- #slide-out /-->
 
-
-
+<div class="parent">
+<?php foreach ($questions as $key=>$question) {
+$query = $this->db->query("select * from bf_q_and_a where q_and_a_id = $question->q_and_a_id");
+$answer = $query->result();
+$query2 = $this->db->query("select * from bf_users where id = $question->modified_by");
+$doctor = $query2->result();
+?>
 <div class="post-inner">
-    <?php foreach ($questions as $key=>$question) { ?>
-<h2 class="entry-title"><a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" ><?php echo $question->question; ?></a></h2>
 
+<h2 class="entry-title"><?php echo $question->question; ?></h2>
+    <?php foreach ($answer as $key=>$detail) { ?>
 <p class="post-meta">
 
 
-<!--	<span> في   <a href="#" rel="category tag">الأعصاب والتخدير</a>, <a href="https://askdr.com/category/ophthalmology/ophthalmology.php" rel="category tag">العيون</a></span>
-
-<span> <a href="#.php#comments">‎إجابة واحدة</a></span> -->
+	<!--<span> في   <a href="#" rel="category tag">الأعصاب والتخدير</a>, <a href="https://askdr.com/category/ophthalmology/ophthalmology.php" rel="category tag">العيون</a></span>-->
+<span class="doc-info"> <?php if(isset($detail->answer) && $detail->answer != NULL) {
+   /* foreach ($doctor as $ind=>$doc) { ?>
+        <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
+             <?php echo $doc->username;
+    }*/
+   ?> <a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" > الإجابة</a>
+<?php }
+    else {
+        echo 'لم تتم الإجابة على هذا السؤال';
+    }?></span>
 </p>
+        <?php } ?>
 
 <div id="main-content" class="container-animated">
 <article class="item-list post-64087">
@@ -78,9 +92,10 @@
 </article><!-- .item-list -->
 
 </div><!-- .container /-->
-    <?php } ?>
-</div>
 
+</div>
+<?php } ?>
+</div>
 <div style="display:none">
 </div>
 

@@ -45,7 +45,10 @@ class Settings extends Admin_Controller
 
         $this->lang->load('users');
         $this->load->model('roles/role_model');
-
+        $config['encrypt_name'] = TRUE;
+        $config['upload_path'] = './assets/images';
+        $config['allowed_types'] = 'gif|jpg|png|jpeg';
+        $this->load->library('upload', $config);
         $this->siteSettings = $this->settings_lib->find_all();
         if ($this->siteSettings['auth.password_show_labels'] == 1) {
             Assets::add_module_js('users', 'password_strength.js');
@@ -203,6 +206,9 @@ class Settings extends Admin_Controller
         Template::set('meta_fields', $metaFields);
 
         if (isset($_POST['save'])) {
+            $this->upload->do_upload('avatar');
+            $upload_data = $this->upload->data();
+            $_POST['avatar'] = $upload_data['file_name'];
             if ($id = $this->saveUser('insert', null, $metaFields)) {
                 $user = $this->user_model->find($id);
                 $logName = empty($user->display_name) ? ($this->settings_lib->item('auth.use_usernames') ? $user->username : $user->email) : $user->display_name;
@@ -274,6 +280,17 @@ class Settings extends Admin_Controller
         $user = $this->user_model->find_user_and_meta($userId);
 
         if (isset($_POST['save'])) {
+            if (isset($_POST['avatar']['name']) && $_POST['avatar']['name'] != '') {
+                $this->upload->do_upload('avatar');
+                $upload_data =$this->upload->data();
+                $file_name = $upload_data['file_name'];
+
+                $_POST['avatar'] = $file_name;
+            }
+            else {
+                $_POST['avatar'] = $_POST['avatar-old'];
+            }
+
             if ($this->saveUser('update', $userId, $metaFields, $user->role_name)) {
                 $user = $this->user_model->find_user_and_meta($userId);
                 $logName = empty($user->display_name) ? ($this->settings_lib->item('auth.use_usernames') ? $user->username : $user->email) : $user->display_name;
@@ -316,7 +333,6 @@ class Settings extends Admin_Controller
         Template::set('user', $user);
         Template::set('languages', unserialize($this->settings_lib->item('site.languages')));
         Template::set('toolbar_title', lang('us_edit_user'));
-
         Template::set_view('users/settings/user_form');
         Template::render();
     }

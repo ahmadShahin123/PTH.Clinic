@@ -56,30 +56,31 @@
 </div><!-- .widget /-->			
 </aside><!-- #slide-out /-->
 
-
+<?php foreach($answer as $key=>$details) {
+    $query2 = $this->db->query("select * from bf_users where id = $details->modified_by");
+$doctor = $query2->result(); ?>
 <div class="post-inner">			
-<h3> ما هو نوع التخدير الذي سيتم عند إخراج الأنبوب من العين؟</h3>
-
-<p class="post-meta">
-
-
-<!--	<span> في   <a href="#" rel="category tag">الأعصاب والتخدير</a>, <a href="https://askdr.com/category/ophthalmology/ophthalmology.php" rel="category tag">العيون</a></span>
-
-<span> <a href="#.php#comments">‎إجابة واحدة</a></span> -->
-</p>
+<h3> <?php echo $details->question; ?></h3>
 
 
 <p dir="rtl">
-يعتمد ذلك على عمر المريض ومدى تعاونه مع طبيب نبوب الذي يتم وضعه بعد عملية المياه الزرقاء أو الجلوكوما)&nbsp;
-تمد على قرار الطبيب المعالج، هل ير
-
-أتمنى لك دوام الصحة والعافية
+<?php if (isset($details->answer) && $details->answer != NULL) echo $details->answer; else echo 'لم تتم الإجابة على السؤال بعد'; ?>
 </p>
 
+    <p class="post-meta">
 
+
+	<span class="doc-info"><?php foreach ($doctor as $ind=>$doc) { ?>
+            <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
+            <?php echo "<h5>" . $doc->username . ' ' .$doc->major . "</h5>";
+        } ?></span>
+
+    </p>
 
 </div><!-- .container /-->
+
 </div>
+<?php } ?>
 
 <div style="display:none">
 </div>

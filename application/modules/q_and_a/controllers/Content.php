@@ -120,7 +120,7 @@ class Content extends Admin_Controller
         
         if (isset($_POST['save'])) {
             $this->auth->restrict($this->permissionEdit);
-
+            $_POST['modified_by'] = $this->auth->user_id();
             if ($this->save_q_and_a('update', $id)) {
                 log_activity($this->auth->user_id(), lang('q_and_a_act_edit_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'q_and_a');
                 Template::set_message(lang('q_and_a_edit_success'), 'success');

@@ -2,11 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/excercises_inner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/0126af15ad402b05bbc03d7b4ef6c506.jpg" afterPath="$PROJECT_DIR$/public/assets/images/0126af15ad402b05bbc03d7b4ef6c506.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/09b06fe507607de2ff8d7dd785676d97.jpg" afterPath="$PROJECT_DIR$/public/assets/images/09b06fe507607de2ff8d7dd785676d97.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/1a15c3c81800ef817c499f019a43cbc8.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/1a15c3c81800ef817c499f019a43cbc8.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/24894b41bb380fbde8244d59daab8edb.jpg" afterPath="$PROJECT_DIR$/public/assets/images/24894b41bb380fbde8244d59daab8edb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/279eb50f8293915b1de4e045a8a89bdf.jpg" afterPath="$PROJECT_DIR$/public/assets/images/279eb50f8293915b1de4e045a8a89bdf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/292f9ea94bcbd9984e4c83aee2014cf5.jpg" afterPath="$PROJECT_DIR$/public/assets/images/292f9ea94bcbd9984e4c83aee2014cf5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/2a4b9ae772053f313b5ad980b35481a3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/2a4b9ae772053f313b5ad980b35481a3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/2ecbf2367baa168015ed884128f9c31f.jpg" afterPath="$PROJECT_DIR$/public/assets/images/2ecbf2367baa168015ed884128f9c31f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/2eec01199e9622a0dd408b224c7572a9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/2eec01199e9622a0dd408b224c7572a9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/2f32cecb1129d44294583e9db53b88a9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/2f32cecb1129d44294583e9db53b88a9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/3079e6d7a9d0f2225258ae8783f89ddd.jpg" afterPath="$PROJECT_DIR$/public/assets/images/3079e6d7a9d0f2225258ae8783f89ddd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/3686a184f199392e404cf2edfe919025.jpg" afterPath="$PROJECT_DIR$/public/assets/images/3686a184f199392e404cf2edfe919025.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/38433869174e4a536810dcad9329913e.jpg" afterPath="$PROJECT_DIR$/public/assets/images/38433869174e4a536810dcad9329913e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/3a820df20553505e9360f416fdf0edfe.jpg" afterPath="$PROJECT_DIR$/public/assets/images/3a820df20553505e9360f416fdf0edfe.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/3ecc62ebb48481c4d1c842eaf1b76a8f.jpg" afterPath="$PROJECT_DIR$/public/assets/images/3ecc62ebb48481c4d1c842eaf1b76a8f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/40e3479814855c5554e936147f47a3f5.png" afterPath="$PROJECT_DIR$/public/assets/images/40e3479814855c5554e936147f47a3f5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/432ef27c3a7fb860b041f8795a67cf5c.jpg" afterPath="$PROJECT_DIR$/public/assets/images/432ef27c3a7fb860b041f8795a67cf5c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/4a1a5bcc22abc09d1ebeae3ee71c357f.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/4a1a5bcc22abc09d1ebeae3ee71c357f.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/5245fb4a4680d6332cc919a73500b1da.jpg" afterPath="$PROJECT_DIR$/public/assets/images/5245fb4a4680d6332cc919a73500b1da.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/586f03fd97178ad2b5c9cad4161b26d8.jpg" afterPath="$PROJECT_DIR$/public/assets/images/586f03fd97178ad2b5c9cad4161b26d8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/59a4d9d342a0e705a83c720ce5ba24e9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/59a4d9d342a0e705a83c720ce5ba24e9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/5b06ed82a5bcafd363786acd97b6648c.jpg" afterPath="$PROJECT_DIR$/public/assets/images/5b06ed82a5bcafd363786acd97b6648c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/5bfd1dfa7d3ac542bd9af15d1ba7dbd4.jpg" afterPath="$PROJECT_DIR$/public/assets/images/5bfd1dfa7d3ac542bd9af15d1ba7dbd4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/64fa0e7da0c06aab1a51c42e22740473.jpg" afterPath="$PROJECT_DIR$/public/assets/images/64fa0e7da0c06aab1a51c42e22740473.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/669c2edee377721052407b0138d13109.jpg" afterPath="$PROJECT_DIR$/public/assets/images/669c2edee377721052407b0138d13109.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/6bac50cc90971d64c7ace5400908e1c3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/6bac50cc90971d64c7ace5400908e1c3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/7200cc7d5da076aea815379eb29dc793.jpg" afterPath="$PROJECT_DIR$/public/assets/images/7200cc7d5da076aea815379eb29dc793.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/7c6554ce568d3ede866c42122f03410a.jpg" afterPath="$PROJECT_DIR$/public/assets/images/7c6554ce568d3ede866c42122f03410a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/7d74e41098a23168d8adc020f50aadf3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/7d74e41098a23168d8adc020f50aadf3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/80b4c2af2049b133e1caec46d5fba80a.jpg" afterPath="$PROJECT_DIR$/public/assets/images/80b4c2af2049b133e1caec46d5fba80a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/853d3442dc5bc6bab921bd7c7061d1e7.jpg" afterPath="$PROJECT_DIR$/public/assets/images/853d3442dc5bc6bab921bd7c7061d1e7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/91af333a427c31143018670fdad389c5.jpg" afterPath="$PROJECT_DIR$/public/assets/images/91af333a427c31143018670fdad389c5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/99bc3c58f0f62aa811631b20e8532fbf.jpg" afterPath="$PROJECT_DIR$/public/assets/images/99bc3c58f0f62aa811631b20e8532fbf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/a6238762c878bd2b59a735b9df198216.jpg" afterPath="$PROJECT_DIR$/public/assets/images/a6238762c878bd2b59a735b9df198216.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/a75562a72c28dd0249f0cfec1fc0695d.jpg" afterPath="$PROJECT_DIR$/public/assets/images/a75562a72c28dd0249f0cfec1fc0695d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/a8b9f9f529ace69a91bb4b175c776599.jpg" afterPath="$PROJECT_DIR$/public/assets/images/a8b9f9f529ace69a91bb4b175c776599.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/ad7f8e7f0bdec6a61ab284448267a686.jpg" afterPath="$PROJECT_DIR$/public/assets/images/ad7f8e7f0bdec6a61ab284448267a686.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/ae464b6ccdab6171fa46b3ca87a01b0e.jpg" afterPath="$PROJECT_DIR$/public/assets/images/ae464b6ccdab6171fa46b3ca87a01b0e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/avatar.png" afterPath="$PROJECT_DIR$/public/assets/images/avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/b37ce444e7961d188977a6b284367a1b.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/b37ce444e7961d188977a6b284367a1b.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/b432cd499100d7704573455f9182bf8a.jpg" afterPath="$PROJECT_DIR$/public/assets/images/b432cd499100d7704573455f9182bf8a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/b5a0d62acecb2a4b40dbd184ce29da57.jpg" afterPath="$PROJECT_DIR$/public/assets/images/b5a0d62acecb2a4b40dbd184ce29da57.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/b6fdb33204593414b89b5b7c6225d774.jpeg" afterPath="$PROJECT_DIR$/public/assets/images/b6fdb33204593414b89b5b7c6225d774.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/bcc7246ef270c83a36a80fe346b540b9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/bcc7246ef270c83a36a80fe346b540b9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/c323ada1f03db05dd6aa5eda66f0c00e.jpg" afterPath="$PROJECT_DIR$/public/assets/images/c323ada1f03db05dd6aa5eda66f0c00e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/c39e72b38a9e266281483655f577fd8e.jpg" afterPath="$PROJECT_DIR$/public/assets/images/c39e72b38a9e266281483655f577fd8e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/c40499225c7f96f070eaff79e27b63af.jpg" afterPath="$PROJECT_DIR$/public/assets/images/c40499225c7f96f070eaff79e27b63af.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/c8610f03c0c9f78e5f7e84dcb67b7a39.jpg" afterPath="$PROJECT_DIR$/public/assets/images/c8610f03c0c9f78e5f7e84dcb67b7a39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/d0607a89b1d05d0e9296b438ef2c12a9.jpg" afterPath="$PROJECT_DIR$/public/assets/images/d0607a89b1d05d0e9296b438ef2c12a9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/d1b740b7b7a5c4ff683073e7d05f850f.jpg" afterPath="$PROJECT_DIR$/public/assets/images/d1b740b7b7a5c4ff683073e7d05f850f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/d41327149e0cefdcf921b7a8d52c1adf.jpg" afterPath="$PROJECT_DIR$/public/assets/images/d41327149e0cefdcf921b7a8d52c1adf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/db6bdefbdae94a65cc28966142660c25.jpg" afterPath="$PROJECT_DIR$/public/assets/images/db6bdefbdae94a65cc28966142660c25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/dcc37872d669ad5724ed0ef4569187bf.jpg" afterPath="$PROJECT_DIR$/public/assets/images/dcc37872d669ad5724ed0ef4569187bf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/dd71e9d27ebd6515aa18dbccb0ebd7c7.jpg" afterPath="$PROJECT_DIR$/public/assets/images/dd71e9d27ebd6515aa18dbccb0ebd7c7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/e89670b228fc7776db30b9ff252ecce4.jpg" afterPath="$PROJECT_DIR$/public/assets/images/e89670b228fc7776db30b9ff252ecce4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/f2f28ca1b7608f315ff3c87b113a52c2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/f2f28ca1b7608f315ff3c87b113a52c2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/f63f75cba5a8e29a74353599937461d6.jpg" afterPath="$PROJECT_DIR$/public/assets/images/f63f75cba5a8e29a74353599937461d6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/f938675ca4c67fe1511bca42ae6d8aad.jpg" afterPath="$PROJECT_DIR$/public/assets/images/f938675ca4c67fe1511bca42ae6d8aad.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/f968f0dc7916b0a61b46e732eb8b00ce.jpg" afterPath="$PROJECT_DIR$/public/assets/images/f968f0dc7916b0a61b46e732eb8b00ce.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/fbb15e7f5deff7cf358e12e0d1e0e48c.jpg" afterPath="$PROJECT_DIR$/public/assets/images/fbb15e7f5deff7cf358e12e0d1e0e48c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/fdbe8d1ad13dde9af4b3985a2d0b74e8.jpg" afterPath="$PROJECT_DIR$/public/assets/images/fdbe8d1ad13dde9af4b3985a2d0b74e8.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php" afterPath="$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bonfire/modules/users/models/User_model.php" afterPath="$PROJECT_DIR$/bonfire/modules/users/models/User_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php" afterPath="$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,106 +89,65 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ask.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
+      <file leaf-file-name="Content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-              <folding>
-                <marker date="1492501377000" expanded="true" signature="2873:3293" ph="..." />
-                <marker date="1492501377000" expanded="true" signature="2952:3123" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excercises_frontend.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="17" column="172" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="172" />
-              <folding>
-                <marker date="1492508875000" expanded="true" signature="883:952" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles_inner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/articles_inner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="-600">
+              <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excercises_inner.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="477">
+              <caret line="1186" column="22" lean-forward="false" selection-start-line="1186" selection-start-column="22" selection-end-line="1186" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ask.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/ask.php">
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Excercises.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="82" column="45" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="45" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
               <folding>
-                <marker date="1492509339000" expanded="true" signature="2218:2263" ph="select * fro... bf_excercises" />
-                <marker date="1492509339000" expanded="true" signature="2531:2576" ph="select * fro... bf_excercises" />
-                <marker date="1492509339000" expanded="true" signature="2531:2577" ph="select * fro... bf_excercises" />
+                <marker date="1492624866000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
+                <marker date="1492624866000" expanded="true" signature="3014:3055" ph="..." />
+                <marker date="1492624866000" expanded="true" signature="3016:3031" ph="/*...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="qa.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="94" selection-end-column="113" />
+            <state relative-caret-position="210">
+              <caret line="66" column="58" lean-forward="false" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
               <folding>
-                <marker date="1492497315000" expanded="true" signature="785:1014" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1232:1383" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1456:1539" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1491:1539" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1504:1539" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1657:1768" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1906:1943" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="1991:2104" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2228:2472" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2236:2465" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2524:2629" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2563:2602" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2582:2591" ph="..." />
-                <marker date="1492497315000" expanded="true" signature="2699:2706" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="785:1014" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1232:1383" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1456:1539" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1491:1539" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1504:1539" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1657:1768" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="1906:1943" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="2062:2106" ph="select * fro... bf_q_and_a" />
+                <marker date="1492625429000" expanded="true" signature="2187:2221" ph="select * fro... bf_users" />
+                <marker date="1492625429000" expanded="true" signature="2302:2329" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="2439:3072" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="2443:3068" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3143:3248" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3182:3221" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3201:3210" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3321:3328" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3361:3402" ph="..." />
+                <marker date="1492625429000" expanded="true" signature="3363:3378" ph="/*...*/" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -128,31 +155,30 @@
       <file leaf-file-name="Q_and_a.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
+            <state relative-caret-position="234">
+              <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
-                <marker date="1492501264000" expanded="true" signature="1420:1464" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="1504:1549" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="1798:1838" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="1798:1839" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="1798:1861" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="2058:2102" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2142:2187" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2464:2508" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2548:2593" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2799:2806" ph="select p.* ,... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2799:2844" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2799:2980" ph="select p.* ,... " />
-                <marker date="1492501264000" expanded="true" signature="2884:2891" ph="select p.* ,... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="2884:2943" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="3441:3511" ph="insert into `bf_q_and_a`... " />
-                <marker date="1492501264000" expanded="true" signature="3441:3534" ph="insert into `bf_q_and_a`... " />
-                <marker date="1492501264000" expanded="true" signature="3441:4329" ph="insert into `bf_q_and_a`... " />
-                <marker date="1492501264000" expanded="true" signature="3793:3835" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="3793:3836" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="3793:3859" ph="select * fro... bf_q_and_a" />
-                <marker date="1492501264000" expanded="true" signature="3939:3983" ph="select * fro... bf_categories" />
-                <marker date="1492501264000" expanded="true" signature="4023:4068" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="2099:2143" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="2183:2228" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="2268:2312" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="2268:2313" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="2672:2716" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="2756:2801" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="3007:3014" ph="select p.* ,... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="3007:3052" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="3007:3188" ph="select p.* ,... " />
+                <marker date="1492544804000" expanded="true" signature="3092:3099" ph="select p.* ,... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="3092:3151" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="3649:3719" ph="insert into `bf_q_and_a`... " />
+                <marker date="1492544804000" expanded="true" signature="3649:3742" ph="insert into `bf_q_and_a`... " />
+                <marker date="1492544804000" expanded="true" signature="4002:4068" ph="select * fro... bf_q_and_a" />
+                <marker date="1492544804000" expanded="true" signature="4148:4192" ph="select * fro... bf_categories" />
+                <marker date="1492544804000" expanded="true" signature="4232:4277" ph="select * fro... bf_categories" />
               </folding>
             </state>
           </provider>
@@ -166,13 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/signUp.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/login.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/singIn.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/signIn.php" />
-        <option value="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" />
-        <option value="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/us.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/about_us.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/q&amp;a.php" />
         <option value="$USER_HOME$/Downloads/qa-index.php" />
@@ -201,22 +220,29 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/bmi.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/default.xml" />
-        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/profile.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/myqa.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/ask.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/excercises_inner.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
+        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+        <option value="$PROJECT_DIR$/bonfire/modules/users/models/User_model.php" />
+        <option value="$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php" />
+        <option value="$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
       </list>
     </option>
   </component>
@@ -389,33 +415,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="regular_user" />
+              <option name="myItemId" value="q_and_a" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regular_user" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,6 +446,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,128 +498,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -701,12 +587,12 @@
       <workItem from="1491585218756" duration="255000" />
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
-      <workItem from="1492327153897" duration="25272000" />
+      <workItem from="1492327153897" duration="48287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98747000" />
+    <option name="totallyTimeSpent" value="121762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -744,57 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/modernJordan-backup/metadata.xml" />
-    <entry file="file://$USER_HOME$/Downloads/qa-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/signUpForm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/signInForm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <marker date="1491868847000" expanded="true" signature="228:235" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/articles/views/about_us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -888,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="123" column="40" lean-forward="false" selection-start-line="123" selection-start-column="40" selection-end-line="123" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -964,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="321" column="97" lean-forward="false" selection-start-line="321" selection-start-column="97" selection-end-line="321" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/excercises_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -988,21 +807,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
           <folding>
-            <marker date="1492470640000" expanded="true" signature="3972:4021" ph="..." />
-            <marker date="1492470640000" expanded="true" signature="4168:4214" ph="..." />
+            <marker date="1492609999000" expanded="true" signature="3972:4021" ph="..." />
+            <marker date="1492609999000" expanded="true" signature="4168:4214" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1023,86 +834,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="82" column="45" lean-forward="true" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
-          <folding>
-            <marker date="1492501264000" expanded="true" signature="1420:1464" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="1504:1549" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="1798:1838" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="1798:1839" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="1798:1861" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="2058:2102" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2142:2187" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2464:2508" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2548:2593" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2799:2806" ph="select p.* ,... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2799:2844" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2799:2980" ph="select p.* ,... " />
-            <marker date="1492501264000" expanded="true" signature="2884:2891" ph="select p.* ,... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="2884:2943" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="3441:3511" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492501264000" expanded="true" signature="3441:3534" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492501264000" expanded="true" signature="3441:4329" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492501264000" expanded="true" signature="3793:3835" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="3793:3836" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="3793:3859" ph="select * fro... bf_q_and_a" />
-            <marker date="1492501264000" expanded="true" signature="3939:3983" ph="select * fro... bf_categories" />
-            <marker date="1492501264000" expanded="true" signature="4023:4068" ph="select * fro... bf_categories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="94" selection-end-column="113" />
-          <folding>
-            <marker date="1492497315000" expanded="true" signature="785:1014" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1232:1383" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1456:1539" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1491:1539" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1504:1539" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1657:1768" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1906:1943" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="1991:2104" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2228:2472" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2236:2465" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2524:2629" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2563:2602" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2582:2591" ph="..." />
-            <marker date="1492497315000" expanded="true" signature="2699:2706" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="1143" column="12" lean-forward="true" selection-start-line="1143" selection-start-column="12" selection-end-line="1143" selection-end-column="12" />
-          <folding>
-            <marker date="1492501781000" expanded="true" signature="12513:12515" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <marker date="1492501377000" expanded="true" signature="2873:3293" ph="..." />
-            <marker date="1492501377000" expanded="true" signature="2952:3123" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,13 +870,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php">
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="172" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="172" />
-          <folding>
-            <marker date="1492508875000" expanded="true" signature="883:952" ph="..." />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="367" column="24" lean-forward="false" selection-start-line="367" selection-start-column="24" selection-end-line="367" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,11 +894,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="249">
+          <caret line="17" column="172" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="172" />
+          <folding>
+            <marker date="1492508875000" expanded="true" signature="883:952" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <marker date="1492501377000" expanded="true" signature="2873:3293" ph="..." />
+            <marker date="1492501377000" expanded="true" signature="2952:3123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/modules/settings/controllers/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086">
+          <caret line="107" column="63" lean-forward="false" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="76" lean-forward="true" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/modules/users/models/User_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="138" column="35" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="165" column="44" lean-forward="false" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/controllers/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="166" column="12" lean-forward="false" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="64" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="81" column="60" lean-forward="false" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="1186" column="22" lean-forward="false" selection-start-line="1186" selection-start-column="22" selection-end-line="1186" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <marker date="1492544804000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="2099:2143" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="2183:2228" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="2268:2312" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="2268:2313" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="2672:2716" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="2756:2801" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="3007:3014" ph="select p.* ,... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="3007:3052" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="3007:3188" ph="select p.* ,... " />
+            <marker date="1492544804000" expanded="true" signature="3092:3099" ph="select p.* ,... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="3092:3151" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="3649:3719" ph="insert into `bf_q_and_a`... " />
+            <marker date="1492544804000" expanded="true" signature="3649:3742" ph="insert into `bf_q_and_a`... " />
+            <marker date="1492544804000" expanded="true" signature="4002:4068" ph="select * fro... bf_q_and_a" />
+            <marker date="1492544804000" expanded="true" signature="4148:4192" ph="select * fro... bf_categories" />
+            <marker date="1492544804000" expanded="true" signature="4232:4277" ph="select * fro... bf_categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <marker date="1492624866000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
+            <marker date="1492624866000" expanded="true" signature="3014:3055" ph="..." />
+            <marker date="1492624866000" expanded="true" signature="3016:3031" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="66" column="58" lean-forward="false" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+          <folding>
+            <marker date="1492625429000" expanded="true" signature="785:1014" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1232:1383" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1456:1539" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1491:1539" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1504:1539" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1657:1768" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="1906:1943" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="2062:2106" ph="select * fro... bf_q_and_a" />
+            <marker date="1492625429000" expanded="true" signature="2187:2221" ph="select * fro... bf_users" />
+            <marker date="1492625429000" expanded="true" signature="2302:2329" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="2439:3072" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="2443:3068" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3143:3248" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3182:3221" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3201:3210" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3321:3328" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3361:3402" ph="..." />
+            <marker date="1492625429000" expanded="true" signature="3363:3378" ph="/*...*/" />
+          </folding>
         </state>
       </provider>
     </entry>

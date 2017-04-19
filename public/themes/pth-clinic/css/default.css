@@ -1221,3 +1221,11 @@ li.ask a:hover {
 h3.hst {
 	margin-left: 22%;
 }
+.doc-info img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+.parent {
+	padding-right: 22%;
+}
