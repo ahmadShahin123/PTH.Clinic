@@ -82,14 +82,17 @@
         <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
+	
         <ul>
+		<div class="exit">
             <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
+		</div>	
         </ul>
         <?php } else { ?>
 		
 
 	  <ul>
-	  <div class="signIO">
+	  <div class="signInUp">
           <?php if($this->uri->segment(2) != 'signUp') { ?>
 		<li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
           <?php } ?>
@@ -104,4 +107,5 @@
 </div>
 
 </div>
+
 

@@ -779,11 +779,17 @@ ul.contact li a:before
 	color:red;
 }
 
-.signIO{
-	
+.signInUp{
 position: absolute;
-right: 0px;
+right: 7px;
+top: 0%;		
+}
+
+.exit{
+position: absolute;
+right: 7px;
 top: 0%;	
+	
 	
 }
 
