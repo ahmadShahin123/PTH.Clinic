@@ -683,7 +683,50 @@ ul.contact li a:before
 	color: rgba(255,255,255,0.8);
 }
 
+/*********************************************************************************/
+/* profile.php classes                                                                          */
+/*********************************************************************************/
+.profile{
+	
+	text-align:center;
 
+	
+	}
+	
+.profile-form{
+	
+	text-align:center;
+	
+	}
+	
+input[type=file] {
+    display: block !important;
+	
+	margin:0 auto;
+	cursor: pointer;
+	border-radius:3px;
+
+	
+}
+
+input[type=submit] {
+    
+	margin:0 auto;
+	
+	cursor: pointer;
+	border-radius:3px;
+	
+}
+.profilelink{
+	    
+	
+padding: 12px;
+font-size:30px;
+
+	
+}
+
+	
 
 /*********************************************************************************/
 /* Menu                                                                          */
