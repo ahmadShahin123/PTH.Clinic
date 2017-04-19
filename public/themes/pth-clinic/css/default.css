@@ -730,7 +730,7 @@ text-align: center;
 
 	position:absolute !important;
 	font-size:20px;
-	height:69px;
+	height:20px;
 	width:130px;
 	top:12px;
 	right:10px;
@@ -740,8 +740,8 @@ text-align: center;
 
 	position:absolute !important;
 	font-size:20px;
-	height:100px;
-	width:240px;
+	height:20px;
+	width:100px;
 	top:12px;
 	right: 140px;
         
@@ -1143,4 +1143,4 @@ h3.hst {
 
     
     
-}
+
