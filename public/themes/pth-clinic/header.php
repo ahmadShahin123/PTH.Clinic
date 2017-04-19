@@ -62,9 +62,6 @@
 <!-- home page -->
 
 <div id="header-wrapper">
-<div class="logo">
-<img src="./themes/pth-clinic/images/logo.JPEG"/> 
-</div>
 	<div id="header" class="container">
 	
             
@@ -86,24 +83,21 @@
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
-            <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" id="signout" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
+            <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
         </ul>
         <?php } else { ?>
 
-	 
-   </div>
-</div>
- <ul>
-              <div class="sign">
+	  <ul>
           <?php if($this->uri->segment(2) != 'signUp') { ?>
 		<li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
           <?php } ?>
           <?php if($this->uri->segment(2) != 'signIn') { ?>
   		<li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
           <?php } ?>
-              </div>
       </ul>
    <?php } ?>
+   </div>
 </div>
 
+</div>
 

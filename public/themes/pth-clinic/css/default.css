@@ -244,6 +244,7 @@ input[type=text], input[type=password] {
 .select{ 
 	width: 100% !important;
     padding: 12px 20px;
+    margin: ;
     display:block;
     border: 1px solid lightblue;
     box-sizing: border-box;
@@ -275,12 +276,9 @@ button {
 
 /* Add padding to container elements */
 .container {
-    padding: 0px;
-	
+    padding: 16px;
 	
 }
-
-
 
 .imgcontainer {
     text-align: center;
@@ -651,11 +649,40 @@ ul.contact li a:before
 /* Logo                                                                          */
 /*********************************************************************************/
 
-.logo{
-	
-text-align: center;
-
+#logo
+{
+	padding: 0em 0em 0em 0em;
 }
+
+
+
+#logo h1
+{
+	display: block;
+	margin-bottom: 0.20em;
+	padding: 0.20em 0.9em;
+	font-size: 3.5em;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#logo span
+{
+	text-transform: uppercase;
+	font-size: 2.90em;
+	color: rgba(255,255,255,1);
+}
+
+#logo span a
+{
+	color: rgba(255,255,255,0.8);
+}
+
+
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -688,7 +715,7 @@ text-align: center;
 	text-transform: uppercase;
 	line-height: 35px;
 	outline: 0;
-	color: #337ab7;
+	color: blue;
 	background-color:transparent;
 	
 	
@@ -714,37 +741,35 @@ text-align: center;
 
 
 #menu ul:nth-child(2) a {
-    top: 10px;
-    right: 10px;
-    height: auto;
-    left: 0;
+	position: relative !important;
+        width: 100%;
+	height: auto;
+	left: 0;
 }
 #menu ul:nth-child(2) {
 	float: left;
 }
 #menu ul:first-child {
-	
+	float: right;
 }
 
 .signin {
 
 	position:absolute !important;
 	font-size:20px;
-	height:20px;
+	height:69px;
 	width:130px;
-	top:12px;
-	right:10px;
-        
+	top:7px;
+	left:-25px;
 }
 .signin1 {
 
 	position:absolute !important;
 	font-size:20px;
-	height:20px;
-	width:100px;
-	top:12px;
-	right: 140px;
-        
+	height:100px;
+	width:270px;
+	top:7px;
+	left:-70px;
 
 }
 
@@ -1138,9 +1163,3 @@ li.ask a:hover {
 h3.hst {
 	margin-left: 22%;
 }
-
-
-
-    
-    
-
