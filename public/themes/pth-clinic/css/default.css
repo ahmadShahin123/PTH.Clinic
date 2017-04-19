@@ -574,7 +574,7 @@ ul.contact li a:before
 	text-decoration: none;
 	display: inline-block;
 	font-size: 10px;
-	margin: 3px 3px;
+	margin: 0px 0px;
 	cursor: pointer;
 	
 }
@@ -610,6 +610,7 @@ ul.contact li a:before
 	position:absolute;
 	z-index:1;
 	width:100%;
+	padding-right: 8%;
 }
 #header-wrapper-inner #header {
 	height: 75px;
@@ -750,7 +751,7 @@ ul.contact li a:before
 	float: left;
 }
 #menu ul:first-child {
-	float: right;
+	text-align: center;
 }
 
 .signin {
@@ -776,6 +777,14 @@ ul.contact li a:before
 .valid_error{
 	
 	color:red;
+}
+
+.signIO{
+	
+position: absolute;
+right: 0px;
+top: 0%;	
+	
 }
 
 /*********************************************************************************/

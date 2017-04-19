@@ -86,15 +86,19 @@
             <li><a href="<?php echo base_url() .'index.php/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
         </ul>
         <?php } else { ?>
+		
 
 	  <ul>
+	  <div class="signIO">
           <?php if($this->uri->segment(2) != 'signUp') { ?>
 		<li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
           <?php } ?>
           <?php if($this->uri->segment(2) != 'signIn') { ?>
   		<li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
           <?php } ?>
+	  </div>
       </ul>
+
    <?php } ?>
    </div>
 </div>
