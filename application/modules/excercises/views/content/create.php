@@ -40,7 +40,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_description'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                     <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' value="<?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?>" ></textarea>
+                     <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' ><?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>
@@ -48,11 +48,19 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('section') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_section') . lang('bf_form_label_required'), 'section', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                     <?php $options = array ( 'SHOULDERS' => 'shoulders' , 'CHEST' =>'chest' , 'ABS' => 'abs','BACK' => 'back', 'BICEPS' => 'biceps' ,'TRICEPS' => 'triceps', 'LEGS' => 'legs'); 
+                    <?php
+                    foreach ($cats as $key=>$cat) { ?>
+                        <?php $options[$cat->cat_id] = $cat->cat_name;
+                    }
                     echo "<div class = 'drop_pos'>";
-                    echo form_dropdown('section[]' , $options );
+                    //echo form_multiselect('section' , $options ); ?>
+                    <select name="section[]" multiple>
+                        <?php foreach ($cats as $key=>$cat) { ?>
+                        <option value="<?php echo $cat->cat_id; ?>"><?php echo $cat->cat_name; ?></option>
+                    <?php } ?>
+                    </select>
                   
-                     ?>
+
                     
                     <span class='help-inline'><?php echo form_error('section'); ?></span>
                 </div>

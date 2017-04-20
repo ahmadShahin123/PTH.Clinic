@@ -71,11 +71,23 @@ class Excercises extends Front_Controller
     }
     
     public function excercises_frontend() {
-        $query = $this->db->query("select * from bf_excercises where deleted = 0");
+        $query1 = $this->db->query("select * from bf_exc_cats where parent = 0");
+        $query2 = $this->db->query("select * from bf_exc_cats where parent <> 0");
+
+        $parents = $query1->result();
+        $children = $query2->result();
+        Template::set('parents', $parents);
+        Template::set('children', $children);
+        $section = $this->uri->segment(3);
+        $query = $this->db->query("select * from bf_excercises where deleted = 0 && section LIKE '%$section%'");
         $excercises = $query->result();
+        $query3 = $this->db->query("select * from bf_exc_cats where cat_id = $section");
+        $sec_name = $query3->result();
+        Template::set('section_name', $sec_name);
         Template::set('excercises', $excercises);
          Template::render('excercises_frontend');
     }
+
     public function excercises_inner() {
         $exc_id = $this->uri->segment(3);
         $query = $this->db->query("select * from `bf_excercises` where exc_id = $exc_id");

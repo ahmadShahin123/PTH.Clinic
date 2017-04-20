@@ -98,6 +98,8 @@ class Content extends Admin_Controller
         $this->auth->restrict($this->permissionCreate);
         
         if (isset($_POST['save'])) {
+            $sections = implode(', ', $_POST['section']);
+            $_POST['section'] = $sections;
             if ($insert_id = $this->save_excercises()) {
                 log_activity($this->auth->user_id(), lang('excercises_act_create_record') . ': ' . $insert_id . ' : ' . $this->input->ip_address(), 'excercises');
                 Template::set_message(lang('excercises_create_success'), 'success');
@@ -110,6 +112,9 @@ class Content extends Admin_Controller
                 Template::set_message(lang('excercises_create_failure') . $this->excercises_model->error, 'error');
             }
         }
+        $query = $this->db->query("select * from bf_exc_cats");
+        $cats = $query->result();
+        Template::set('cats', $cats);
 
         Template::set('toolbar_title', lang('excercises_action_create'));
 
@@ -130,6 +135,9 @@ class Content extends Admin_Controller
         }
         
         if (isset($_POST['save'])) {
+            $sections = implode(', ', $_POST['section']);
+            $_POST['section'] = $sections;
+
             $this->auth->restrict($this->permissionEdit);
 
             if ($this->save_excercises('update', $id)) {
@@ -156,7 +164,9 @@ class Content extends Admin_Controller
 
             Template::set_message(lang('excercises_delete_failure') . $this->excercises_model->error, 'error');
         }
-        
+        $query = $this->db->query("select * from bf_exc_cats where link <> ''");
+        $cats = $query->result();
+        Template::set('cats', $cats);
         Template::set('excercises', $this->excercises_model->find($id));
 
         Template::set('toolbar_title', lang('excercises_edit_heading'));

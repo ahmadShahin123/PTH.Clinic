@@ -24,7 +24,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
-    <?php if($this->uri->segment(1) == 'q_and_a') {?>
+    <?php //if($this->uri->segment(1) == 'q_and_a') {?>
 
 
 	
@@ -53,7 +53,7 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/ie8.css'; ?>" />
 
 
-    <?php } ?>
+    <?php //} ?>
 
     <link href="https://www.altibbi.com/global/stylesheets/app_7.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="https://www.altibbi.com/global/stylesheets/home_6.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -83,7 +83,7 @@
 		<li><a href="<?php echo site_url() .'/q_and_a/qa/15' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
         <li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
             <ul class="submenu">
-                <li><a href="<?php echo site_url() . '/excercises/excercises_frontend' ;?>">تمارين</a></li>
+                <li><a href="<?php echo site_url() . '/excercises/excercises_frontend/1' ;?>">تمارين</a></li>
                 <li><a href="<?php echo site_url() . '/excercises/bmi' ;?>">مؤشر كتلة الجسم</a></li>
             </ul>
         </li>
