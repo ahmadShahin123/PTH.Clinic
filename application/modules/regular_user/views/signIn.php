@@ -1,4 +1,5 @@
 <?php echo theme_view('header_inner'); ?>
+
 <div class="fontst hst">
 <h2>تسجيل الدخول </h2>
 </div>

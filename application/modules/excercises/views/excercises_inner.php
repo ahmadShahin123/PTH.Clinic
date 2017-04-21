@@ -1,4 +1,7 @@
 <?php echo theme_view('header_inner'); ?>
+<?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
+    echo theme_view('profile');
+} ?>
 <?php foreach ($excercise as $key=>$details) { ?>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center pv-mobile ph-xl-mobile">
         <iframe width="100%" height="700" src="https://www.youtube.com/embed/<?php echo $details->video; ?>" frameborder="0" allowfullscreen></iframe>

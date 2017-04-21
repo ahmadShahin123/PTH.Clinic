@@ -1,5 +1,7 @@
 <?php echo theme_view('header_inner');?>
-
+<?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
+    echo theme_view('profile');
+} ?>
 
 
 <section>

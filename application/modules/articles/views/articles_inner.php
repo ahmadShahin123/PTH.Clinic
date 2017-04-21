@@ -1,4 +1,8 @@
 <?php echo theme_view('header_inner'); ?>
+<?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
+    echo theme_view('profile');
+} ?>
+
 <?php foreach ($article as $key=>$details) { ?>
 <div class="col-md-12 col-sm-12 col-xs-12 text-center pv-mobile ph-xl-mobile">
     <img class="article-image" src="<?php echo base_url() . 'assets/images/' . $details->image?>" itemprop='image'>

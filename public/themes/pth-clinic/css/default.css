@@ -1306,7 +1306,7 @@ h3.hst {
 	padding-top: 10px;
 	padding-left: 0px;
 }
-#menu-home > img, #menu > img {
+#menu-home > a > img, #menu > a > img {
 	float: right;
 	width: 15%;
 }
@@ -1349,6 +1349,7 @@ h3.hst {
 }
 .profile-form input:nth-child(2) {
     color: #0b9af4;
+    background: white;
 }
 #myCarousel .item .carousel-caption h3 {
     line-height: 35px;

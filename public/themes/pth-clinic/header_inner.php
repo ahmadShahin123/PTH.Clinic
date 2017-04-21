@@ -74,7 +74,7 @@
 	
             
 <div id="menu" class="font-family" >
-    <img src="<?php echo base_url() . 'assets/images/18009838_1539586889430964_116861895_n.png'; ?>" />
+    <a href="<?php echo site_url() ;?>" ><img src="<?php echo base_url() . 'assets/images/18009838_1539586889430964_116861895_n.png'; ?>" /> </a>
 <ul>
 		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo site_url() .'/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
