@@ -15,7 +15,7 @@
 			</div>
 	   </form>
     </div>
-    <div class="">
+    <div class="person">
         <p><?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] . $_SESSION['id']; ?></p>
         <p class="profilelink"><a href="<?php echo site_url() . '/q_and_a/myqa/' . $_SESSION['id']; ?>">أسئلتي</a></p>
     </div>

@@ -609,19 +609,17 @@ ul.contact li a:before
 	position:absolute;
 	z-index:1;
 	width:100%;
-	padding-right: 8%;
+	/*padding-right: 8%;*/
 }
 #header-wrapper-inner #header {
 	height: 75px;
 }
 #header-wrapper-inner
 {
-    
-    padding-right: 8%;
+	/*padding-right: 8%;*/
 	position:relative;
 	z-index:1;
 	width:100%;
-        
 }
 
 #header
@@ -720,12 +718,10 @@ input[type=submit] {
 	
 }
 .profilelink{
-	    
-	
-padding: 12px;
-font-size:30px;
-
-	
+    padding: 12px;
+    font-size:23px;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 	
@@ -779,7 +775,7 @@ font-size:30px;
 	text-transform: uppercase;
 	line-height: 35px;
 	outline: 0;
-	color: blue;
+	color: #0b9af4;
 	background-color:transparent;
 	
 	
@@ -803,9 +799,8 @@ font-size:30px;
 #menu-home li:hover a, #menu-home li:visited a, #menu-home li:active span
 {
 	background: transparent;
-	
-	color: blue;
-	border-bottom:2px solid blue;
+	color: #06baee;
+	border-bottom: 2px solid #06baee;
 	
 }
 
@@ -844,12 +839,18 @@ font-size:30px;
 	left: 0;
 }
 #menu-home ul:nth-child(2) {
-	float: left;
+	/*float: left;*/
+	float: right;
+	padding-right: 11px;
+	padding-top: 10px;
 }
 
 
 #menu ul:nth-child(2) {
-	float: left;
+	/*float: left;*/
+	float: right;
+	padding-right: 11px;
+	padding-top: 10px;
 }
 
 #menu-home ul:first-child {
@@ -863,39 +864,34 @@ font-size:30px;
 
 .signin {
 
-	position:absolute !important;
+	position:relative !important;
 	font-size:20px;
-	height:69px;
-	width:130px;
-	left:-25px;
+	/*height:69px;
+	width:130px;*/
+	left:0px;
 }
 .signin1 {
-
-	position:absolute !important;
+	position:relative !important;
 	font-size:20px;
-	height:100px;
-	width:270px;
-	left:-70px;
-
+	/*height:100px;*/
+	/*width:270px;*/
+	left:0px;
 }
 
-.valid_error{
-	
+.valid_error {
 	color:red;
 }
 
-.signInUp{
+.signInUp {
 position: absolute;
 right: 7px;
 top: 0%;		
 }
 
-.exit{
+.exit {
 position: absolute;
 right: 7px;
-top: 0%;	
-	
-	
+top: 0%;
 }
 
 /*********************************************************************************/
@@ -1227,7 +1223,7 @@ ul.tools li a:before {
 	text-align: center;
 	color: #FFFFFF;
 }
-.avatar img {width: 100px;height: 100px;border-radius: 100%;}
+.avatar img {width: 100px;height: 100px;border-radius: 100%; float: right}
 #header-wrapper-inner #header {
 	margin-right: 0 !important;
 }
@@ -1237,7 +1233,7 @@ ul.tools li a:before {
 body #menu-home ul li .submenu {
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 33px;
 	background-color: #fcfcfc;
 	min-width: 192px;
 	padding: 15px 15px;
@@ -1249,7 +1245,7 @@ body #menu-home ul li .submenu {
 body #menu ul li .submenu {
 	position: absolute;
 	right: 0;
-	top: 40px;
+	top: 33px;
 	background-color: #fcfcfc;
 	min-width: 192px;
 	padding: 15px 15px;
@@ -1265,7 +1261,7 @@ body #menu ul li .submenu {
 	border-bottom: none !important;
 }
 .submenu li:hover {
-	border-bottom: 3px solid blue;
+	/*border-bottom: 3px solid blue;*/
 }
 .hasSubmenu:hover .submenu {
 	display: block !important;
@@ -1274,9 +1270,9 @@ body #menu ul li .submenu {
 	content: " ";
 	position: absolute;
 	bottom: 100%;
-	right: 25%;
-	margin-left: -5px;	border-bottom: none !important;
-
+	right: 23%;
+	margin-left: -5px;
+	/*border-bottom: none !important;*/
 	border-width: 5px;
 	border-style: solid;
 	border-color: transparent transparent white transparent;
@@ -1303,4 +1299,57 @@ h3.hst {
 }
 .parent {
 	padding-right: 22%;
+}
+#menu-home ul:nth-child(3), #menu ul:nth-child(3) {
+	float: left;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+}
+#menu-home > img, #menu > img {
+	float: right;
+	width: 15%;
+}
+#header-wrapper-inner #header {
+	padding-top: 8px;
+}
+.submenu li:hover a {
+	color: #0b9af4 !important;
+}
+.profile {
+    background: #050913;
+	padding-bottom: 1px;
+}
+.profile .avatar {
+	float: right;
+    margin-right: 30px;
+}
+.profile .avatar form {
+	float: right;
+	margin-right: 19px;
+	margin-top: 21px;
+}
+.profile .avatar form div input:nth-child(2) {
+	float: right;
+}
+.person p, .person a {
+	color: white;
+    text-align: right;
+}
+.person {
+    clear: both;
+    padding-right: 19px;
+}
+.person > p:first-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.profile-form input:first-child {
+    color: white;
+}
+.profile-form input:nth-child(2) {
+    color: #0b9af4;
+}
+#myCarousel .item .carousel-caption h3 {
+    line-height: 35px;
 }

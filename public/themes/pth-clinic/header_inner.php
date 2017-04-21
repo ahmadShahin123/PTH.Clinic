@@ -24,7 +24,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="<?php echo base_url() . 'themes/pth-clinic/js/bootstrap.min.js';?>"> </script>
-    <?php //if($this->uri->segment(1) == 'q_and_a') {?>
+    <?php if($this->uri->segment(1) == 'q_and_a' || $this->uri->segment(1) == 'excercises') {?>
 
 
 	
@@ -53,7 +53,7 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/ie8.css'; ?>" />
 
 
-    <?php //} ?>
+    <?php } ?>
 
     <link href="https://www.altibbi.com/global/stylesheets/app_7.min.css" media="screen" rel="stylesheet" type="text/css">
     <link href="https://www.altibbi.com/global/stylesheets/home_6.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -74,7 +74,7 @@
 	
             
 <div id="menu" class="font-family" >
-    
+    <img src="<?php echo base_url() . 'assets/images/18009838_1539586889430964_116861895_n.png'; ?>" />
 <ul>
 		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo site_url() .'/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>

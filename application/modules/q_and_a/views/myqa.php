@@ -56,7 +56,7 @@
 </aside><!-- #slide-out /-->
 
 
-
+<?php if(isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
 <div class="post-inner">
     <?php foreach ($questions as $key=>$question) { ?>
         <h2 class="entry-title"><a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" ><?php echo $question->question; ?></a></h2>
@@ -80,7 +80,7 @@
         </div><!-- .container /-->
     <?php } ?>
 </div>
-
+<?php } else redirect(site_url() . '/regular_user/signIn'); ?>
 <div style="display:none">
 </div>
 
