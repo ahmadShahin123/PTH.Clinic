@@ -3,7 +3,7 @@ html, body
 {
 	direction: rtl;
 	height: 100%;
-	color: #0000ff !important;
+    color: #0b9af4 !important;
 	font-family: 'Cairo', sans-serif !important;
 }
 
@@ -175,7 +175,7 @@ max-height: 170px;
 .box-border {
 	
 height: 100% !important;
-width: 965px !important;
+width: 100% !important;
 line-height: 2.42857 ! important;
 font-family: 'Droid Arabic Kufi', serif !important;
 text-align: justify !important;
@@ -222,7 +222,7 @@ padding:3px;
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+body input[type=text], body input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -230,6 +230,10 @@ input[type=text], input[type=password] {
     border: 1px solid lightblue;
     box-sizing: border-box;
 	border-radius:3px;
+    max-width: 100%;
+}
+#commentform input, input[type="text"], input[type="password"], input[type="email"] {
+    height: auto !important;
 }
 .submitbtn {
     width: 100% !important;
@@ -250,7 +254,7 @@ input[type=text], input[type=password] {
 	border-radius:3px;}
 
 /* Set a style for all buttons */
-button {
+body button {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -1372,4 +1376,41 @@ body .footer-distributed .footer-links a:hover {
 }
 body .footer-distributed .footer-icons a:hover {
     background-color: #0b9af4;
+}
+body .signupbtn {
+    width: 100%;
+}
+body #hotArticles article .articleAnswer {
+    border-bottom: none;
+}
+#articleViewPage, #right_bar_content {
+    width: 100%;
+}
+#right_bar_content .row div:first-child {
+    text-align: center;
+}
+#right_bar_content .row div:first-child h1 {
+    color: #000;
+}
+.article-description > div {
+    color: #000;
+}
+.art-image {
+    background-size: cover !important;
+    padding: 10px;
+    width: 100%;
+    height: 60%;
+}
+body .art-image h1 {
+    margin-top: 10%;
+    -webkit-text-stroke: 2px black;
+    vertical-align: middle;
+    font-size: 70px;
+    color: white;
+}
+body .box-border {
+    border: none;
+}
+body div.pv-mobile.ph-xl-mobile {
+    float: none;
 }

@@ -4,7 +4,7 @@
 } ?>
 <?php foreach ($excercise as $key=>$details) { ?>
     <div class="col-md-12 col-sm-12 col-xs-12 text-center pv-mobile ph-xl-mobile">
-        <iframe width="100%" height="700" src="https://www.youtube.com/embed/<?php echo $details->video; ?>" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/<?php echo $details->video; ?>" frameborder="0" allowfullscreen></iframe>
     </div>
     <div id="articleViewPage" class="mojo-container container">
         <div id="right_bar_content" class="col-md-8 col-sm-12 col-xs-12 p0-mobile">

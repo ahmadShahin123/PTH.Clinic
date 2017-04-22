@@ -7,7 +7,7 @@
 
 
 
-.bmibutton {
+body .bmibutton {
 font-size:15px;
 background-color: #4CAF50;
 color: white;
@@ -19,6 +19,7 @@ border-radius:3px;
 font-family: 'Droid Arabic Kufi', serif;
 display:inline;
 margin:20px 10px;
+    height: auto;
 }
 
 .bmicancelbtn {
@@ -48,7 +49,10 @@ margin:20px 10px;
 
 .bmitable{ border-radius:15px;
   margin:0px 15px 0px 15px; 
-  text-align:right;  display:inline-table; direction:rtl; height:100%; }
+  text-align:right;  display:inline-table; direction:rtl; height:100%;width: 50%; }
+td {
+    padding-right: 10px;
+}
 
 input[type=text]{
 width: 100%;
