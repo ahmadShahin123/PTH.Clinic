@@ -98,5 +98,4 @@
 <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/wp-embed.min.js'; ?>"></script>
 
 
-</body>
-</html>
+<?php echo theme_view('footer'); ?>

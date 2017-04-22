@@ -62,7 +62,15 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'themes/pth-clinic/css/contactUsForm.css'; ?>"/>
     <?php } ?>
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url() . 'themes/pth-clinic/css/bmi.css'; ?>" >
+<!-- footer styles -->
 
+    <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/demo.css'; ?>s">
+    <link rel="stylesheet" href="<?php echo base_url() . 'themes/pth-clinic/css/footer-distributed-with-address-and-phones.css'; ?>">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<!-- end of footer styles -->
 </head>
 
 <body class="<?php if ($this->uri->segment(1) == 'articles') echo 'unv-menu bac-header'; else '';?>">

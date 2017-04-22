@@ -19,5 +19,4 @@
   </div>
 </form>
 
-</body>
-</html>
+<?php echo theme_view('footer'); ?>

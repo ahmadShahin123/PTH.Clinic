@@ -32,6 +32,5 @@
     </div>
 </div>
 <?php } ?>
-    </body>
-    </html>
+<?php echo theme_view('footer'); ?>
 

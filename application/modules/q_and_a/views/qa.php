@@ -113,5 +113,4 @@ var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.p
 <script type='text/javascript' src="<?php echo base_url() . 'themes/pth-clinic/js/wp-embed.min.js'; ?>"></script>
 
 
-</body>
-</html>
+<?php echo theme_view('footer'); ?>

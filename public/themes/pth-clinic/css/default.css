@@ -1354,3 +1354,22 @@ h3.hst {
 #myCarousel .item .carousel-caption h3 {
     line-height: 35px;
 }
+body .footer-distributed {
+    margin-bottom: 0;
+    background-color: #062e54 !important;
+    text-align: initial !important;
+    margin-top: 25px;
+}
+.footer-distributed > div:first-child {
+    width: 33.3% !important;
+    float: right;
+}
+.footer-right .footer-icons, .footer-left > div:first-child {
+    text-align: center;
+}
+body .footer-distributed .footer-links a:hover {
+    color: #0b9af4;
+}
+body .footer-distributed .footer-icons a:hover {
+    background-color: #0b9af4;
+}

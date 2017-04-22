@@ -6,5 +6,5 @@
 <div class="main">
 <?php echo isset($content) ? $content : Template::content(); ?>
 </div>
-</body>
-</html>
+
+<?php echo theme_view('footer'); ?>

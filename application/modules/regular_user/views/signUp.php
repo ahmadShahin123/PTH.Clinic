@@ -40,4 +40,5 @@
             $('#message').html('لا يوجد تطابق').css('color', 'red');
     });
 </script>
+<?php echo theme_view('footer'); ?>
 
