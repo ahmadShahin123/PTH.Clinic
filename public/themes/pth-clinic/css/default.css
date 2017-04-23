@@ -1363,6 +1363,7 @@ body .footer-distributed {
     background-color: #062e54 !important;
     text-align: initial !important;
     margin-top: 25px;
+    clear: both;
 }
 .footer-distributed > div:first-child {
     width: 33.3% !important;

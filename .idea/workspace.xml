@@ -2,9 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/assets/js/articles.js" afterPath="$PROJECT_DIR$/application/modules/articles/assets/js/articles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/config/config.php" afterPath="$PROJECT_DIR$/application/modules/articles/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Developer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Reports.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/english/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/english/articles_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/italian/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/italian/articles_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/portuguese_br/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/portuguese_br/articles_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/spanish_am/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/spanish_am/articles_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/migrations/001_Install_articles_permissions.php" afterPath="$PROJECT_DIR$/application/modules/articles/migrations/001_Install_articles_permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/models/Articles_model.php" afterPath="$PROJECT_DIR$/application/modules/articles/models/Articles_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/about_us.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/about_us.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/art.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/art.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/assets/js/excercises.js" afterPath="$PROJECT_DIR$/application/modules/excercises/assets/js/excercises.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/config/config.php" afterPath="$PROJECT_DIR$/application/modules/excercises/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Developer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Reports.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/english/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/english/excercises_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/italian/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/italian/excercises_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/portuguese_br/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/portuguese_br/excercises_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/spanish_am/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/spanish_am/excercises_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/migrations/001_Install_excercises_permissions.php" afterPath="$PROJECT_DIR$/application/modules/excercises/migrations/001_Install_excercises_permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" afterPath="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/assets/js/q_and_a.js" afterPath="$PROJECT_DIR$/application/modules/q_and_a/assets/js/q_and_a.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/config/config.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Developer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Reports.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/arabic/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/arabic/q_and_a_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/english/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/english/q_and_a_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/italian/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/italian/q_and_a_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/portuguese_br/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/portuguese_br/q_and_a_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/spanish_am/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/spanish_am/q_and_a_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/migrations/001_Install_q_and_a_permissions.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/migrations/001_Install_q_and_a_permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/models/Q_and_a_model.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/models/Q_and_a_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/assets/js/regular_user.js" afterPath="$PROJECT_DIR$/application/modules/regular_user/assets/js/regular_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/config/config.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Developer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Reports.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/english/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/english/regular_user_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/italian/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/italian/regular_user_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/portuguese_br/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/portuguese_br/regular_user_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/spanish_am/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/spanish_am/regular_user_lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/migrations/001_Install_regular_user_permissions.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/migrations/001_Install_regular_user_permissions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/models/Regular_user_model.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/models/Regular_user_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/_sub_nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,109 +152,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-              <folding>
-                <marker date="1492876724000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
-                <marker date="1492876724000" expanded="true" signature="3014:3055" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="1414" column="15" lean-forward="false" selection-start-line="1414" selection-start-column="15" selection-end-line="1414" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excercises_inner.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bmi.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myqa.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="100" column="35" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="art.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles_inner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/articles_inner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-              <folding>
-                <marker date="1492876746000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
-                <marker date="1492876746000" expanded="true" signature="2283:2317" ph="select * fro... bf_users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signIn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/signIn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signUp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/signUp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="354">
+              <caret line="1409" column="17" lean-forward="true" selection-start-line="1409" selection-start-column="17" selection-end-line="1409" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -136,13 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/custom.css" />
-        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/responsive_rtl.css" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/art.php" />
-        <option value="$PROJECT_DIR$/application/modules/articles/art.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/articles_inner.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/contactUs.php" />
-        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/responsive.css" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/contactUsForm.css" />
         <option value="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/bmi.php" />
@@ -151,23 +178,17 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/ask.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/excercises_inner.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/models/User_model.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/excercises_frontend.php" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/style.css" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items.phtml" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items 2.phtml" />
-        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/profile.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/us.php" />
@@ -175,7 +196,6 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/footer.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/art.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
@@ -185,8 +205,22 @@
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
+        <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
+        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
       </list>
     </option>
   </component>
@@ -359,7 +393,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
+              <option name="myItemId" value="symptoms" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -385,35 +419,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="excercises" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
+              <option name="myItemId" value="symptoms" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -433,7 +449,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
+              <option name="myItemId" value="symptoms" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,12 +539,12 @@
       <workItem from="1491585218756" duration="255000" />
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
-      <workItem from="1492327153897" duration="70456000" />
+      <workItem from="1492327153897" duration="75555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143931000" />
+    <option name="totallyTimeSpent" value="149030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -566,86 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/default 2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="104" column="68" lean-forward="true" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/myqa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/ask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/excercises_inner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="367" column="24" lean-forward="false" selection-start-line="367" selection-start-column="24" selection-end-line="367" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bonfire/modules/settings/controllers/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <caret line="107" column="63" lean-forward="false" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="76" lean-forward="true" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bonfire/modules/users/models/User_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="138" column="35" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-465">
@@ -662,80 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="64" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="122" column="27" lean-forward="false" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="81" column="60" lean-forward="false" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
-          <folding>
-            <marker date="1492625669000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="2099:2143" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="2183:2228" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="2268:2312" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="2268:2313" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="2672:2716" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="2756:2801" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="3007:3014" ph="select p.* ,... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="3007:3052" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="3007:3188" ph="select p.* ,... " />
-            <marker date="1492625669000" expanded="true" signature="3092:3099" ph="select p.* ,... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="3092:3151" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="3649:3719" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492625669000" expanded="true" signature="3649:3742" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492625669000" expanded="true" signature="4002:4068" ph="select * fro... bf_q_and_a" />
-            <marker date="1492625669000" expanded="true" signature="4148:4192" ph="select * fro... bf_categories" />
-            <marker date="1492625669000" expanded="true" signature="4232:4277" ph="select * fro... bf_categories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/excercises_frontend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="61" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -745,26 +611,8 @@
         <state relative-caret-position="15">
           <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
           <folding>
-            <marker date="1492693162000" expanded="true" signature="4074:4099" ph="select * fro... bf_exc_cats" />
-            <marker date="1492693162000" expanded="true" signature="6065:6107" ph="select * fro... bf_exc_cats" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-          <folding>
-            <marker date="1492693162000" expanded="true" signature="2219:2261" ph="select * fro... bf_exc_cats" />
-            <marker date="1492693162000" expanded="true" signature="2301:2344" ph="select * fro... bf_exc_cats" />
-            <marker date="1492693162000" expanded="true" signature="2594:2639" ph="select * fro... bf_excercises" />
-            <marker date="1492693162000" expanded="true" signature="2594:2658" ph="select * fro... bf_excercises" />
-            <marker date="1492693162000" expanded="true" signature="2594:2668" ph="select * fro... bf_excercises" />
-            <marker date="1492693162000" expanded="true" signature="2748:2789" ph="select * fro... bf_exc_cats" />
-            <marker date="1492693162000" expanded="true" signature="2748:2790" ph="select * fro... bf_exc_cats" />
-            <marker date="1492693162000" expanded="true" signature="3115:3160" ph="select * fro... bf_excercises" />
-            <marker date="1492693162000" expanded="true" signature="3115:3161" ph="select * fro... bf_excercises" />
+            <marker date="1492987311000" expanded="true" signature="4074:4099" ph="select * fro... bf_exc_cats" />
+            <marker date="1492987311000" expanded="true" signature="6065:6107" ph="select * fro... bf_exc_cats" />
           </folding>
         </state>
       </provider>
@@ -773,17 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1492707105000" expanded="true" signature="6867:6881" ph="..." />
-            <marker date="1492707105000" expanded="true" signature="6938:6952" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -792,24 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1492700965000" expanded="true" signature="5585:5963" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="5641:5818" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="5935:5963" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="6035:6087" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="6430:6807" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="6489:6807" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="7713:7727" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="7784:7798" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="8133:8190" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="8358:8465" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="8536:8996" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="8608:8891" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="8773:8857" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="9763:10203" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="10521:10955" ph="..." />
-            <marker date="1492700965000" expanded="true" signature="10652:10955" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -905,12 +725,12 @@
         <state relative-caret-position="129">
           <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
           <folding>
-            <marker date="1492275698000" expanded="true" signature="1984:2065" ph="select * fro... bf_articles" />
-            <marker date="1492275698000" expanded="true" signature="2247:2303" ph="select * fro... bf_articles" />
-            <marker date="1492275698000" expanded="true" signature="2247:2307" ph="select * fro... bf_articles" />
-            <marker date="1492275698000" expanded="true" signature="2555:2602" ph="select * fro... bf_articles" />
-            <marker date="1492275698000" expanded="true" signature="2555:2603" ph="select * fro... bf_articles" />
-            <marker date="1492275698000" expanded="true" signature="2555:2605" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="1984:2065" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="2247:2303" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="2247:2307" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="2555:2602" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="2555:2603" ph="select * fro... bf_articles" />
+            <marker date="1492987311000" expanded="true" signature="2555:2605" ph="select * fro... bf_articles" />
           </folding>
         </state>
       </provider>
@@ -953,16 +773,8 @@
         <state relative-caret-position="474">
           <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
           <folding>
-            <marker date="1492876700000" expanded="true" signature="3428:3497" ph="..." />
+            <marker date="1492987311000" expanded="true" signature="3428:3497" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/bmi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,13 +794,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="150" column="126" lean-forward="true" selection-start-line="150" selection-start-column="126" selection-end-line="150" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/models/Symptoms_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1266">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/bmi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+          <folding>
+            <marker date="1492987311000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
+            <marker date="1492987311000" expanded="true" signature="3014:3055" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/articles_inner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
           <folding>
-            <marker date="1492876746000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
-            <marker date="1492876746000" expanded="true" signature="2283:2317" ph="select * fro... bf_users" />
+            <marker date="1492987311000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="2283:2317" ph="select * fro... bf_users" />
           </folding>
         </state>
       </provider>
@@ -1009,55 +890,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css">
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/models/Regular_user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        <state relative-caret-position="-1146">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/art.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="-801">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492987311000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
+            <marker date="1492987311000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
+            <marker date="1492987311000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+        <state relative-caret-position="1044">
+          <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
           <folding>
-            <marker date="1492876724000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
-            <marker date="1492876724000" expanded="true" signature="3014:3055" ph="..." />
+            <marker date="1492987311000" expanded="true" signature="2219:2261" ph="select * fro... bf_exc_cats" />
+            <marker date="1492987311000" expanded="true" signature="2301:2344" ph="select * fro... bf_exc_cats" />
+            <marker date="1492987311000" expanded="true" signature="2594:2639" ph="select * fro... bf_excercises" />
+            <marker date="1492987311000" expanded="true" signature="2594:2658" ph="select * fro... bf_excercises" />
+            <marker date="1492987311000" expanded="true" signature="2594:2668" ph="select * fro... bf_excercises" />
+            <marker date="1492987311000" expanded="true" signature="2748:2789" ph="select * fro... bf_exc_cats" />
+            <marker date="1492987311000" expanded="true" signature="2748:2790" ph="select * fro... bf_exc_cats" />
+            <marker date="1492987311000" expanded="true" signature="3115:3160" ph="select * fro... bf_excercises" />
+            <marker date="1492987311000" expanded="true" signature="3115:3161" ph="select * fro... bf_excercises" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/articles_inner.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="-216">
+          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1492987311000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="2099:2143" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="2183:2228" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="2268:2312" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="2268:2313" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="2672:2716" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="2756:2801" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="3007:3014" ph="select p.* ,... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="3007:3052" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="3007:3188" ph="select p.* ,... " />
+            <marker date="1492987311000" expanded="true" signature="3092:3099" ph="select p.* ,... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="3092:3151" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="3649:3719" ph="insert into `bf_q_and_a`... " />
+            <marker date="1492987311000" expanded="true" signature="3649:3742" ph="insert into `bf_q_and_a`... " />
+            <marker date="1492987311000" expanded="true" signature="4002:4068" ph="select * fro... bf_q_and_a" />
+            <marker date="1492987311000" expanded="true" signature="4148:4192" ph="select * fro... bf_categories" />
+            <marker date="1492987311000" expanded="true" signature="4232:4277" ph="select * fro... bf_categories" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="51" column="60" lean-forward="true" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="1414" column="15" lean-forward="false" selection-start-line="1414" selection-start-column="15" selection-end-line="1414" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="354">
+          <caret line="1409" column="17" lean-forward="true" selection-start-line="1409" selection-start-column="17" selection-end-line="1409" selection-end-column="17" />
           <folding />
         </state>
       </provider>

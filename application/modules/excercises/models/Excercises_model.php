@@ -55,7 +55,7 @@ class Excercises_model extends BF_Model
 		array(
 			'field' => 'description',
 			'label' => 'lang:excercises_field_description',
-			'rules' => 'max_length[255]',
+			'rules' => '',
 		),
 		array(
 			'field' => 'section',

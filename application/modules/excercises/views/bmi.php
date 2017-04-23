@@ -13,8 +13,8 @@
         <b>أدخل البيانات المطلوبة</b>
         <form  action="<?php echo site_url() . '/excercises/bmi'; ?>" method="post" >
 
-            الوزن:<input class="bmifont" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" value="<?php isset($_POST['weight']) ? $_POST['weight'] : '' ?>"/>
-            الطول:<input class="bmifont" type="text" placeholder="أدخل الطول بالمتر" name="height" value="<?php isset($_POST['height']) ? $_POST['height'] : '' ?>"/>
+            الوزن:<input class="bmifont" type="text" placeholder="أدخل الوزن بالكيلو غرام" name="weight" value="<?php isset($_POST['weight']) ? $_POST['weight'] : '' ?>" required/>
+            الطول:<input class="bmifont" type="text" placeholder="أدخل الطول بالمتر" name="height" value="<?php isset($_POST['height']) ? $_POST['height'] : '' ?>" required />
 
             مؤشر كتلة الجسم:<input class="bmifont" type="text" placeholder="النتيجة" name="bmi" align="center"	value="<?php echo isset($_POST['bmi']) ? $_POST['bmi'] : ''; ?>"/>
 

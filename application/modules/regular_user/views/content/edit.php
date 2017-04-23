@@ -61,55 +61,6 @@ $id = isset($regular_user->reg_user_id) ? $regular_user->reg_user_id : '';
                 </div>
             </div>
 
-            <div class="control-group<?php echo form_error('deleted') ? ' error' : ''; ?>">
-                <div class='controls'>
-                    <label class='checkbox' for='deleted'>
-                        <input type='checkbox' id='deleted' name='deleted'  value='1' <?php echo set_checkbox('deleted', 1, isset($regular_user->deleted) && $regular_user->deleted == 1); ?> />
-                        <?php echo lang('regular_user_field_deleted'); ?>
-                    </label>
-                    <span class='help-inline'><?php echo form_error('deleted'); ?></span>
-                </div>
-            </div>
-
-            <div class="control-group<?php echo form_error('deleted_by') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('regular_user_field_deleted_by'), 'deleted_by', array('class' => 'control-label')); ?>
-                <div class='controls'>
-                    <input id='deleted_by' type='text' name='deleted_by' maxlength='11' value="<?php echo set_value('deleted_by', isset($regular_user->deleted_by) ? $regular_user->deleted_by : ''); ?>" />
-                    <span class='help-inline'><?php echo form_error('deleted_by'); ?></span>
-                </div>
-            </div>
-
-            <div class="control-group<?php echo form_error('created_on') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('regular_user_field_created_on'), 'created_on', array('class' => 'control-label')); ?>
-                <div class='controls'>
-                    <input id='created_on' type='text' name='created_on'  value="<?php echo set_value('created_on', isset($regular_user->created_on) ? $regular_user->created_on : ''); ?>" />
-                    <span class='help-inline'><?php echo form_error('created_on'); ?></span>
-                </div>
-            </div>
-
-            <div class="control-group<?php echo form_error('created_by') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('regular_user_field_created_by'), 'created_by', array('class' => 'control-label')); ?>
-                <div class='controls'>
-                    <input id='created_by' type='text' name='created_by' maxlength='11' value="<?php echo set_value('created_by', isset($regular_user->created_by) ? $regular_user->created_by : ''); ?>" />
-                    <span class='help-inline'><?php echo form_error('created_by'); ?></span>
-                </div>
-            </div>
-
-            <div class="control-group<?php echo form_error('modified_on') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('regular_user_field_modified_on'), 'modified_on', array('class' => 'control-label')); ?>
-                <div class='controls'>
-                    <input id='modified_on' type='text' name='modified_on'  value="<?php echo set_value('modified_on', isset($regular_user->modified_on) ? $regular_user->modified_on : ''); ?>" />
-                    <span class='help-inline'><?php echo form_error('modified_on'); ?></span>
-                </div>
-            </div>
-
-            <div class="control-group<?php echo form_error('modified_by') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('regular_user_field_modified_by'), 'modified_by', array('class' => 'control-label')); ?>
-                <div class='controls'>
-                    <input id='modified_by' type='text' name='modified_by' maxlength='11' value="<?php echo set_value('modified_by', isset($regular_user->modified_by) ? $regular_user->modified_by : ''); ?>" />
-                    <span class='help-inline'><?php echo form_error('modified_by'); ?></span>
-                </div>
-            </div>
         </fieldset>
         <fieldset class='form-actions'>
             <input type='submit' name='save' class='btn btn-primary' value="<?php echo lang('regular_user_action_edit'); ?>" />

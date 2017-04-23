@@ -120,7 +120,7 @@ class Content extends Admin_Controller
         
         if (isset($_POST['save'])) {
             $this->auth->restrict($this->permissionEdit);
-            $_POST['modified_by'] = $this->auth->user_id();
+           // $_POST['modified_by'] = $this->auth->user_id();
             if ($this->save_q_and_a('update', $id)) {
                 log_activity($this->auth->user_id(), lang('q_and_a_act_edit_record') . ': ' . $id . ' : ' . $this->input->ip_address(), 'q_and_a');
                 Template::set_message(lang('q_and_a_edit_success'), 'success');
@@ -186,7 +186,7 @@ class Content extends Admin_Controller
         
 		$data['created_on']	= $this->input->post('created_on') ? $this->input->post('created_on') : '0000-00-00 00:00:00';
 		$data['modified_on']	= $this->input->post('modified_on') ? $this->input->post('modified_on') : '0000-00-00 00:00:00';
-
+        $data['modified_by']	= $this->auth->user_id();
         $return = false;
         if ($type == 'insert') {
             $id = $this->q_and_a_model->insert($data);
