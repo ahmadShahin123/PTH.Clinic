@@ -32,7 +32,7 @@ $id = isset($articles->article_id) ? $articles->article_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('articles_field_description') . lang('bf_form_label_required'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                   <textarea id='description'  required='required' name='description'  rows="5" cols="100" maxlength='5000' placeholder="write the descriptopn here" wrap="hard" dir="ltr" ><?php echo set_value('description', isset($articles->description) ? $articles->description : ''); ?></textarea>
+                   <textarea id='description'  required='required' name='description'  rows="5" cols="100" maxlength='50000' placeholder="write the descriptopn here" wrap="hard" dir="ltr" ><?php echo set_value('description', isset($articles->description) ? $articles->description : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>
