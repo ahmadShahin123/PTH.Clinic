@@ -42,7 +42,7 @@ margin:20px 10px;
 
 .bmidiv{text-align:center; font-family: 'Droid Arabic Kufi', serif; }
 
-.bmidivtext{text-align:center; font-family: 'Droid Arabic Kufi', serif; margin:30px;}
+.bmidivtext{text-align:center; font-family: 'Droid Arabic Kufi', serif; margin:30px; }
 
 .bmiform{border: 1px solid gray;background-color:#f2f2f2; width:10cm; border-radius:5px;
  display:inline-table; margin:0px 15px 0px 15px; direction:rtl; text-align:right; padding:8px; }
