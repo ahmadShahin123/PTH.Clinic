@@ -40,8 +40,8 @@
 
 
                     <div class="blog-author-content">
-                        <h2 class="blog-author-name">اسئلة واجوبة</h2>
-                        <div>قسم متخصص في الإجابة على الإستفسارات الطبية</div>
+                        <h2 class="blog-author-name">اللياقة البدنية</h2>
+                        <div>قسم متخصص في التمارين الرياضية</div>
 
 
                     </div> <!-- .about-blog-author -->
@@ -56,7 +56,7 @@
 
 
 <section>
-    <div id="hotArticles">
+    <div id="hotArticles" class="exc">
         <h2 class="title btwnTitle text-center">
             <span><?php foreach ($section_name as $key=>$sec) {echo 'تمارين ' . $sec->cat_name;} ?></span>
         </h2>
