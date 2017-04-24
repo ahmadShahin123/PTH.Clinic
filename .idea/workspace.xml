@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="" />
+    <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +19,79 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="1409" column="17" lean-forward="true" selection-start-line="1409" selection-start-column="17" selection-end-line="1409" selection-end-column="17" />
+            <state relative-caret-position="331">
+              <caret line="1407" column="17" lean-forward="false" selection-start-line="1407" selection-start-column="17" selection-end-line="1407" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q_and_a.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+              <folding>
+                <marker date="1493045280000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="1800:1888" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="2124:2168" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="2208:2253" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="2293:2337" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="2293:2338" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="2697:2741" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="2781:2826" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="3032:3039" ph="select p.* ,... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="3032:3077" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="3032:3213" ph="select p.* ,... " />
+                <marker date="1493045280000" expanded="true" signature="3117:3124" ph="select p.* ,... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="3117:3176" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="3674:3744" ph="insert into `bf_q_and_a`... " />
+                <marker date="1493045280000" expanded="true" signature="3674:3767" ph="insert into `bf_q_and_a`... " />
+                <marker date="1493045280000" expanded="true" signature="4027:4093" ph="select * fro... bf_q_and_a" />
+                <marker date="1493045280000" expanded="true" signature="4173:4217" ph="select * fro... bf_categories" />
+                <marker date="1493045280000" expanded="true" signature="4257:4302" ph="select * fro... bf_categories" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qa.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <marker date="1493045807000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+              <folding>
+                <marker date="1492987311000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
+                <marker date="1492987311000" expanded="true" signature="3014:3055" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ask.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -41,7 +113,6 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/ask.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/excercises_inner.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/rtl.css" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/models/User_model.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/views/settings/user_form.php" />
         <option value="$PROJECT_DIR$/bonfire/modules/users/controllers/Settings.php" />
@@ -63,7 +134,6 @@
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css" />
@@ -79,11 +149,13 @@
         <option value="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
       </list>
     </option>
   </component>
@@ -114,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,54 +230,6 @@
               <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pth-clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pth-clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,7 +281,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
+              <option name="myItemId" value="q_and_a" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,15 +307,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="q_and_a" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,14 +329,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
+              <option name="myItemId" value="q_and_a" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,11 +423,12 @@
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
       <workItem from="1492327153897" duration="76009000" />
+      <workItem from="1493044746797" duration="1274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149484000" />
+    <option name="totallyTimeSpent" value="150758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -449,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-465">
           <caret line="165" column="44" lean-forward="false" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="166" column="12" lean-forward="false" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -473,61 +492,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="101" column="42" lean-forward="false" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="4074:4099" ph="select * fro... bf_exc_cats" />
-            <marker date="1492987311000" expanded="true" signature="6065:6107" ph="select * fro... bf_exc_cats" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items 2.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/products.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/cms.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/gallery.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="2844" column="1" lean-forward="true" selection-start-line="2844" selection-start-column="1" selection-end-line="2844" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items 2.phtml" />
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/items.phtml" />
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/products.phtml" />
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/cms.phtml" />
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/gallery.phtml" />
+    <entry file="file:///private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/style.css" />
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -548,14 +521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <marker date="1492805677000" expanded="true" signature="2979:2994" ph="..." />
-            <marker date="1492805677000" expanded="true" signature="2979:3117" ph="..." />
-            <marker date="1492805677000" expanded="true" signature="3560:3713" ph="..." />
-            <marker date="1492805677000" expanded="true" signature="3659:3713" ph="..." />
-            <marker date="1492805677000" expanded="true" signature="4121:4170" ph="..." />
-            <marker date="1492805677000" expanded="true" signature="4320:4366" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,14 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="1984:2065" ph="select * fro... bf_articles" />
-            <marker date="1492987311000" expanded="true" signature="2247:2303" ph="select * fro... bf_articles" />
-            <marker date="1492987311000" expanded="true" signature="2247:2307" ph="select * fro... bf_articles" />
-            <marker date="1492987311000" expanded="true" signature="2555:2602" ph="select * fro... bf_articles" />
-            <marker date="1492987311000" expanded="true" signature="2555:2603" ph="select * fro... bf_articles" />
-            <marker date="1492987311000" expanded="true" signature="2555:2605" ph="select * fro... bf_articles" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,16 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="70" />
-          <folding>
-            <marker date="1492874499000" expanded="true" signature="4409:4575" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="4447:4575" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="4498:4575" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="4650:4787" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="5235:5388" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="5334:5388" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="5793:5843" ph="..." />
-            <marker date="1492874499000" expanded="true" signature="5983:6032" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,17 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="3428:3497" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1266">
           <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="53" column="23" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,18 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
-            <marker date="1492987311000" expanded="true" signature="3014:3055" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,20 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="2283:2317" ph="select * fro... bf_users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1146">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,11 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-801">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="2767:2923" ph="INSERT INTO `bf_reg_user`... " />
-            <marker date="1492987311000" expanded="true" signature="3198:3248" ph="select * fro... bf_reg_user" />
-            <marker date="1492987311000" expanded="true" signature="4668:4732" ph="update `bf_r... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="57" column="24" lean-forward="false" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,47 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="2219:2261" ph="select * fro... bf_exc_cats" />
-            <marker date="1492987311000" expanded="true" signature="2301:2344" ph="select * fro... bf_exc_cats" />
-            <marker date="1492987311000" expanded="true" signature="2594:2639" ph="select * fro... bf_excercises" />
-            <marker date="1492987311000" expanded="true" signature="2594:2658" ph="select * fro... bf_excercises" />
-            <marker date="1492987311000" expanded="true" signature="2594:2668" ph="select * fro... bf_excercises" />
-            <marker date="1492987311000" expanded="true" signature="2748:2789" ph="select * fro... bf_exc_cats" />
-            <marker date="1492987311000" expanded="true" signature="2748:2790" ph="select * fro... bf_exc_cats" />
-            <marker date="1492987311000" expanded="true" signature="3115:3160" ph="select * fro... bf_excercises" />
-            <marker date="1492987311000" expanded="true" signature="3115:3161" ph="select * fro... bf_excercises" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="81" column="35" lean-forward="true" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <marker date="1492987311000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="2099:2143" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="2183:2228" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="2268:2312" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="2268:2313" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="2672:2716" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="2756:2801" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="3007:3014" ph="select p.* ,... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="3007:3052" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="3007:3188" ph="select p.* ,... " />
-            <marker date="1492987311000" expanded="true" signature="3092:3099" ph="select p.* ,... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="3092:3151" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="3649:3719" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492987311000" expanded="true" signature="3649:3742" ph="insert into `bf_q_and_a`... " />
-            <marker date="1492987311000" expanded="true" signature="4002:4068" ph="select * fro... bf_q_and_a" />
-            <marker date="1492987311000" expanded="true" signature="4148:4192" ph="select * fro... bf_categories" />
-            <marker date="1492987311000" expanded="true" signature="4232:4277" ph="select * fro... bf_categories" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="51" column="60" lean-forward="true" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,9 +766,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="1409" column="17" lean-forward="true" selection-start-line="1409" selection-start-column="17" selection-end-line="1409" selection-end-column="17" />
+        <state relative-caret-position="331">
+          <caret line="1407" column="17" lean-forward="false" selection-start-line="1407" selection-start-column="17" selection-end-line="1407" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/ask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+          <folding>
+            <marker date="1492987311000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
+            <marker date="1492987311000" expanded="true" signature="3014:3055" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <folding>
+            <marker date="1493045280000" expanded="true" signature="1421:1465" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="1505:1550" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="1800:1840" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="1800:1841" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="1800:1863" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="1800:1888" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="2124:2168" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="2208:2253" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="2293:2337" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="2293:2338" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="2697:2741" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="2781:2826" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="3032:3039" ph="select p.* ,... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="3032:3077" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="3032:3213" ph="select p.* ,... " />
+            <marker date="1493045280000" expanded="true" signature="3117:3124" ph="select p.* ,... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="3117:3176" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="3674:3744" ph="insert into `bf_q_and_a`... " />
+            <marker date="1493045280000" expanded="true" signature="3674:3767" ph="insert into `bf_q_and_a`... " />
+            <marker date="1493045280000" expanded="true" signature="4027:4093" ph="select * fro... bf_q_and_a" />
+            <marker date="1493045280000" expanded="true" signature="4173:4217" ph="select * fro... bf_categories" />
+            <marker date="1493045280000" expanded="true" signature="4257:4302" ph="select * fro... bf_categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <marker date="1493045807000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+          </folding>
         </state>
       </provider>
     </entry>

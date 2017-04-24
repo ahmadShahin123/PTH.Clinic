@@ -62,7 +62,7 @@ class Q_and_a extends Front_Controller
         Template::set('parents', $parents);
         Template::set('children', $children);
         $cat_id = $this->uri->segment(3);
-        $query3 = $this->db->query("select * from bf_q_and_a where cat_id = $cat_id and deleted = 0");
+        $query3 = $this->db->query("select * from bf_q_and_a where cat_id = $cat_id and deleted = 0 order by q_and_a_id DESC");
         $questions = $query3->result();
         Template::set('questions', $questions);
         Template::render('qa');
