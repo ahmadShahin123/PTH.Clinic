@@ -1,11 +1,14 @@
 <?php echo theme_view('header_inner'); ?>
-<div class="about_imgdiv" style="background: url(<?php echo base_url() . 'assets/images/bmi.jpg' ; ?>)">
-        <h2> مؤشر كتلة الجسم</h2>
-    </div>
 
 <?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
     echo theme_view('profile');
 } ?>
+
+<div class="about_imgdiv" style="background: url(<?php echo base_url() . 'assets/images/bmi.jpg' ; ?>)">
+        <h2> مؤشر كتلة الجسم</h2>
+    </div>
+
+
 <br/>
 <div class="bmidiv desc">
   هو أفضل مقياس متعارف عليه عالميا في القياسات الجسمية  لتمييز الوزن الزائد عن السمنة أو البدانة عن النحافة عن الوزن المثالى، وهو يعبر عن العلاقة بين وزن الشخص وطوله. وهو حاصل على اعتراف المعهد القومي الأمريكي للصحة ومنظمة الصحة العالمية كأفضل معيار لقياس السمنة. و يحسب مؤشر كتلة الجسم بتقسيم الوزن بالكيلوجرام على مربع الطول بالمتر كما يلي<br/>
