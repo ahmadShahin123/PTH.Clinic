@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qa.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -69,6 +69,16 @@
                 <marker date="1493046274000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
                 <marker date="1493046274000" expanded="true" signature="2361:2395" ph="select * fro... bf_users" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bmi.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/bmi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +149,6 @@
         <option value="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" />
@@ -155,6 +164,7 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
       </list>
     </option>
   </component>
@@ -280,7 +290,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="q_and_a" />
+              <option name="myItemId" value="excercises" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,33 +316,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="q_and_a" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PTH.Clinic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q_and_a" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="excercises" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,12 +406,12 @@
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
       <workItem from="1492327153897" duration="76009000" />
-      <workItem from="1493044746797" duration="1501000" />
+      <workItem from="1493044746797" duration="1813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150985000" />
+    <option name="totallyTimeSpent" value="151297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -580,6 +564,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding>
+            <marker date="1492987311000" expanded="true" signature="3428:3497" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -606,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/bmi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/bmi.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -624,6 +604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,6 +810,14 @@
             <marker date="1493046274000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
             <marker date="1493046274000" expanded="true" signature="2361:2395" ph="select * fro... bf_users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/bmi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
