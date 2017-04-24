@@ -1,5 +1,40 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-
+.fa-facebook {
+	
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: inherit !important;
+    margin :20% ;
+    -webkit-font-smoothing: antialiased !important;	
+	
+}
+.fa-twitter{
+	
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: inherit !important;
+    margin :20% ;
+    -webkit-font-smoothing: antialiased !important;	
+	
+}
+.fa-linkedin {
+	
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: inherit !important;
+    margin :20% ;
+    -webkit-font-smoothing: antialiased !important;	
+	
+}
+.fa-github {
+	
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: inherit !important;
+    margin :20% ;
+    -webkit-font-smoothing: antialiased !important;	
+	
+}
 
 .footer-distributed{
 	background-color:#0066ff;
