@@ -78,7 +78,7 @@ $doctor = $query2->result();
         <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
              <?php echo $doc->username;
     }*/
-   ?> <a href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" > الإجابة</a>
+    ?> <a class="doc-info-link" href="<?php echo base_url() . 'index.php/q_and_a/answer/' . $question->q_and_a_id; ?>" > الإجابة</a>
 <?php }
     else {
         echo 'لم تتم الإجابة على هذا السؤال';

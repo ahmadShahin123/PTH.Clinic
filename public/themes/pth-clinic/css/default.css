@@ -1418,3 +1418,15 @@ body div.pv-mobile.ph-xl-mobile {
 .bmidivtext{
     color: #000 !important;
 }
+
+.doc-info{
+    color: black !important;
+    font-size: 14px !important;
+}
+
+.doc-info-link
+{
+    color: green !important;
+     font-size: 17px !important;
+}
+}
