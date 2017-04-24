@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,10 +63,11 @@
       <file leaf-file-name="qa.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
               <folding>
-                <marker date="1493045807000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+                <marker date="1493046274000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+                <marker date="1493046274000" expanded="true" signature="2361:2395" ph="select * fro... bf_users" />
               </folding>
             </state>
           </provider>
@@ -423,12 +422,12 @@
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
       <workItem from="1492327153897" duration="76009000" />
-      <workItem from="1493044746797" duration="1274000" />
+      <workItem from="1493044746797" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150758000" />
+    <option name="totallyTimeSpent" value="150985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -824,10 +823,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/qa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
           <folding>
-            <marker date="1493045807000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+            <marker date="1493046274000" expanded="true" signature="2158:2202" ph="select * fro... bf_q_and_a" />
+            <marker date="1493046274000" expanded="true" signature="2361:2395" ph="select * fro... bf_users" />
           </folding>
         </state>
       </provider>

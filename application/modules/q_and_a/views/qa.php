@@ -62,8 +62,10 @@
 <?php foreach ($questions as $key=>$question) {
 $query = $this->db->query("select * from bf_q_and_a where q_and_a_id = $question->q_and_a_id");
 $answer = $query->result();
-//$query2 = $this->db->query("select * from bf_users where id = $question->modified_by");
-//$doctor = $query2->result();
+//if(isset($question->modified_by) && $question->modified_by != NULL) {
+   // $query2 = $this->db->query("select * from bf_users where id = $question->modified_by");
+   // $doctor = $query2->result();
+//}
 ?>
 <div class="post-inner">
 
