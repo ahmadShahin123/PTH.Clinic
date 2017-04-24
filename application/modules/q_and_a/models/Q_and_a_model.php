@@ -45,12 +45,12 @@ class Q_and_a_model extends BF_Model
 		array(
 			'field' => 'question',
 			'label' => 'lang:q_and_a_field_question',
-			'rules' => 'max_length[255]',
+			'rules' => '',
 		),
 		array(
 			'field' => 'answer',
 			'label' => 'lang:q_and_a_field_answer',
-			'rules' => 'max_length[255]',
+			'rules' => '',
 		),
 		array(
 			'field' => 'deleted',

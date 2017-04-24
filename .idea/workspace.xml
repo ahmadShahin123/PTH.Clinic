@@ -1,144 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/assets/js/articles.js" afterPath="$PROJECT_DIR$/application/modules/articles/assets/js/articles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/config/config.php" afterPath="$PROJECT_DIR$/application/modules/articles/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Developer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/english/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/english/articles_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/italian/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/italian/articles_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/portuguese_br/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/portuguese_br/articles_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/language/spanish_am/articles_lang.php" afterPath="$PROJECT_DIR$/application/modules/articles/language/spanish_am/articles_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/migrations/001_Install_articles_permissions.php" afterPath="$PROJECT_DIR$/application/modules/articles/migrations/001_Install_articles_permissions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/models/Articles_model.php" afterPath="$PROJECT_DIR$/application/modules/articles/models/Articles_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/about_us.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/about_us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/art.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/art.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/articles_inner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/contactUs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/developer/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/reports/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/settings/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/assets/js/excercises.js" afterPath="$PROJECT_DIR$/application/modules/excercises/assets/js/excercises.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/config/config.php" afterPath="$PROJECT_DIR$/application/modules/excercises/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Developer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Excercises.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/english/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/english/excercises_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/italian/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/italian/excercises_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/portuguese_br/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/portuguese_br/excercises_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/language/spanish_am/excercises_lang.php" afterPath="$PROJECT_DIR$/application/modules/excercises/language/spanish_am/excercises_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/migrations/001_Install_excercises_permissions.php" afterPath="$PROJECT_DIR$/application/modules/excercises/migrations/001_Install_excercises_permissions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" afterPath="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/developer/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_frontend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/excercises_inner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/reports/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/settings/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/assets/js/q_and_a.js" afterPath="$PROJECT_DIR$/application/modules/q_and_a/assets/js/q_and_a.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/config/config.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Developer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/arabic/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/arabic/q_and_a_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/english/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/english/q_and_a_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/italian/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/italian/q_and_a_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/portuguese_br/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/portuguese_br/q_and_a_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/language/spanish_am/q_and_a_lang.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/language/spanish_am/q_and_a_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/migrations/001_Install_q_and_a_permissions.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/migrations/001_Install_q_and_a_permissions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/models/Q_and_a_model.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/models/Q_and_a_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/ask.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/developer/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/myqa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/reports/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/settings/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/assets/js/regular_user.js" afterPath="$PROJECT_DIR$/application/modules/regular_user/assets/js/regular_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/config/config.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Developer.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Developer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Regular_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Reports.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Reports.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Settings.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/english/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/english/regular_user_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/italian/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/italian/regular_user_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/portuguese_br/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/portuguese_br/regular_user_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/language/spanish_am/regular_user_lang.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/language/spanish_am/regular_user_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/migrations/001_Install_regular_user_permissions.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/migrations/001_Install_regular_user_permissions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/models/Regular_user_model.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/models/Regular_user_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/developer/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/developer/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/reports/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/reports/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/_sub_nav.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/_sub_nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/create.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/edit.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/settings/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/settings/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/signUp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
-    </list>
+    <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -539,12 +402,12 @@
       <workItem from="1491585218756" duration="255000" />
       <workItem from="1491588337386" duration="15086000" />
       <workItem from="1491742555323" duration="8269000" />
-      <workItem from="1492327153897" duration="75555000" />
+      <workItem from="1492327153897" duration="76009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149030000" />
+    <option name="totallyTimeSpent" value="149484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />

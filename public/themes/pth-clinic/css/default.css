@@ -105,15 +105,13 @@ a:hover
 }
 
 .about_imgdiv{
-
-
 	text-align:center;
 	border-radius:5px;
 	padding:10px;
 	width:100%;
 	height:60%;
 	background-repeat:no-repeat;
-
+	background-size: cover !important;	
 }
 
 .about_headlines{
@@ -1417,16 +1415,4 @@ body div.pv-mobile.ph-xl-mobile {
 }
 .bmidivtext{
     color: #000 !important;
-}
-
-.doc-info{
-    color: black !important;
-    font-size: 14px !important;
-}
-
-.doc-info-link
-{
-    color: green !important;
-     font-size: 17px !important;
-}
 }
