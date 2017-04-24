@@ -1,4 +1,8 @@
 <?php echo theme_view('header_inner'); ?>
+<div class="about_imgdiv" style="background: url(<?php echo base_url() . 'assets/images/bmi.jpg' ; ?>)">
+        <h2> مؤشر كتلة الجسم</h2>
+    </div>
+
 <?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
     echo theme_view('profile');
 } ?>
