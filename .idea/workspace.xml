@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,17 +66,14 @@
       <file leaf-file-name="answer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="112" column="32" lean-forward="false" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+            <state relative-caret-position="1665">
+              <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
               <folding>
-                <element signature="e#84#111#0#HTML" expanded="true" />
-                <marker date="1493149047000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
-                <marker date="1493149047000" expanded="false" signature="3259:3271" ph="..." />
-                <marker date="1493149047000" expanded="true" signature="3272:3279" ph="..." />
-                <marker date="1493149047000" expanded="true" signature="3312:3354" ph="..." />
-                <marker date="1493149047000" expanded="true" signature="3312:3517" ph="..." />
-                <marker date="1493149047000" expanded="true" signature="3315:3330" ph="/*...*/" />
-                <marker date="1493149047000" expanded="true" signature="3499:3508" ph="/*...*/" />
+                <marker date="1493149768000" expanded="true" signature="3010:3044" ph="select * fro... bf_users" />
+                <marker date="1493149768000" expanded="true" signature="4137:4193" ph="..." />
+                <marker date="1493149768000" expanded="true" signature="4137:4368" ph="..." />
+                <marker date="1493149768000" expanded="true" signature="4146:4161" ph="/*...*/" />
+                <marker date="1493149768000" expanded="true" signature="4346:4355" ph="/*...*/" />
               </folding>
             </state>
           </provider>
@@ -544,12 +536,12 @@
       <workItem from="1492327153897" duration="76009000" />
       <workItem from="1493044746797" duration="3460000" />
       <workItem from="1493130502637" duration="89000" />
-      <workItem from="1493130979076" duration="7489000" />
+      <workItem from="1493130979076" duration="7949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160522000" />
+    <option name="totallyTimeSpent" value="160982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -951,17 +943,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="112" column="32" lean-forward="false" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        <state relative-caret-position="1665">
+          <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
           <folding>
-            <element signature="e#84#111#0#HTML" expanded="true" />
-            <marker date="1493149047000" expanded="true" signature="2298:2332" ph="select * fro... bf_users" />
-            <marker date="1493149047000" expanded="false" signature="3259:3271" ph="..." />
-            <marker date="1493149047000" expanded="true" signature="3272:3279" ph="..." />
-            <marker date="1493149047000" expanded="true" signature="3312:3354" ph="..." />
-            <marker date="1493149047000" expanded="true" signature="3312:3517" ph="..." />
-            <marker date="1493149047000" expanded="true" signature="3315:3330" ph="/*...*/" />
-            <marker date="1493149047000" expanded="true" signature="3499:3508" ph="/*...*/" />
+            <marker date="1493149768000" expanded="true" signature="3010:3044" ph="select * fro... bf_users" />
+            <marker date="1493149768000" expanded="true" signature="4137:4193" ph="..." />
+            <marker date="1493149768000" expanded="true" signature="4137:4368" ph="..." />
+            <marker date="1493149768000" expanded="true" signature="4146:4161" ph="/*...*/" />
+            <marker date="1493149768000" expanded="true" signature="4346:4355" ph="/*...*/" />
           </folding>
         </state>
       </provider>
