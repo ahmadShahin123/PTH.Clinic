@@ -65,7 +65,21 @@ $doctor = $query2->result(); ?>
 
 
 
-    <p class="post-meta">
+  
+	
+<h3 class="questions_inner"> <?php echo $details->question; ?></h3>
+</div><!-- .container /-->
+</div>
+<?php } ?>
+
+<br>
+<div id="main-content" class="container-animated">
+<article  class="item-list post-64087 item-color"  >
+<div id="content">
+</div>
+</article>
+
+  <p class="post-meta">
 
 
 	<span class="doc-info"><?php foreach ($doctor as $ind=>$doc) { ?>
@@ -81,18 +95,13 @@ $doctor = $query2->result(); ?>
 </div>
 
     </p>
-	
-<h3 class="questions_inner"> <?php echo $details->question; ?></h3>
-</div><!-- .container /-->
-</div>
-<?php } ?>
 
-<br>
-<div id="main-content" class="container-animated">
-<article  class="item-list post-64087 item-color"  >
-<div id="content">
-</div>
-</article>
+
+
+
+
+
+
 
 <p dir="rtl" class="answers_inner">
 <?php if (isset($details->answer) && $details->answer != NULL) echo $details->answer; else echo 'لم تتم الإجابة على السؤال بعد'; ?>
