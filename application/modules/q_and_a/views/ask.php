@@ -77,7 +77,7 @@
     </form>
 </div>
 <?php }
-else redirect(site_url() . '/q_and_a/qa/15');?>
+else redirect( site_url() . '/regular_user/signIn');?>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.php","checking_credentials":"Checking credentials...","pwd_meter":"","disable_ajax":""};
