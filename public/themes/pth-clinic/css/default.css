@@ -1299,6 +1299,7 @@ h3.hst {
 
 .doc-name-major{
     float: right;
+    margin-top: 25px;
 }
 .parent {
 	/*padding-right: 22%;*/
