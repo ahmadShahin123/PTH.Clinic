@@ -1479,3 +1479,8 @@ body #header-wrapper-inner ~ .container.symp {
 .doc-name-major {
 	width: 20%;
 }
+
+.bmidivbtn input[type="submit"] {
+   font-weight: inherit;
+   line-height: inherit;
+}
