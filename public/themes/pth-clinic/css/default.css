@@ -1294,6 +1294,11 @@ h3.hst {
 	width: 100px;
 	height: 100px;
 	border-radius: 100%;
+        float: right;
+}
+
+.doc-name-major{
+    float: right;
 }
 .parent {
 	/*padding-right: 22%;*/
