@@ -82,7 +82,7 @@
         <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
 
             <div class="doc-name-major">
-            <?php echo "<h4>" . $doc->username  . "</h4>";
+            <?php echo "<h4>"  . 'د. ' . $doc->username  . "</h4>";
 
             echo "<h6>" . $doc->major . "</h6>";
 
