@@ -60,30 +60,43 @@
     $query2 = $this->db->query("select * from bf_users where id = $details->modified_by");
 $doctor = $query2->result(); ?>
 <div class="post-inner">			
-<h3> <?php echo $details->question; ?></h3>
 
 
-<p dir="rtl">
-<?php if (isset($details->answer) && $details->answer != NULL) echo $details->answer; else echo 'لم تتم الإجابة على السؤال بعد'; ?>
-</p>
+
+
 
     <p class="post-meta">
 
 
 	<span class="doc-info"><?php foreach ($doctor as $ind=>$doc) { ?>
+	
             <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
+			
             <div class="doc-name-major">
             <?php echo "<h4>" . $doc->username  . "</h4>";
             echo "<h6>" . $doc->major . "</h6>"; 
+			
         } ?></span>
+		
 </div>
 
     </p>
-
+<h3 class="questions_inner"> <?php echo $details->question; ?></h3>
 </div><!-- .container /-->
 
 </div>
 <?php } ?>
+<br>
+<div id="main-content" class="container-animated">
+<article class="item-list post-64087">
+<div id="content">
+
+</div>
+</article>
+
+<p dir="rtl" class="answers_inner">
+<?php if (isset($details->answer) && $details->answer != NULL) echo $details->answer; else echo 'لم تتم الإجابة على السؤال بعد'; ?>
+</p>
 
 <div style="display:none">
 </div>
