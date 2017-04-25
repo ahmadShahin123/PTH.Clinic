@@ -11,7 +11,7 @@
 
 					<a href="<?php echo site_url() . '/articles/art'; ?>">مقالات طبية</a>
 					·
-					<a href="#">تشخيص الأمراض</a>
+					<a href="<?php echo site_url() . '/symptoms/sympt'; ?>">تشخيص الأمراض</a>
 					·
 					<a href="<?php echo site_url() .'/q_and_a/qa/15' ;?>">أسئلة وأجوبة</a>
 					·

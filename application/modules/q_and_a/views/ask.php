@@ -56,6 +56,7 @@
 
 </div><!-- .widget /-->
 </aside><!-- #slide-out /-->
+<?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){ ?>
 <h3 class="fontst hst">اسأل سؤالك</h3>
 
 <div>
@@ -75,6 +76,7 @@
 	</div>
     </form>
 </div>
+<?php } ?>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wpum_frontend_js = {"ajax":"https:\/\/PTH.Clinic.com\/wp-admin\/admin-ajax.php","checking_credentials":"Checking credentials...","pwd_meter":"","disable_ajax":""};
