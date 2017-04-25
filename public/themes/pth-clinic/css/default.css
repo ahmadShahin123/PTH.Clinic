@@ -378,7 +378,7 @@ img.avatar {
 
 .questions_inner{
 	
-margin-left :251px ;	
+/*margin-left :251px ;	*/
 }
 
 .answers_inner {
@@ -1447,10 +1447,23 @@ body div.pv-mobile.ph-xl-mobile {
     color: green;
     font-size: 17px;
 }
-.parent, .exc {
+.parent, .exc, .post-inner.ans, .ans ~ #main-content {
 	float: left;
 	width: 78%;
 }
 .post-inner:last-child #main-content {
 	display: none;
+}
+.ans ~ #main-content article.item-list.item-color {
+	width: 100% !important;
+}
+.answers_inner {
+	float: left;
+	width: 83%;
+	padding-left: 15%;
+}
+body .profile-form input:nth-child(2) {
+	padding: 0px 9px 4px 8px !important;
+	font-size: inherit !important;
+	height: auto !important;
 }

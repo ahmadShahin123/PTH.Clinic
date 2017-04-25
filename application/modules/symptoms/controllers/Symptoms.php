@@ -64,6 +64,13 @@ class Symptoms extends Front_Controller
         Template::render();
     }
     public function sympt() {
+        $query = $this->db->query("select DISTINCT level0 from bf_symptoms where deleted = 0");
+        $symp = $query->result();
+        Template::set('symps', $symp);
+
+        if(isset($_POST['send'])) {
+
+        }
         Template::render('symptoms');
     }
     

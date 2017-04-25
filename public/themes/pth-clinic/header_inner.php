@@ -70,7 +70,9 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <?php if($this->uri->segment(1) == 'symptoms') { ?>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'themes/pth-clinic/css/symptom.css'; ?>"/>
+    <?php } ?>
 <!-- end of footer styles -->
 </head>
 

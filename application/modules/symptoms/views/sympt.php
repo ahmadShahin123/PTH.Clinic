@@ -1,10 +1,11 @@
 <?php echo theme_view("header_inner"); ?>
+
 <h3></h3>
 <div class="container">
-    <form action="#">
+    <form action="<?php echo site_url() . '/symptoms/sympt'; ?>" method="post" >
 
 
-        <label for="country">العمر</label>
+       <!-- <label for="country">العمر</label>
         <select>
             <option selected="selected">--select age group--</option>
             <option value="1">newborn  (0-28 days)</option>
@@ -23,27 +24,20 @@
             <input name="query[sex]"   value="1" type="radio">انثى
             &nbsp;&nbsp;
             <input name="query[sex]"   value="2" type="radio">ذكر
-        </div>
+        </div>-->
         <br>
 
 
         <label for="subject">الأعراض: </label>
         <div class="search_sub" >
-            <input name="query[sex]"   value="1" type="radio"> 1
+        <?php foreach($symps as $key=>$symp) { ?>
+            <input name="level0"   value="<?php echo $symp->level0; ?>" type="radio"> <?php echo $symp->level0; ?>
             <br>
-            <input name="query[sex]"   value="2" type="radio">2
-            <br>
-            <input name="query[sex]"   value="3" type="radio">3
-            <br>
-            <input name="query[sex]"   value="4" type="radio">4
-            <br>
-            <input name="query[sex]"   value="5" type="radio">5
-            <br>
-            <input name="query[sex]"   value="6" type="radio">6
+            <?php } ?>
         </div>
 
         <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="تشخيص" name="send">
     </form>
 </div>
 
