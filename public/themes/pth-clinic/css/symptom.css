@@ -10,7 +10,7 @@
 }
 
 input[type=submit] {
-    background-color: blue;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -23,7 +23,12 @@ input[type=submit]:hover {
 }
 
 #header-wrapper-inner ~ .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+    border:3px solid lightblue;
+    margin: 0 auto;
+    width: 40%;
+    font-family: 'Droid Arabic Kufi' , serif;
+    direction: rtl;
+    border-radius: 10px;
+   
     padding: 20px;
 }
