@@ -387,8 +387,8 @@ color :black ;
 }
 
 .item-color{
-
-right: 161px;
+width: 79% !important;
+right: 2px;;
 border-top-color: black !important;	
 }
 
