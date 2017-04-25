@@ -70,6 +70,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'themes/pth-clinic/css/symptom.css'; ?>"/>
 <!-- end of footer styles -->
 </head>
 
@@ -77,7 +78,7 @@
 
 <!-- home page -->
 
-<div id="header-wrapper-inner" class="header-inner" >
+<div id="header-wrapper-inner" class="header-inner" style="background-image: url(<?php echo base_url() . 'themes/pth-clinic/images/new-architecture.jpg'; ?>)">
 	<div id="header" class="container">
 	
             
@@ -87,7 +88,7 @@
 		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
 		<li><a href="<?php echo site_url() .'/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
 		<li><a href="<?php echo site_url() . '/articles/art'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
-                <li><a href="<?php echo base_url() . 'themes/pth-clinic/symptoms.php'; ?>"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
+        <li><a href="<?php echo site_url() . '/symptoms/sympt'; ?>"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
 		<li><a href="<?php echo site_url() .'/q_and_a/qa/15' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
         <li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
             <ul class="submenu">

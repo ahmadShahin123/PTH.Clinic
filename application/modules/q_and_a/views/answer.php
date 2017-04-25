@@ -72,7 +72,8 @@ $doctor = $query2->result(); ?>
 
 	<span class="doc-info"><?php foreach ($doctor as $ind=>$doc) { ?>
             <img src="<?php echo base_url() . 'assets/images/' . $doc->avatar; ?>">
-            <?php echo "<h5>" . $doc->username . ' ' .$doc->major . "</h5>";
+            <?php echo "<h4>" . $doc->username  . "</h4>";
+            echo "<h6>" . $doc->major . "</h6>"; 
         } ?></span>
 
     </p>

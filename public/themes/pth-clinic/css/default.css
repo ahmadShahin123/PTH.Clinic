@@ -636,13 +636,9 @@ ul.contact li a:before
 
 .header-inner
 {
-	background-image: url('http://localhost/pth.clinic/public/themes/pth-clinic/images/new-architecture.jpg');
 	direction: rtl;
 	margin-right: auto;	
 	height: auto;
-	
-	
-
 }
 #header-wrapper-inner #header {
 	padding-bottom: 0;

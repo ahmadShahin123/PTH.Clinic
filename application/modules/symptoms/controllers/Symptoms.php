@@ -63,5 +63,8 @@ class Symptoms extends Front_Controller
 
         Template::render();
     }
+    public function sympt() {
+        Template::render('symptoms');
+    }
     
 }
