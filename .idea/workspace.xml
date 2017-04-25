@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" afterPath="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="1462" column="20" lean-forward="false" selection-start-line="1462" selection-start-column="20" selection-end-line="1462" selection-end-column="20" />
+            <state relative-caret-position="417">
+              <caret line="1475" column="10" lean-forward="false" selection-start-line="1475" selection-start-column="10" selection-end-line="1475" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -42,10 +43,10 @@
       <file leaf-file-name="sympt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+            <state relative-caret-position="354">
+              <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
               <folding>
-                <marker date="1493144633000" expanded="true" signature="222:252" ph="..." />
+                <marker date="1493150400000" expanded="true" signature="227:257" ph="..." />
               </folding>
             </state>
           </provider>
@@ -63,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="answer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="answer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1665">
@@ -144,10 +145,10 @@
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/symptom.css" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php" />
-        <option value="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/header_inner.php" />
-        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/answer.php" />
+        <option value="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
+        <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
       </list>
     </option>
   </component>
@@ -536,12 +537,12 @@
       <workItem from="1492327153897" duration="76009000" />
       <workItem from="1493044746797" duration="3460000" />
       <workItem from="1493130502637" duration="89000" />
-      <workItem from="1493130979076" duration="7949000" />
+      <workItem from="1493130979076" duration="8749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160982000" />
+    <option name="totallyTimeSpent" value="161782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -903,22 +904,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding>
+            <marker date="1493149768000" expanded="true" signature="3010:3044" ph="select * fro... bf_users" />
+            <marker date="1493149768000" expanded="true" signature="4137:4193" ph="..." />
+            <marker date="1493149768000" expanded="true" signature="4137:4368" ph="..." />
+            <marker date="1493149768000" expanded="true" signature="4146:4161" ph="/*...*/" />
+            <marker date="1493149768000" expanded="true" signature="4346:4355" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
           <folding>
             <marker date="1493144633000" expanded="true" signature="1954:2011" ph="select DISTI... bf_symptoms" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="33" column="66" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-          <folding>
-            <marker date="1493144633000" expanded="true" signature="222:252" ph="..." />
           </folding>
         </state>
       </provider>
@@ -933,25 +938,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="1462" column="20" lean-forward="false" selection-start-line="1462" selection-start-column="20" selection-end-line="1462" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="354">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <marker date="1493150400000" expanded="true" signature="227:257" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/answer.php">
+    <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
-          <folding>
-            <marker date="1493149768000" expanded="true" signature="3010:3044" ph="select * fro... bf_users" />
-            <marker date="1493149768000" expanded="true" signature="4137:4193" ph="..." />
-            <marker date="1493149768000" expanded="true" signature="4137:4368" ph="..." />
-            <marker date="1493149768000" expanded="true" signature="4146:4161" ph="/*...*/" />
-            <marker date="1493149768000" expanded="true" signature="4346:4355" ph="/*...*/" />
-          </folding>
+        <state relative-caret-position="417">
+          <caret line="1475" column="10" lean-forward="false" selection-start-line="1475" selection-start-column="10" selection-end-line="1475" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

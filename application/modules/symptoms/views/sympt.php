@@ -1,7 +1,7 @@
 <?php echo theme_view("header_inner"); ?>
 
 <h3></h3>
-<div class="container">
+<div class="container symp">
     <form action="<?php echo site_url() . '/symptoms/sympt'; ?>" method="post" >
 
 
@@ -26,7 +26,6 @@
             <input name="query[sex]"   value="2" type="radio">ذكر
         </div>-->
         <br>
-
 
         <label for="subject">الأعراض: </label>
         <div class="search_sub" >

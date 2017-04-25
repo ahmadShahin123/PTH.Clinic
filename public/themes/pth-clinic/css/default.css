@@ -1467,3 +1467,12 @@ body .profile-form input:nth-child(2) {
 	font-size: inherit !important;
 	height: auto !important;
 }
+body #header-wrapper-inner ~ .container.symp {
+	width: 60%;
+}
+.symp form .search_sub input[type="radio"] {
+	margin-top: 25px;
+}
+.symp form input[type="submit"] {
+	width: 100%;
+}
