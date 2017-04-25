@@ -75,7 +75,6 @@ $doctor = $query2->result(); ?>
             <div class="doc-name-major">
             <?php echo "<h4>" . $doc->username  . "</h4>";
             echo "<h6>" . $doc->major . "</h6>"; 
-            
         } ?></span>
 </div>
 
