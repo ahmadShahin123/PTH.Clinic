@@ -81,16 +81,16 @@ $doctor = $query2->result(); ?>
 </div>
 
     </p>
+	
 <h3 class="questions_inner"> <?php echo $details->question; ?></h3>
 </div><!-- .container /-->
-
 </div>
 <?php } ?>
+
 <br>
 <div id="main-content" class="container-animated">
-<article class="item-list post-64087">
+<article  class="item-list post-64087 item-color"  >
 <div id="content">
-
 </div>
 </article>
 

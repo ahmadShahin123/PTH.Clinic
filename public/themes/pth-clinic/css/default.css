@@ -144,18 +144,7 @@ a:hover
 	
 }
 
-.questions_inner{
-	
-	margin-left :251px ;
-	
-}
 
-.answers_inner {
-
-margin-top : 20px ;
-color :black ;	
-	
-}
 
 /*********************************************************************************/
 /* articles                                                                       */
@@ -384,6 +373,21 @@ img.avatar {
 	text-decoration:none;
 	border-radius:20px;
 
+}
+
+
+.questions_inner{
+	
+margin-left :251px ;	
+}
+
+.answers_inner {
+margin-top : 20px ;
+color :black ;		
+}
+
+.item-color{
+border-top-color: black !important;	
 }
 
 /*********************************************************************************/
