@@ -40,7 +40,7 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
             <div class="control-group<?php echo form_error('description') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('excercises_field_description'), 'description', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                     <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" maxlength='500' ><?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?></textarea>
+                     <textarea id='description'  name='description' rows="5" cols="100" placeholder="write the descriptopn here" wrap="hard" dir="ltr" ><?php echo set_value('description', isset($excercises->description) ? $excercises->description : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('description'); ?></span>
                 </div>
             </div>
@@ -72,3 +72,9 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
         </fieldset>
     <?php echo form_close(); ?>
 </div>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=utusq5q90wv0iynkg27emjlcjn2edr0slpu6qz6dkqxna6us"></script>
+<script>
+    tinymce.init({
+        selector: '#mytextarea'
+    });
+</script>
