@@ -32,7 +32,7 @@ $id = isset($q_and_a->q_and_a_id) ? $q_and_a->q_and_a_id : '';
             <div class="control-group<?php echo form_error('answer') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('q_and_a_field_answer'), 'answer', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <textarea id='answer' name='answer' maxlength='255' ><?php echo set_value('answer', isset($q_and_a->answer) ? $q_and_a->answer : ''); ?></textarea>
+                    <textarea id='answer' name='answer' ><?php echo set_value('answer', isset($q_and_a->answer) ? $q_and_a->answer : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('answer'); ?></span>
                 </div>
             </div>

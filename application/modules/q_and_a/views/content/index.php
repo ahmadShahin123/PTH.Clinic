@@ -23,12 +23,12 @@ if ($can_delete) {
 					
 					<th><?php echo lang('q_and_a_field_question'); ?></th>
 					<th><?php echo lang('q_and_a_field_answer'); ?></th>
-					<th><?php echo lang('q_and_a_field_deleted'); ?></th>
+					<!--<th><?php echo lang('q_and_a_field_deleted'); ?></th>
 					<th><?php echo lang('q_and_a_field_deleted_by'); ?></th>
 					<th><?php echo lang('q_and_a_field_created_on'); ?></th>
 					<th><?php echo lang('q_and_a_field_created_by'); ?></th>
 					<th><?php echo lang('q_and_a_field_modified_on'); ?></th>
-					<th><?php echo lang('q_and_a_field_modified_by'); ?></th>
+					<th><?php echo lang('q_and_a_field_modified_by'); ?></th>-->
 				</tr>
 			</thead>
 			<?php if ($has_records) : ?>

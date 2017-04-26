@@ -19,20 +19,21 @@ $id = isset($q_and_a->q_and_a_id) ? $q_and_a->q_and_a_id : '';
     <h3>q and a</h3>
     <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
-            
 
-            <div class="control-group<?php echo form_error('question') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('q_and_a_field_question'), 'question', array('class' => 'control-label')); ?>
+
+                <p style="text-align: center;font-weight: bold;"><?php echo isset($q_and_a->question) ? $q_and_a->question : ''; ?></p>
+          <!--  <div class="control-group<?php echo form_error('question') ? ' error' : ''; ?>">
+                <?php //echo form_label(lang('q_and_a_field_question'), 'question', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <textarea id='question' name='question' maxlength='255' ><?php echo set_value('question', isset($q_and_a->question) ? $q_and_a->question : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('question'); ?></span>
                 </div>
-            </div>
+            </div>-->
 
             <div class="control-group<?php echo form_error('answer') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('q_and_a_field_answer'), 'answer', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <textarea id='answer' name='answer' maxlength='255'><?php echo set_value('answer', isset($q_and_a->answer) ? $q_and_a->answer : ''); ?></textarea>
+                    <textarea id='answer' name='answer'><?php echo set_value('answer', isset($q_and_a->answer) ? $q_and_a->answer : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('answer'); ?></span>
                 </div>
             </div>
