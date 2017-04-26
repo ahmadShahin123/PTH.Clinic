@@ -1489,3 +1489,7 @@ body #header-wrapper-inner ~ .container.symp {
 	font-size: small;
 	text-align: right;
 }
+
+.exc .col-md-6.withArtBox {
+    height: auto !important;
+}
