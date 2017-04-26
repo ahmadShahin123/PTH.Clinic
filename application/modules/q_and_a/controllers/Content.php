@@ -68,7 +68,7 @@ class Content extends Admin_Controller
         
         
         
-        $records = $this->q_and_a_model->find_all();
+        $records = $this->q_and_a_model->find_all_by('deleted', 0);
 
         Template::set('records', $records);
         

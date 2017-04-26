@@ -28,12 +28,15 @@ if ($can_delete) {
 					<th><?php echo lang('symptoms_field_level3'); ?></th>
 					<th><?php echo lang('symptoms_field_level4'); ?></th>
 					<th><?php echo lang('symptoms_field_level5'); ?></th>
-					<th><?php echo lang('symptoms_field_deleted'); ?></th>
+                    <th><?php echo 'Age'; ?></th>
+                    <th><?php echo 'Complications'; ?></th>
+                    <th><?php echo 'Notes'; ?></th>
+					<!--<th><?php echo lang('symptoms_field_deleted'); ?></th>
 					<th><?php echo lang('symptoms_field_deleted_by'); ?></th>
 					<th><?php echo lang('symptoms_field_created_on'); ?></th>
 					<th><?php echo lang('symptoms_field_created_by'); ?></th>
 					<th><?php echo lang('symptoms_field_modified_on'); ?></th>
-					<th><?php echo lang('symptoms_field_modified_by'); ?></th>
+					<th><?php echo lang('symptoms_field_modified_by'); ?></th>-->
 				</tr>
 			</thead>
 			<?php if ($has_records) : ?>
@@ -68,13 +71,16 @@ if ($can_delete) {
 					<td><?php e($record->level2); ?></td>
 					<td><?php e($record->level3); ?></td>
 					<td><?php e($record->level4); ?></td>
-					<td><?php e($record->level5); ?></td>
-					<td><?php echo $record->deleted > 0 ? lang('symptoms_true') : lang('symptoms_false'); ?></td>
+                    <td><?php e($record->age); ?></td>
+					<td><?php e($record->complications); ?></td>
+                    <td><?php e($record->notes); ?></td>
+                    <td><?php e($record->level5); ?></td>
+					<!--<td><?php echo $record->deleted > 0 ? lang('symptoms_true') : lang('symptoms_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
 					<td><?php e($record->created_by); ?></td>
 					<td><?php e($record->modified_on); ?></td>
-					<td><?php e($record->modified_by); ?></td>
+					<td><?php e($record->modified_by); ?></td>-->
 				</tr>
 				<?php
 					endforeach;

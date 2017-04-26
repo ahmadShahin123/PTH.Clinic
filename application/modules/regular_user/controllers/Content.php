@@ -74,7 +74,7 @@ class Content extends Admin_Controller
         
         
         
-        $records = $this->regular_user_model->find_all();
+        $records = $this->regular_user_model->find_all_by('deleted', 0);
 
         Template::set('records', $records);
         

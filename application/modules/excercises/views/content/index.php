@@ -25,12 +25,12 @@ if ($can_delete) {
 					<th><?php echo lang('excercises_field_video'); ?></th>
 					<th><?php echo lang('excercises_field_description'); ?></th>
 					<th><?php echo lang('excercises_field_section'); ?></th>
-					<th><?php echo lang('excercises_field_deleted'); ?></th>
+					<!--<th><?php echo lang('excercises_field_deleted'); ?></th>
 					<th><?php echo lang('excercises_field_deleted_by'); ?></th>
 					<th><?php echo lang('excercises_field_created_on'); ?></th>
 					<th><?php echo lang('excercises_field_created_by'); ?></th>
 					<th><?php echo lang('excercises_field_modified_on'); ?></th>
-					<th><?php echo lang('excercises_field_modified_by'); ?></th>
+					<th><?php echo lang('excercises_field_modified_by'); ?></th>-->
 				</tr>
 			</thead>
 			<?php if ($has_records) : ?>
@@ -61,14 +61,14 @@ if ($can_delete) {
 					<td><?php e($record->title); ?></td>
 				<?php endif; ?>
                                          <td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td> 
-					<td><?php e($record->description); ?></td>
+					<td><?php e(mb_substr($record->description, 0, 100)); ?></td>
 					<td><?php e($record->section); ?></td>
-					<td><?php echo $record->deleted > 0 ? lang('excercises_true') : lang('excercises_false'); ?></td>
+					<!--<td><?php echo $record->deleted > 0 ? lang('excercises_true') : lang('excercises_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
 					<td><?php e($record->created_by); ?></td>
 					<td><?php e($record->modified_on); ?></td>
-					<td><?php e($record->modified_by); ?></td>
+					<td><?php e($record->modified_by); ?></td>-->
 				</tr>
 				<?php
 					endforeach;

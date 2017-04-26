@@ -26,12 +26,12 @@ if ($can_delete) {
 					<th><?php echo lang('articles_field_about_us'); ?></th>
 					<th><?php echo lang('articles_field_video'); ?></th>
 					<th><?php echo lang('articles_field_image'); ?></th>
-					<th><?php echo lang('articles_field_deleted'); ?></th>
+					<!--<th><?php echo lang('articles_field_deleted'); ?></th>
 					<th><?php echo lang('articles_field_deleted_by'); ?></th>
 					<th><?php echo lang('articles_field_created_on'); ?></th>
 					<th><?php echo lang('articles_field_created_by'); ?></th>
 					<th><?php echo lang('articles_field_modified_on'); ?></th>
-					<th><?php echo lang('articles_field_modified_by'); ?></th>
+					<th><?php echo lang('articles_field_modified_by'); ?></th>-->
 				</tr>
 			</thead>
 			<?php if ($has_records) : ?>
@@ -61,16 +61,16 @@ if ($can_delete) {
 				<?php else : ?>
 					<td><?php e($record->title); ?></td>
 				<?php endif; ?>
-					<td><?php e($record->description); ?></td>
+					<td><?php e(mb_substr($record->description, 0, 100)); ?></td>
 					<td><?php e($record->about_us); ?></td>
 					<td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td>
 					<td><img src="<?php echo base_url() . 'assets/images/' .  $record->image; ?>" width="100px" height="100px" /></td>
-					<td><?php echo $record->deleted > 0 ? lang('articles_true') : lang('articles_false'); ?></td>
+					<!--<td><?php echo $record->deleted > 0 ? lang('articles_true') : lang('articles_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
 					<td><?php e($record->created_by); ?></td>
 					<td><?php e($record->modified_on); ?></td>
-					<td><?php e($record->modified_by); ?></td>
+					<td><?php e($record->modified_by); ?></td>-->
 				</tr>
 				<?php
 					endforeach;

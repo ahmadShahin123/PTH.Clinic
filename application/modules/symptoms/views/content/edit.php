@@ -29,6 +29,19 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
                 </div>
             </div>
 
+            <div class="control-group<?php echo form_error('age') ? ' error' : ''; ?>">
+                <?php echo form_label('Age', 'age', array('class' => 'control-label')); ?>
+                <div class='controls'>
+                    <?php
+                    $options ['جميع الأعمار'] = 'All of the ages';
+                    $options ['الاطفال'] = 'Children till 16 years';
+                    $options ['الشباب'] = 'Young 17 - 59 years';
+                    $options ['الكبار'] = 'Seniors from 60 years';
+                    ?>
+                    <?php echo form_dropdown('age', $options); ?>
+
+                </div>
+            </div>
             <div class="control-group<?php echo form_error('level0') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('symptoms_field_level0'), 'level0', array('class' => 'control-label')); ?>
                 <div class='controls'>
@@ -74,6 +87,21 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
                 <div class='controls'>
                     <input id='level5' type='text' name='level5' maxlength='255' value="<?php echo set_value('level5', isset($symptoms->level5) ? $symptoms->level5 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level5'); ?></span>
+                </div>
+            </div>
+            <div class="control-group<?php echo form_error('complications') ? ' error' : ''; ?>">
+                <?php echo form_label('Complications', 'complications', array('class' => 'control-label')); ?>
+                <div class='controls'>
+                    <input id='complications' type='text' name='complications' maxlength='255' value="<?php echo set_value('complications', isset($symptoms->complications) ? $symptoms->complications : ''); ?>" />
+                    <span class='help-inline'><?php echo form_error('complications'); ?></span>
+                </div>
+            </div>
+
+            <div class="control-group<?php echo form_error('notes') ? ' error' : ''; ?>">
+                <?php echo form_label('Notes', 'notes', array('class' => 'control-label')); ?>
+                <div class='controls'>
+                    <input id='notes' type='text' name='notes' maxlength='255' value="<?php echo set_value('notes', isset($symptoms->notes) ? $symptoms->notes : ''); ?>" />
+                    <span class='help-inline'><?php echo form_error('notes'); ?></span>
                 </div>
             </div>
 

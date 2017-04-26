@@ -58,13 +58,13 @@ if ($can_delete) {
 				<?php else : ?>
 					<td><?php e($record->question); ?></td>
 				<?php endif; ?>
-					<td><?php e($record->answer); ?></td>
-					<td><?php echo $record->deleted > 0 ? lang('q_and_a_true') : lang('q_and_a_false'); ?></td>
+					<td><?php e(mb_substr($record->answer, 0, 100)); ?></td>
+					<!--<td><?php echo $record->deleted > 0 ? lang('q_and_a_true') : lang('q_and_a_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
 					<td><?php e($record->created_by); ?></td>
 					<td><?php e($record->modified_on); ?></td>
-					<td><?php e($record->modified_by); ?></td>
+					<td><?php e($record->modified_by); ?></td>-->
 				</tr>
 				<?php
 					endforeach;

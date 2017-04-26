@@ -85,7 +85,7 @@ class Content extends Admin_Controller
         $this->pagination->initialize($pager);
         $this->articles_model->limit($limit, $offset);
         
-        $records = $this->articles_model->find_all();
+        $records = $this->articles_model->find_all_by('deleted', 0);
 
        //video
 /*foreach ($records as $key => $value) {

@@ -79,7 +79,7 @@ class Content extends Admin_Controller
         $this->pagination->initialize($pager);
         $this->excercises_model->limit($limit, $offset);
         
-        $records = $this->excercises_model->find_all();
+        $records = $this->excercises_model->find_all_by('deleted', 0);
 
         Template::set('records', $records);
         
