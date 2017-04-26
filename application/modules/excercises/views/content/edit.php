@@ -83,6 +83,6 @@ $id = isset($excercises->exc_id) ? $excercises->exc_id : '';
 <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=utusq5q90wv0iynkg27emjlcjn2edr0slpu6qz6dkqxna6us"></script>
 <script>
     tinymce.init({
-        selector: '#mytextarea'
+        selector: 'textarea'
     });
 </script>
