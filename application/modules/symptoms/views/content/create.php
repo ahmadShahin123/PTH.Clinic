@@ -116,5 +116,3 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
         </fieldset>
     <?php echo form_close(); ?>
 </div>
-<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=utusq5q90wv0iynkg27emjlcjn2edr0slpu6qz6dkqxna6us"></script>
-<script>tinymce.init({ selector:'textarea' });</script>
