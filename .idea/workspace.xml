@@ -3,20 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b48a39fc-ce60-41c9-bc49-cbf868ef77a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/excercises/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/controllers/Content.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/controllers/Content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/models/Symptoms_model.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/models/Symptoms_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/content/index.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/content/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" afterPath="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,16 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/pth-clinic/css/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="1489" column="22" lean-forward="false" selection-start-line="1489" selection-start-column="22" selection-end-line="1489" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sympt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,18 +40,78 @@
       <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+            <state relative-caret-position="489">
+              <caret line="119" column="55" lean-forward="false" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="49" column="55" lean-forward="false" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="83" column="55" lean-forward="false" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="76" column="55" lean-forward="false" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="-1116">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,13 +162,7 @@
         <option value="/private/var/folders/3z/bpkmvs6d78932tyfgljd_bqh0000gn/T/fz3temp-2/list.phtml" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/models/Excercises_model.php" />
-        <option value="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
-        <option value="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
-        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/controllers/Q_and_a.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/qa.php" />
         <option value="$PROJECT_DIR$/application/modules/excercises/views/bmi.php" />
@@ -140,8 +178,6 @@
         <option value="$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php" />
         <option value="$PROJECT_DIR$/public/themes/pth-clinic/css/default.css" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/views/sympt.php" />
-        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" />
-        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/index.php" />
         <option value="$PROJECT_DIR$/application/modules/symptoms/models/Symptoms_model.php" />
         <option value="$PROJECT_DIR$/application/modules/articles/controllers/Content.php" />
@@ -153,6 +189,14 @@
         <option value="$PROJECT_DIR$/application/modules/excercises/views/content/index.php" />
         <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/index.php" />
         <option value="$PROJECT_DIR$/application/modules/regular_user/views/content/index.php" />
+        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/symptoms/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/excercises/views/content/edit.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/views/content/create.php" />
+        <option value="$PROJECT_DIR$/application/modules/articles/views/content/edit.php" />
       </list>
     </option>
   </component>
@@ -325,7 +369,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
+              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -351,7 +395,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
+              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,7 +425,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="symptoms" />
+              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,12 +541,12 @@
       <workItem from="1492327153897" duration="76009000" />
       <workItem from="1493044746797" duration="3460000" />
       <workItem from="1493130502637" duration="89000" />
-      <workItem from="1493130979076" duration="23334000" />
+      <workItem from="1493130979076" duration="24708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176367000" />
+    <option name="totallyTimeSpent" value="177741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1260" height="685" extended-state="0" />
@@ -615,48 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -820,43 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="87" column="48" lean-forward="true" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-          <folding>
-            <marker date="1493164296000" expanded="true" signature="1954:2011" ph="select DISTI... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2489:2520" ph="select * fro... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2489:2521" ph="select * fro... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2489:2545" ph="select * fro... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2753:2806" ph="select ${$le... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2753:2807" ph="select ${$le... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2753:2819" ph="select ${$le... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2753:2821" ph="select ${$le... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="2753:2830" ph="select '${$l... bf_symptoms" />
-            <marker date="1493164296000" expanded="true" signature="3017:3073" ph="select * fro... bf_symptoms" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <marker date="1493208220000" expanded="true" signature="147:177" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/symptoms/models/Symptoms_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
@@ -967,10 +932,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/sympt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <marker date="1493208220000" expanded="true" signature="147:177" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/controllers/Symptoms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="87" column="48" lean-forward="true" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+          <folding>
+            <marker date="1493164296000" expanded="true" signature="1954:2011" ph="select DISTI... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2489:2520" ph="select * fro... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2489:2521" ph="select * fro... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2489:2545" ph="select * fro... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2753:2806" ph="select ${$le... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2753:2807" ph="select ${$le... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2753:2819" ph="select ${$le... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2753:2821" ph="select ${$le... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="2753:2830" ph="select '${$l... bf_symptoms" />
+            <marker date="1493164296000" expanded="true" signature="3017:3073" ph="select * fro... bf_symptoms" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="-1116">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/symptoms/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="119" column="55" lean-forward="false" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="49" column="55" lean-forward="false" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/q_and_a/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="55" column="55" lean-forward="false" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="75" column="55" lean-forward="false" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/excercises/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="83" column="55" lean-forward="false" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="76" column="55" lean-forward="false" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/articles/views/content/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
           <folding />
         </state>
       </provider>

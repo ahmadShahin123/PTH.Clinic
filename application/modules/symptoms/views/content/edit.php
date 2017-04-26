@@ -2,6 +2,7 @@
 
 if (validation_errors()) :
 ?>
+
 <div class='alert alert-block alert-error fade in'>
     <a class='close' data-dismiss='alert'>&times;</a>
     <h4 class='alert-heading'>
@@ -16,6 +17,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
 
 ?>
 <div class='admin-box'>
+
     <h3>symptoms</h3>
     <?php echo form_open($this->uri->uri_string(), 'class="form-horizontal"'); ?>
         <fieldset>
@@ -92,7 +94,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             <div class="control-group<?php echo form_error('complications') ? ' error' : ''; ?>">
                 <?php echo form_label('Complications', 'complications', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='complications' type='text' name='complications' maxlength='255' value="<?php echo set_value('complications', isset($symptoms->complications) ? $symptoms->complications : ''); ?>" />
+                    <textarea id='complications' name='complications' maxlength='255' ><?php echo set_value('complications', isset($symptoms->complications) ? $symptoms->complications : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('complications'); ?></span>
                 </div>
             </div>
@@ -100,7 +102,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             <div class="control-group<?php echo form_error('notes') ? ' error' : ''; ?>">
                 <?php echo form_label('Notes', 'notes', array('class' => 'control-label')); ?>
                 <div class='controls'>
-                    <input id='notes' type='text' name='notes' maxlength='255' value="<?php echo set_value('notes', isset($symptoms->notes) ? $symptoms->notes : ''); ?>" />
+                    <textarea id='notes' name='notes' ><?php echo set_value('notes', isset($symptoms->notes) ? $symptoms->notes : ''); ?></textarea>
                     <span class='help-inline'><?php echo form_error('notes'); ?></span>
                 </div>
             </div>
@@ -120,3 +122,5 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
         </fieldset>
     <?php echo form_close(); ?>
 </div>
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=utusq5q90wv0iynkg27emjlcjn2edr0slpu6qz6dkqxna6us"></script>
+<script>tinymce.init({ selector:'textarea' });</script>
