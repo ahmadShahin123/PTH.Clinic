@@ -1484,3 +1484,8 @@ body #header-wrapper-inner ~ .container.symp {
    font-weight: inherit;
    line-height: inherit;
 }
+.warning p {
+	color: red;
+	font-size: small;
+	text-align: right;
+}

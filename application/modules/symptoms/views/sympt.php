@@ -2,7 +2,7 @@
 
 <h3></h3>
 <div class="container symp">
-    <form action="<?php echo site_url() . '/symptoms/sympt'; ?>" method="post" >
+
 
 
        <!-- <label for="country">العمر</label>
@@ -26,11 +26,29 @@
             <input name="query[sex]"   value="2" type="radio">ذكر
         </div>-->
         <br>
+<?php if(isset($illnesses)){ ?>
+        <label for="subject">المرض/الأمراض التالية قد تكون مصاب به/بها: </label>
+        <div class="search_sub" >
+            <ul>
+            <?php $current_level = 'level' . $level; ?>
+            <?php foreach($illnesses as $key=>$illness) { ?>
+                <li><?php echo $illness->illness; ?></li>
+            <?php } ?>
+            </ul>
+            <div class="warning">
+                <p>*الرجاء عدم اعتماد هذا التشخيص كتشخيص نهائي و الذهاب الى طبيب للحصول على نتيجة دقيقة</p>
+            </div>
+        </div>
 
+<?php }
+else { ?>
+    <form action="<?php echo site_url() . '/symptoms/sympt/' . $level; ?>" method="post" >
         <label for="subject">الأعراض: </label>
         <div class="search_sub" >
-        <?php foreach($symps as $key=>$symp) { ?>
-            <input name="level0"   value="<?php echo $symp->level0; ?>" type="radio"> <?php echo $symp->level0; ?>
+            <?php $current_level = 'level' . $level; ?>
+        <?php foreach($symps as $key=>$symp) {
+            ?>
+            <input name="level"   value="<?php echo $symp->$current_level; ?>" type="radio"> <?php echo $symp->$current_level; ?>
             <br>
             <?php } ?>
         </div>
@@ -38,6 +56,9 @@
         <br>
         <input type="submit" value="تشخيص" name="send">
     </form>
-</div>
 
+
+<?php } ?>
+</div>
 <?php echo theme_view('footer'); ?>
+

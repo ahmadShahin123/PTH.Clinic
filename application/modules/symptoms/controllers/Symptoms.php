@@ -66,10 +66,34 @@ class Symptoms extends Front_Controller
     public function sympt() {
         $query = $this->db->query("select DISTINCT level0 from bf_symptoms where deleted = 0");
         $symp = $query->result();
+        $level = 0;
         Template::set('symps', $symp);
+        Template::set('level', $level);
 
         if(isset($_POST['send'])) {
-
+            $level_old = $this->uri->segment(3);
+            $level_new = $level_old + 1;
+            $column_old = 'level' . $level_old;
+            $column_new = 'level' . $level_new;
+            $symptom = $_POST['level'];
+            if($level_new >= 6) {
+                $query2 = $this->db->query("select * from bf_symptoms where $column_old = '$symptom'");
+                $illnesses = $query2->result();
+                Template::set('illnesses', $illnesses);
+                Template::render('symptoms');
+            }
+            $query1 = $this->db->query("select DISTINCT $column_new from `bf_symptoms` where $column_old = '$symptom'");
+            $symps = $query1->result();
+            foreach ($symps as $key=>$symp) {
+                if($symp->$column_new == NULL) {
+                    $query3 = $this->db->query("select * from bf_symptoms where $column_old = '$symptom'");
+                    $illnesses = $query3->result();
+                    Template::set('illnesses', $illnesses);
+                    Template::render('symptoms');
+                }
+            }
+            Template::set('symps', $symps);
+            Template::set('level', $level_new);
         }
         Template::render('symptoms');
     }
