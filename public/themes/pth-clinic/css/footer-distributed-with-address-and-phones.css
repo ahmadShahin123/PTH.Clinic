@@ -54,15 +54,17 @@
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
 	display: inline-block;
-	vertical-align: top;
+	
 	
 }
 
 /* Footer left */
 
 .footer-distributed .footer-left{
-	width: 40%;
+	width: 48%;
 }
+
+
 
 /* The company logo */
 
@@ -110,7 +112,7 @@
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 22%;
 }
 
 .footer-distributed .footer-center i{

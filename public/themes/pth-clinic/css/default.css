@@ -1385,7 +1385,7 @@ body .footer-distributed {
     clear: both;
 }
 .footer-distributed > div:first-child {
-    width: 33.3% !important;
+   
     float: right;
 }
 .footer-right .footer-icons, .footer-left > div:first-child {
