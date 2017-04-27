@@ -88,23 +88,23 @@
 <div id="menu" class="font-family" >
     <a href="<?php echo site_url() ;?>" ><img src="<?php echo base_url() . 'assets/images/18009838_1539586889430964_116861895_n.png'; ?>" /> </a>
 <ul>
-		<li><a href="<?php echo site_url() ;?>" class="button" accesskey="1" title="">الرئيسية</a></li>
-		<li><a href="<?php echo site_url() .'/articles/about_us' ;?>"   class="button" accesskey="2" title="">من نحن</a></li>
-		<li><a href="<?php echo site_url() . '/articles/art'; ?>"  class="button" accesskey="3" title="">مقالات طبية</a></li>
-        <li><a href="<?php echo site_url() . '/symptoms/sympt'; ?>"  class="button" accesskey="4" title="">تشخيص الأمراض</a></li>
-		<li><a href="<?php echo site_url() .'/q_and_a/qa/15' ;?>"  class="button" accesskey="5" title="">أسئلة وأجوبة</a></li>
+		<li><a href="<?php echo site_url() ;?>" class="button <?php if($this->uri->segment(1) == '') echo 'active';?>" accesskey="1" title="">الرئيسية</a></li>
+		<li><a href="<?php echo site_url() .'/articles/about_us' ;?>"   class="button <?php if($this->uri->segment(2) == 'about_us') echo 'active';?>" accesskey="2" title="">من نحن</a></li>
+		<li><a href="<?php echo site_url() . '/articles/art'; ?>"  class="button <?php if($this->uri->segment(2) == 'art') echo 'active';?>" accesskey="3" title="">مقالات طبية</a></li>
+        <li><a href="<?php echo site_url() . '/symptoms/sympt'; ?>"  class="button <?php if($this->uri->segment(1) == 'symptoms') echo 'active';?>" accesskey="4" title="">تشخيص الأمراض</a></li>
+		<li><a href="<?php echo site_url() .'/q_and_a/qa/15' ;?>"  class="button <?php if($this->uri->segment(1) == 'q_and_a') echo 'active';?>" accesskey="5" title="">أسئلة وأجوبة</a></li>
         <li class="hasSubmenu"><a href="#"  class="button" accesskey="6" title="">لياقة بدنية</a>
             <ul class="submenu">
                 <li><a href="<?php echo site_url() . '/excercises/excercises_frontend/1' ;?>">تمارين</a></li>
                 <li><a href="<?php echo site_url() . '/excercises/bmi' ;?>">مؤشر كتلة الجسم</a></li>
             </ul>
         </li>
-        <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button" accesskey="7" title="">اتصل بنا</a></li>
+        <li><a href="<?php echo site_url() . '/articles/contactUs'; ?>"  class="button <?php if($this->uri->segment(2) == 'contactUs') echo 'active';?>" accesskey="7" title="">اتصل بنا</a></li>
 </ul>
     <?php if (isset($_SESSION['id']) && $_SESSION['id'] != '') { ?>
         <ul>
 
-            <li><a href="<?php echo site_url() .'/regular_user/signOut' ;?>" class="signin1" accesskey="8" title="">تسجيل الخروج</a></li>
+            <li><a href="<?php echo site_url() .'/regular_user/signOut' ;?>" class="signin1 <?php if($this->uri->segment(2) == 'signOut') echo 'active';?>" accesskey="8" title="">تسجيل الخروج</a></li>
 
         </ul>
     <?php } else { ?>
@@ -112,10 +112,10 @@
         <ul>
 
             <?php if($this->uri->segment(2) != 'signUp') { ?>
-                <li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1" accesskey="9" title="">إنشاء حساب</a></li>
+                <li><a href="<?php echo site_url() . '/regular_user/signUp' ;?>" class="signin1 <?php if($this->uri->segment(2) == 'signUp') echo 'active';?>" accesskey="9" title="">إنشاء حساب</a></li>
             <?php } ?>
             <?php if($this->uri->segment(2) != 'signIn') { ?>
-                <li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin" accesskey="10" title="">تسجيل الدخول</a></li>
+                <li><a href="<?php echo site_url() . '/regular_user/signIn' ;?>" class="signin <?php if($this->uri->segment(2) == 'signIn') echo 'active';?>" accesskey="10" title="">تسجيل الدخول</a></li>
             <?php } ?>
 
 

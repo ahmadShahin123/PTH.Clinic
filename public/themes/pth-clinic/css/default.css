@@ -1512,3 +1512,8 @@ body #header-wrapper-inner ~ .container.symp {
 #hotArticles .col-md-6.withArtBox {
     height: 500px ;
 }
+.active {
+	background: transparent;
+	color: #357ebd !important;
+	border-bottom: 2px solid #357ebd;
+}
