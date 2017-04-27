@@ -25,7 +25,9 @@
                     <div class="article-description">
                         <div id="m_1" dir="RTL">
                           <?php echo $details->description; ?>
-                            <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' . $record->video; ?>"></iframe>
+                            <br/>
+                            <br/>
+                            <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' . $details->video; ?>"></iframe>
                         </div>
                     </div>
                 </div>
