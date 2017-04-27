@@ -1493,3 +1493,13 @@ body #header-wrapper-inner ~ .container.symp {
 .exc .col-md-6.withArtBox {
     height: auto !important;
 }
+.complications {
+	color: black;
+}
+.complications li {
+	list-style-type: disc !important;
+	font-size: smaller;
+	color: black;
+	margin-right: 40px;
+	padding-top: 3px;
+}

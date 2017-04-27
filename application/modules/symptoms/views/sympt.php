@@ -32,11 +32,25 @@
             <ul>
             <?php $current_level = 'level' . $level; ?>
             <?php foreach($illnesses as $key=>$illness) { ?>
-                <li><?php echo $illness->illness; ?></li>
+                <li><?php echo $illness->illness; ?>
+                <?php if (isset($illness->complications) && $illness->complications != NULL) { ?>
+                <ul class="complications">
+                    <?php $comps = explode('،', $illness->complications);  echo 'المضاعفات: ';
+                    foreach ($comps as $key=>$comp) { ?>
+                    <li><?php echo $comp; ?> </li>
+                    <?php } ?>
+                </ul>
+                    <?php } ?>
+                    </li>
             <?php } ?>
             </ul>
             <div class="warning">
                 <p>*الرجاء عدم اعتماد هذا التشخيص كتشخيص نهائي و مراجعة طبيب للحصول على نتيجة دقيقة</p>
+                <?php foreach($illnesses as $key=>$illness) {
+                    if(isset($illness->notes) && $illness->notes != NULL) {?>
+                <p><?php echo $illness->notes; ?>**</p>
+                <?php }
+                } ?>
             </div>
         </div>
 
