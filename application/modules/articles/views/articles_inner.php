@@ -27,7 +27,7 @@
                           <?php echo $details->description; ?>
                             <br/>
                             <br/>
-                            <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' . $details->video; ?>"></iframe>
+                            <iframe class="Ivideo" width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' . $details->video; ?>"></iframe>
                         </div>
                     </div>
                 </div>
