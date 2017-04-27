@@ -1517,3 +1517,11 @@ body #header-wrapper-inner ~ .container.symp {
 	color: #357ebd !important;
 	border-bottom: 2px solid #357ebd;
 }
+.doc-info img {
+	    margin-top: 10px;
+}
+.doc-name-major {
+	    margin-top: 10px;
+    margin-right: 10px;
+}
+	
