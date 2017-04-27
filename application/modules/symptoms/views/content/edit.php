@@ -31,7 +31,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
                 </div>
             </div>
 
-            <div class="control-group<?php echo form_error('age') ? ' error' : ''; ?>">
+            <!--<div class="control-group<?php echo form_error('age') ? ' error' : ''; ?>">
                 <?php echo form_label('Age', 'age', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <?php
@@ -43,7 +43,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
                     <?php echo form_dropdown('age', $options); ?>
 
                 </div>
-            </div>
+            </div>-->
             <div class="control-group<?php echo form_error('level0') ? ' error' : ''; ?>">
                 <?php echo form_label(lang('symptoms_field_level0'), 'level0', array('class' => 'control-label')); ?>
                 <div class='controls'>
