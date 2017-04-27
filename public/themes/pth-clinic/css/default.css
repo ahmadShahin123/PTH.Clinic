@@ -1526,4 +1526,7 @@ body #header-wrapper-inner ~ .container.symp {
 	    margin-top: 10px;
     margin-right: 10px;
 }
+.article-description div {
+	text-align: right !important;
+}
 	
