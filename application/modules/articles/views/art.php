@@ -34,7 +34,7 @@
                         </div>-->
                         <div class="articleAnswer clearfix">
                             <p>
-                                <?php echo mb_substr($article->description, 0, 97) . '...'; ?></p>
+                                <?php echo strip_tags(mb_substr($article->description, 0, 97)) . '...'; ?></p>
                             <span><a href="<?php echo base_url() . 'index.php/articles/articles_inner/' . $article->article_id; ?>" class="readMore pull-left mouse-pointer">إقرأ المزيد</span></a>
                         </div>
 

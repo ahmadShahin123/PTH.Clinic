@@ -72,7 +72,7 @@
                         </div>
 
                         <div class="articleAnswer clearfix">
-                            <p><?php  echo mb_substr($excercise->description, 0, 97) . '...'; ?></p>
+                            <p><?php  echo strip_tags(mb_substr($excercise->description, 0, 97)) . '...'; ?></p>
                             <span><a href="<?php echo site_url() . '/excercises/excercises_inner/' . $excercise->exc_id; ?>" class="readMore pull-left mouse-pointer">إقرأ المزيد</span></a>
                         </div>
 
