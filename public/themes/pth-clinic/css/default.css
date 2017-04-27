@@ -1466,7 +1466,7 @@ body div.pv-mobile.ph-xl-mobile {
 }
 .answers_inner {
 	float: left;
-	width: 69%;
+	width: 67%;
 	padding-left: 31%;
 }
 body .profile-form input:nth-child(2) {
@@ -1484,7 +1484,7 @@ body #header-wrapper-inner ~ .container.symp {
 	width: 100%;
 }
 .doc-name-major {
-	width: 20%;
+	width: 18%;
 }
 
 .bmidivbtn input[type="submit"] {
