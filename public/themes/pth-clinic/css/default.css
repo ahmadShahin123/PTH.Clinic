@@ -1503,3 +1503,7 @@ body #header-wrapper-inner ~ .container.symp {
 	margin-right: 40px;
 	padding-top: 3px;
 }
+
+#hotArticles .col-md-6.withArtBox {
+    height: 500px ;
+}
