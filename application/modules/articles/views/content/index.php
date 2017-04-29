@@ -62,8 +62,8 @@ if ($can_delete) {
 					<td><?php e($record->title); ?></td>
 				<?php endif; ?>
 					<td><?php e(mb_substr($record->description, 0, 100)); ?></td>
-					<td><?php e($record->about_us); ?></td>
-					<td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td>
+					<td><?php if($record->about_us == 0) { ?> <img src="<?php echo base_url() . 'assets/images/cancel-mark(1).png'; ?>" /> <?php } else { ?> <img src="<?php echo base_url() . 'assets/images/right.png'; ?>" /> <?php } ?></td>
+					<td><?php if (isset($record->video) && $record->video != '') echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; else echo 'No Video';?></td>
 					<td><img src="<?php echo base_url() . 'assets/images/' .  $record->image; ?>" width="100px" height="100px" /></td>
 					<!--<td><?php echo $record->deleted > 0 ? lang('articles_true') : lang('articles_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>

@@ -67,8 +67,9 @@ class Content extends Admin_Controller
         }
         
         
-        
-        $records = $this->q_and_a_model->find_all_by('deleted', 0);
+        $query = $this->db->query("select q.*, c.cat_name from bf_q_and_a q join bf_categories c ON c.cat_id = q.cat_id && q.deleted = 0 ORDER BY q.q_and_a_id DESC ");
+        $records = $query->result();
+        //$records = $this->q_and_a_model->find_all_by('deleted', 0);
 
         Template::set('records', $records);
         

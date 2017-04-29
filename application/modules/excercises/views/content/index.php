@@ -49,29 +49,30 @@ if ($can_delete) {
 				<?php
 				if ($has_records) :
 					foreach ($records as $record) :
-				?>
-				<tr>
-					<?php if ($can_delete) : ?>
-					<td class='column-check'><input type='checkbox' name='checked[]' value='<?php echo $record->exc_id; ?>' /></td>
-					<?php endif;?>
-					
-				<?php if ($can_edit) : ?>
-					<td><?php echo anchor(SITE_AREA . '/content/excercises/edit/' . $record->exc_id, '<span class="icon-pencil"></span> ' .  $record->title); ?></td>
-				<?php else : ?>
-					<td><?php e($record->title); ?></td>
-				<?php endif; ?>
-                                         <td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td> 
-					<td><?php e(mb_substr($record->description, 0, 100)); ?></td>
-					<td><?php e($record->section); ?></td>
-					<!--<td><?php echo $record->deleted > 0 ? lang('excercises_true') : lang('excercises_false'); ?></td>
+                            ?>
+                            <tr>
+                                <?php if ($can_delete) : ?>
+                                    <td class='column-check'><input type='checkbox' name='checked[]'
+                                                                    value='<?php echo $record->exc_id; ?>'/></td>
+                                <?php endif; ?>
+
+                                <?php if ($can_edit) : ?>
+                                    <td><?php echo anchor(SITE_AREA . '/content/excercises/edit/' . $record->exc_id, '<span class="icon-pencil"></span> ' . $record->title); ?></td>
+                                <?php else : ?>
+                                    <td><?php e($record->title); ?></td>
+                                <?php endif; ?>
+                                <td><?php echo "<iframe width=\"150\" height=\"150\" src=\"https://www.youtube.com/embed/$record->video\"></iframe>"; ?></td>
+                                <td><?php e(mb_substr($record->description, 0, 100)); ?></td>
+                                <td><?php e($record->cat_name); ?></td>
+                                <!--<td><?php echo $record->deleted > 0 ? lang('excercises_true') : lang('excercises_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
 					<td><?php e($record->created_by); ?></td>
 					<td><?php e($record->modified_on); ?></td>
 					<td><?php e($record->modified_by); ?></td>-->
-				</tr>
-				<?php
-					endforeach;
+                            </tr>
+                            <?php
+                        endforeach;
 				else:
 				?>
 				<tr>

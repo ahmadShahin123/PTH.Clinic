@@ -23,6 +23,7 @@ if ($can_delete) {
 					
 					<th><?php echo lang('q_and_a_field_question'); ?></th>
 					<th><?php echo lang('q_and_a_field_answer'); ?></th>
+                    <th><?php echo 'Category'; ?></th>
 					<!--<th><?php echo lang('q_and_a_field_deleted'); ?></th>
 					<th><?php echo lang('q_and_a_field_deleted_by'); ?></th>
 					<th><?php echo lang('q_and_a_field_created_on'); ?></th>
@@ -59,6 +60,7 @@ if ($can_delete) {
 					<td><?php e($record->question); ?></td>
 				<?php endif; ?>
 					<td><?php e(mb_substr($record->answer, 0, 100)); ?></td>
+                    <td><?php e($record->cat_name); ?></td>
 					<!--<td><?php echo $record->deleted > 0 ? lang('q_and_a_true') : lang('q_and_a_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>

@@ -44,7 +44,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>-->
 
             <div class="control-group<?php echo form_error('level0') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level0'), 'level0', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #1', 'Symptom #1', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level0' type='text' name='level0' maxlength='255' value="<?php echo set_value('level0', isset($symptoms->level0) ? $symptoms->level0 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level0'); ?></span>
@@ -52,7 +52,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>
 
             <div class="control-group<?php echo form_error('level1') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level1'), 'level1', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #2', 'Symptom #2', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level1' type='text' name='level1' maxlength='255' value="<?php echo set_value('level1', isset($symptoms->level1) ? $symptoms->level1 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level1'); ?></span>
@@ -60,7 +60,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>
 
             <div class="control-group<?php echo form_error('level2') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level2'), 'level2', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #3', 'Symptom #3', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level2' type='text' name='level2' maxlength='255' value="<?php echo set_value('level2', isset($symptoms->level2) ? $symptoms->level2 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level2'); ?></span>
@@ -68,7 +68,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>
 
             <div class="control-group<?php echo form_error('level3') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level3'), 'level3', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #4', 'Symptom #4', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level3' type='text' name='level3' maxlength='255' value="<?php echo set_value('level3', isset($symptoms->level3) ? $symptoms->level3 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level3'); ?></span>
@@ -76,7 +76,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>
 
             <div class="control-group<?php echo form_error('level4') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level4'), 'level4', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #5', 'Symptom #5', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level4' type='text' name='level4' maxlength='255' value="<?php echo set_value('level4', isset($symptoms->level4) ? $symptoms->level4 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level4'); ?></span>
@@ -84,7 +84,7 @@ $id = isset($symptoms->id) ? $symptoms->id : '';
             </div>
 
             <div class="control-group<?php echo form_error('level5') ? ' error' : ''; ?>">
-                <?php echo form_label(lang('symptoms_field_level5'), 'level5', array('class' => 'control-label')); ?>
+                <?php echo form_label('Symptom #6', 'Symptom #6', array('class' => 'control-label')); ?>
                 <div class='controls'>
                     <input id='level5' type='text' name='level5' maxlength='255' value="<?php echo set_value('level5', isset($symptoms->level5) ? $symptoms->level5 : ''); ?>" />
                     <span class='help-inline'><?php echo form_error('level5'); ?></span>

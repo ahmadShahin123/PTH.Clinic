@@ -22,13 +22,13 @@ if ($can_delete) {
 					<?php endif;?>
 					
 					<th><?php echo lang('symptoms_field_illness'); ?></th>
-					<th><?php echo lang('symptoms_field_level0'); ?></th>
-					<th><?php echo lang('symptoms_field_level1'); ?></th>
-					<th><?php echo lang('symptoms_field_level2'); ?></th>
-					<th><?php echo lang('symptoms_field_level3'); ?></th>
-					<th><?php echo lang('symptoms_field_level4'); ?></th>
-					<th><?php echo lang('symptoms_field_level5'); ?></th>
-                    <th><?php echo 'Age'; ?></th>
+					<th><?php echo 'Symptom #1'; ?></th>
+					<th><?php echo 'Symptom #2'; ?></th>
+					<th><?php echo 'Symptom #3'; ?></th>
+					<th><?php echo 'Symptom #4'; ?></th>
+					<th><?php echo 'Symptom #5'; ?></th>
+					<th><?php echo 'Symptom #6'; ?></th>
+                   <!-- <th><?php echo 'Age'; ?></th>-->
                     <th><?php echo 'Complications'; ?></th>
                     <th><?php echo 'Notes'; ?></th>
 					<!--<th><?php echo lang('symptoms_field_deleted'); ?></th>
@@ -66,15 +66,15 @@ if ($can_delete) {
 				<?php else : ?>
 					<td><?php e($record->illness); ?></td>
 				<?php endif; ?>
-					<td><?php e($record->level0); ?></td>
-					<td><?php e($record->level1); ?></td>
-					<td><?php e($record->level2); ?></td>
-					<td><?php e($record->level3); ?></td>
-					<td><?php e($record->level4); ?></td>
-                    <td><?php e($record->age); ?></td>
-					<td><?php e($record->complications); ?></td>
-                    <td><?php e($record->notes); ?></td>
-                    <td><?php e($record->level5); ?></td>
+					<td><?php echo isset($record->level0) && $record->level0 != '' ? $record->level0 : '   '; ?></td>
+                    <td><?php echo isset($record->level1) && $record->level1 != '' ? $record->level1 : '   '; ?></td>
+                    <td><?php echo isset($record->level2) && $record->level2 != '' ? $record->level2 : '   '; ?></td>
+                    <td><?php echo isset($record->level3) && $record->level3 != '' ? $record->level3 : '   '; ?></td>
+                    <td><?php echo isset($record->level4) && $record->level4 != '' ? $record->level4 : '   '; ?></td>
+                    <td><?php echo isset($record->level5) && $record->level5 != '' ? $record->level5 : '   '; ?></td>
+                   <!-- <td><?php echo isset($record->age) && $record->age != '' ? $record->age : '   '; ?> </td>-->
+					<td><?php echo isset($record->complications) && $record->complications != '' ? $record->complications : '   '; ?></td>
+                    <td><?php echo isset($record->notes) && $record->notes != '' ? $record->notes : '   '; ?></td>
 					<!--<td><?php echo $record->deleted > 0 ? lang('symptoms_true') : lang('symptoms_false'); ?></td>
 					<td><?php e($record->deleted_by); ?></td>
 					<td><?php e($record->created_on); ?></td>
