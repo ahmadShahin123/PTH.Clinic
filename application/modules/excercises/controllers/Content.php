@@ -78,7 +78,7 @@ class Content extends Admin_Controller
 
         $this->pagination->initialize($pager);
         $this->excercises_model->limit($limit, $offset);
-        $query = $this->db->query("select e.*, c.cat_name FROM bf_excercises e join bf_exc_cats c on c.cat_id = e.section and e.deleted = 0");
+        $query = $this->db->query("select e.*, c.cat_name FROM bf_excercises e join bf_exc_cats c on c.cat_id LIKE CONCAT('%', e.section, '%') and e.deleted = 0");
         $records = $query->result();
         //$records = $this->excercises_model->find_all_by('deleted', 0);
 
