@@ -27,7 +27,7 @@
         </div>-->
         <br>
 <?php if(isset($illnesses)){ ?>
-        <label for="subject">المرض/الأمراض التالية قد تكون مصاب به/بها: </label>
+        <label>المرض/الأمراض التالية قد تكون مصاب به/بها: </label>
         <div class="search_sub" >
             <ul>
             <?php $current_level = 'level' . $level; ?>
@@ -48,21 +48,37 @@
                 <p>*الرجاء عدم اعتماد هذا التشخيص كتشخيص نهائي و مراجعة طبيب للحصول على نتيجة دقيقة</p>
                 <?php foreach($illnesses as $key=>$illness) {
                     if(isset($illness->notes) && $illness->notes != NULL) {?>
-                <p><?php echo $illness->notes; ?>**</p>
+                <p>**<?php echo $illness->notes; ?></p>
                 <?php }
                 } ?>
             </div>
         </div>
 
 <?php }
-else { ?>
+else if(isset($emp)) { ?>
+    <label><?php echo $emp; ?></label>
+<?php }
+else {
+    if (isset($full_symps)) { ?>
+        <form method="post" action="<?php echo site_url() . '/symptoms/sympt/' . $level; ?>">
+            <?php $current_level = 'level' . $level; ?>
+            <label>هل لديك هذه الأمراض او معظمها: <?php echo $full_symps; ?></label>
+            <div class="search_sub" >
+                <input name="continue" value="yes" type="radio"> اجل
+                <input name="continue" value="no" type="radio">  لا
+                <input name="level" value="<?php foreach($symps as $key=>$symp){ echo $symp->$current_level; }?>" type="hidden">
+            </div>
+            <br>
+            <input type="submit" value="تشخيص" name="answer">
+        </form>
+    <?php } else { ?>
     <form action="<?php echo site_url() . '/symptoms/sympt/' . $level; ?>" method="post" >
-        <label for="subject">الأعراض: </label>
+        <label>الأعراض: </label>
         <div class="search_sub" >
             <?php $current_level = 'level' . $level; ?>
         <?php foreach($symps as $key=>$symp) {
             ?>
-            <input name="level"   value="<?php echo $symp->$current_level; ?>" type="radio"> <?php echo $symp->$current_level; ?>
+            <input name="level" value="<?php echo $symp->$current_level; ?>" type="radio"> <?php echo $symp->$current_level; ?>
             <br>
             <?php } ?>
         </div>
@@ -72,7 +88,8 @@ else { ?>
     </form>
 
 
-<?php } ?>
+<?php }
+} ?>
 </div>
 <?php echo theme_view('footer'); ?>
 

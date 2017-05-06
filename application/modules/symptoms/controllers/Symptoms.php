@@ -92,8 +92,38 @@ class Symptoms extends Front_Controller
                     Template::render('symptoms');
                 }
             }
+            if(count($symps) == 1) {
+                $query4 = $this->db->query("select DISTINCT * from `bf_symptoms` where $column_old = '$symptom'");
+                $all_symps = $query4->result();
+                $ln = $level_new;
+                $next_level = 'level' . $ln;
+                $full_symps = '';
+                foreach ($all_symps as $key => $symp) {
+                    for (; $ln < 6; $ln++) {
+                        $next_level = 'level' . $ln;
+                        if ($symp->$next_level == NULL || $symp->$next_level == '') break;
+                        else $full_symps .= $symp->$next_level . '، ';
+                    }
+                }
+                Template::set('full_symps', $full_symps);
+            }
             Template::set('symps', $symps);
             Template::set('level', $level_new);
+        }
+        if(isset($_POST['answer'])) {
+            $level_old = $this->uri->segment(3);
+            $column_old = 'level' . $level_old;
+            $symptom = $_POST['level'];
+            if($_POST['continue'] == 'yes') {
+                $query2 = $this->db->query("select * from bf_symptoms where $column_old = '$symptom'");
+                $illnesses = $query2->result();
+                Template::set('illnesses', $illnesses);
+                Template::render('symptoms');
+            }
+            else {
+                    $emp = 'عذراً، لم يتم تشخيص هذا المرض';
+                    Template::set('emp', $emp);
+            }
         }
         Template::render('symptoms');
     }

@@ -46,4 +46,5 @@
         </div>
     </div>
 </section>
+
 <?php echo theme_view('footer'); ?>
