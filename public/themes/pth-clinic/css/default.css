@@ -633,11 +633,17 @@ ul.contact li a:before
 /*********************************************************************************/
 
 #header-wrapper
-{
+39{
 	position:absolute;
-	z-index:1;
+	z-index: 500;
 	width:100%;
 	/*padding-right: 8%;*/
+}
+.side {
+	width: 280px;
+}
+#sidebar {
+	top: -7px;
 }
 #header-wrapper-inner #header {
 	height: 75px;
@@ -1338,7 +1344,7 @@ h3.hst {
 }
 #menu-home > a > img, #menu > a > img {
 	float: right;
-	width: 15%;
+	width: 200px;
 }
 #header-wrapper-inner #header {
 	padding-top: 8px;

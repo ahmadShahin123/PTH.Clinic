@@ -2,7 +2,7 @@
 <?php if(isset($_SESSION['id']) && $_SESSION['id'] != ''){
     echo theme_view('profile');
 } ?>
-<div id="wrapper">
+<div id="wrapper" class="side">
     <aside id="sidebar" style="position: relative" >
         <div class="cover-img">
             <div class="cover-body">

@@ -4,7 +4,7 @@
 } ?>
 
 
-    <div id="wrapper">
+    <div id="wrapper" class="side">
         <aside id="sidebar" style="position: relative;">
             <div class="cover-img">
                 <div class="cover-body">
